@@ -30,8 +30,19 @@ What it reads, under the image folder (the probe's method texts are in each prob
   sheets `default_a`, `default_b`, `default_c` (each style with the Return key equivalent, the window's default
   button cell: U92) and `image_a`, `image_b`, `image_c` (the symbol image beside the title, U99), and of the plain
   sheets (`push`, `styles_a`, `styles_b`, `styles_c`, whose other layers run 41006842699 holds) only
-  `disabled_pressed`; in the three other passes the plain sheets, every state (U93). No grey capture is in the run,
-  so no `*_grey_delta` is written.
+  `disabled_pressed`; in the three other passes the plain sheets, every state (U93);
+- with each layer, its `<state>-over-grey.png`, the capture over the grey backdrop (`[…<appearance>.<state>.over_grey]`,
+  `backdrop_raw` #808080ff, which it requires), as run 41006842699's script reads its Increase Contrast pass's: the
+  probe's own `check_grey` finds many of this run's layers not one linear overlay (its `max_byte_delta` and
+  `pixels_over_2` per button, over the button's whole region), so each value read from a layer is checked at the
+  pixels it is read from against that capture: `fill_grey_delta`, `label_grey_delta`, `icon_grey_delta`, the largest
+  byte difference of the layer composited over #808080 and the capture at the fill's, the label's and the icon's
+  pixels (that script's rule, `grey_delta`, unchanged), and, added here (the macOS tie-break round 7, 2026-11-08),
+  `edge_grey_delta` at the eight pixels `stroke_<side>` and `edge_<side>` are read from (the first two from each side's
+  edge along the box's middle row or column) and `shadow_grey_delta` at the pixels `shadow` is read from (the frame
+  grown by 6 px, outside the frame). The grey captures were brought from the run's artifact (byte for byte; each
+  layer they belong to is the committed one byte for byte) by the tie-break, which re-ran this script and
+  tiebreak_corners.py: every other key of the output is unchanged.
 
 It writes `layers-<pass>-<sheet>.toml` into the image folder (pass: key, key_not_main, main_not_key,
 inactive_contrast), per `<pass>.<sheet>.<appearance>.<state>.<button>` the earlier script's values, and
@@ -367,6 +378,8 @@ def measure_button(layer, fr, cell, grey):
         out["stroke"] = "absent"
     elif out["fill"] != "non_uniform":
         es = edges(layer, box, fill)
+        if grey is not None:
+            out["edge_grey_delta"] = grey_delta(layer, grey, edge_points(box))
         if all(c == "absent" for c, _ in es.values()):
             out["stroke"] = "absent"
         for side in SIDES:
@@ -400,7 +413,24 @@ def measure_button(layer, fr, cell, grey):
     n = shadow(layer, fr)
     out["shadow"] = "absent" if n == 0 else "drawn"
     out["shadow_pixels"] = n
+    if grey is not None:
+        out["shadow_grey_delta"] = grey_delta(layer, grey, ring_points(fr))
     return out
+
+
+def edge_points(box):
+    """The pixels `edges` reads: the first two from each side's edge along the box's middle row or column."""
+    x0, y0, w, h = box[:4]
+    cx, cy = x0 + w // 2, y0 + h // 2
+    return [(cx, y0), (cx, y0 + 1), (cx, y0 + h - 1), (cx, y0 + h - 2),
+            (x0, cy), (x0 + 1, cy), (x0 + w - 1, cy), (x0 + w - 2, cy)]
+
+
+def ring_points(fr):
+    """The pixels `shadow` reads: the frame grown by 6 px, outside the frame."""
+    x0, y0, w, h = fr
+    return [(x, y) for y in range(y0 - 6, y0 + h + 6) for x in range(x0 - 6, x0 + w + 6)
+            if not (x0 <= x < x0 + w and y0 <= y < y0 + h)]
 
 
 def emit(lines, path, table):
@@ -455,13 +485,20 @@ def main():
                     rel = Path(pdir) / lay["file"]
                     layer = Layer(root / rel)
                     f["images"].append(f"{RUN}/{rel}")
+                    og = cap.get("over_grey")
+                    if not isinstance(og, dict) or og.get("backdrop_raw") != "#808080ff":
+                        raise Bad(f"{pdir} {sheet} {ap} {st}: no capture over #808080ff")
+                    grel = Path(pdir) / og["file"]
+                    grey = Layer(root / grel)
+                    f["images"].append(f"{RUN}/{grel}")
                     for b, bt in lay["buttons"].items():
-                        res = measure_button(layer, bt["frame_px_xywh"], s["buttons"][b], None)
+                        res = measure_button(layer, bt["frame_px_xywh"], s["buttons"][b], grey)
                         emit(f["lines"], f"{pname}.{sheet}.{ap}.{st}.{b}", res)
     for name, f in FILES.items():
         head = [f"# Output of analysis/measure_button_layers.py (its docstring is the method), file {name}.toml.",
-                "# input_image: every file this part reads (layers, the probe.toml files whose frames and cell rects",
-                "# it takes, and the pass's settings.txt where it checks the pass's setting).", "input_image = ["]
+                "# input_image: every file this part reads (layers, their captures over grey, the probe.toml files",
+                "# whose frames and cell rects it takes, and the pass's settings.txt where it checks the pass's setting).",
+                "input_image = ["]
         head += [f'    "{x}",' for x in dict.fromkeys(f["images"])] + ["]", ""]
         (root / f"{name}.toml").write_text("\n".join(head + f["lines"]), encoding="utf-8")
 

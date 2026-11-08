@@ -1,22 +1,32 @@
 # Output of analysis/measure_button_layers.py (its docstring is the method), file layers-key-default_c.toml.
-# input_image: every file this part reads (layers, the probe.toml files whose frames and cell rects
-# it takes, and the pass's settings.txt where it checks the pass's setting).
+# input_image: every file this part reads (layers, their captures over grey, the probe.toml files
+# whose frames and cell rects it takes, and the pass's settings.txt where it checks the pass's setting).
 input_image = [
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/probe.toml",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/normal-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/normal-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/pressed-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/disabled-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/disabled-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/disabled_pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/aqua/default_c/disabled_pressed-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/normal-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/normal-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/pressed-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/disabled-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/disabled-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/disabled_pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass/darkAqua/default_c/disabled_pressed-over-grey.png",
 ]
 
 [key.default_c.aqua.normal.mini-capsule]
 drawn_box = [20, 74, 46, 13, 578]
 fill = "#007affff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 0.918
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#0079fffc", "#007affff"]
@@ -28,13 +38,17 @@ corner_bottom_right = { insets_px = [3.784, 2.043, 1.224, 0.463, 0.173, 0.035, 0
 corner_bottom_left = { insets_px = [3.784, 2.043, 1.224, 0.463, 0.173, 0.035, 0.0], radius_px = 6.0, rms_px = 0.051, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.small-capsule]
 drawn_box = [170, 70, 55, 20, 1048]
 fill = "#007affff"
 fill_share = 0.724
+fill_grey_delta = 0.973
+edge_grey_delta = 0.094
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffb", "#007affff"]
@@ -46,13 +60,17 @@ corner_bottom_right = { insets_px = [6.871, 4.463, 3.098, 2.231, 1.376, 0.847, 0
 corner_bottom_left = { insets_px = [6.831, 4.443, 3.129, 2.204, 1.376, 0.855, 0.384, 0.169, 0.051, 0.0], radius_px = 9.5, rms_px = 0.079, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1468]
 fill = "#007affff"
 fill_share = 0.757
+fill_grey_delta = 0.996
+edge_grey_delta = 0.094
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffb", "#007affff"]
@@ -64,13 +82,17 @@ corner_bottom_right = { insets_px = [8.741, 5.843, 4.4, 3.294, 2.357, 1.627, 1.1
 corner_bottom_left = { insets_px = [8.71, 5.827, 4.412, 3.294, 2.357, 1.62, 1.188, 0.596, 0.298, 0.133, 0.039, 0.0], radius_px = 11.5, rms_px = 0.122, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.large-capsule]
 drawn_box = [470, 66, 69, 28, 1808]
 fill = "#007affff"
 fill_share = 0.794
+fill_grey_delta = 0
+edge_grey_delta = 0.506
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -82,13 +104,17 @@ corner_bottom_right = { insets_px = [10.698, 7.369, 5.671, 4.447, 3.435, 2.569, 
 corner_bottom_left = { insets_px = [10.706, 7.384, 5.655, 4.455, 3.427, 2.58, 1.988, 1.345, 1.004, 0.478, 0.239, 0.114, 0.035, 0.0], radius_px = 13.75, rms_px = 0.173, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2552]
 fill = "#007affff"
 fill_share = 0.836
+fill_grey_delta = 0.498
+edge_grey_delta = 0.494
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -100,13 +126,17 @@ corner_bottom_right = { insets_px = [14.64, 10.639, 8.553, 6.957, 5.769, 4.722, 
 corner_bottom_left = { insets_px = [14.66, 10.616, 8.565, 6.973, 5.753, 4.733, 3.882, 3.224, 2.42, 1.933, 1.376, 1.129, 0.62, 0.337, 0.173, 0.082, 0.024, 0.0], radius_px = 17.75, rms_px = 0.24, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 594]
 fill = "#007affff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 1.0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -118,13 +148,17 @@ corner_bottom_right = { insets_px = [1.733, 0.627, 0.176, 0.039, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.733, 0.627, 0.176, 0.039, 0.0, 0.0], radius_px = 3.5, rms_px = 0.036, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1090]
 fill = "#007affff"
 fill_share = 0.739
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -136,13 +170,17 @@ corner_bottom_right = { insets_px = [2.596, 1.192, 0.412, 0.157, 0.043, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.048, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1548]
 fill = "#007affff"
 fill_share = 0.785
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -154,13 +192,17 @@ corner_bottom_right = { insets_px = [3.325, 1.718, 0.91, 0.333, 0.129, 0.059, 0.
 corner_bottom_left = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0.0, 0.0], radius_px = 5.5, rms_px = 0.04, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1908]
 fill = "#007affff"
 fill_share = 0.831
+fill_grey_delta = 1.02
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -172,13 +214,17 @@ corner_bottom_right = { insets_px = [4.184, 2.4, 1.361, 0.675, 0.298, 0.137, 0.0
 corner_bottom_left = { insets_px = [4.153, 2.42, 1.361, 0.694, 0.298, 0.137, 0.051, 0.031, 0.0, 0.0], radius_px = 6.5, rms_px = 0.035, radius = "6.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2726]
 fill = "#007affff"
 fill_share = 0.883
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -190,8 +236,10 @@ corner_bottom_right = { insets_px = [5.973, 3.678, 2.475, 1.584, 1.125, 0.494, 0
 corner_bottom_left = { insets_px = [5.992, 3.651, 2.486, 1.565, 1.137, 0.498, 0.259, 0.133, 0.067, 0.035, 0.0, 0.0], radius_px = 8.5, rms_px = 0.08, radius = "8.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.mini-circle]
 drawn_box = [22, 188, 10, 8, 67]
@@ -199,11 +247,14 @@ fill = "non_uniform"
 fill_share = 0.167
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.431
 
 [key.default_c.aqua.normal.small-circle]
 drawn_box = [173, 185, 15, 14, 182]
 fill = "#007affff"
 fill_share = 0.382
+fill_grey_delta = 0
+edge_grey_delta = 0.494
 edge_top = ["#007afffc", "#2e92ffff"]
 stroke_top = "unclassified"
 edge_right = ["#007affb4", "#007affff"]
@@ -218,13 +269,17 @@ corner_bottom_right = { insets_px = [4.164, 2.851, 1.843, 1.243, 0.733, 0.435, 0
 corner_bottom_left = { insets_px = [4.22, 2.71, 1.871, 1.243, 0.725, 0.435, 0.294], radius_px = 7.0, rms_px = 0.256, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.698
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.69
 
 [key.default_c.aqua.normal.regular-circle]
 drawn_box = [324, 184, 17, 17, 249]
 fill = "#007affff"
 fill_share = 0.462
+fill_grey_delta = 0.973
+edge_grey_delta = 0.047
 edge_top = ["#007afffd", "#4da2ffff"]
 stroke_top = "unclassified"
 edge_right = ["#007afffd", "#007affff"]
@@ -239,13 +294,17 @@ corner_bottom_right = { insets_px = [4.842, 3.427, 2.271, 1.361, 0.745, 0.314, 0
 corner_bottom_left = { insets_px = [4.878, 3.408, 2.259, 1.357, 0.753, 0.318, 0.129, 0.027, 0.0], radius_px = 7.75, rms_px = 0.141, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 0.98
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.large-circle]
 drawn_box = [474, 182, 21, 21, 375]
 fill = "#007affff"
 fill_share = 0.599
+fill_grey_delta = 0
+edge_grey_delta = 0.047
 stroke = "absent"
 edge_top = ["#007afffd", "#007affff"]
 edge_right = ["#007afffd", "#007affff"]
@@ -257,13 +316,17 @@ corner_bottom_right = { insets_px = [6.598, 4.698, 3.427, 2.376, 1.592, 1.157, 0
 corner_bottom_left = { insets_px = [6.603, 4.718, 3.416, 2.38, 1.58, 1.157, 0.51, 0.235, 0.098, 0.0, 0.0], radius_px = 9.75, rms_px = 0.119, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.698
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 705]
 fill = "#007affff"
 fill_share = 0.744
+fill_grey_delta = 0
+edge_grey_delta = 1.02
 stroke = "absent"
 edge_top = ["#007bfffe", "#007affff"]
 edge_right = ["#007bfffe", "#007affff"]
@@ -275,13 +338,17 @@ corner_bottom_right = { insets_px = [9.778, 7.675, 5.976, 4.71, 3.686, 2.867, 2.
 corner_bottom_left = { insets_px = [9.759, 7.667, 5.961, 4.722, 3.671, 2.875, 2.231, 1.502, 1.173, 0.639, 0.329, 0.153, 0.067, 0.0, 0.0], radius_px = 13.75, rms_px = 0.162, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 444]
 fill = "#007affff"
 fill_share = 0.802
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -293,13 +360,17 @@ corner_bottom_right = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radius_px = 3.5, rms_px = 0.041, radius = "3.5px" }
 icon = "#cfe6ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.small-icon_only]
 drawn_box = [170, 350, 35, 20, 690]
 fill = "#007affff"
 fill_share = 0.855
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -311,13 +382,17 @@ corner_bottom_right = { insets_px = [2.596, 1.192, 0.412, 0.157, 0.043, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.048, radius = "4.5px" }
 icon = "#e0efffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 972]
 fill = "#007affff"
 fill_share = 0.876
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -329,13 +404,17 @@ corner_bottom_right = { insets_px = [3.325, 1.718, 0.91, 0.333, 0.129, 0.059, 0.
 corner_bottom_left = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0.0, 0.0], radius_px = 5.5, rms_px = 0.04, radius = "5.5px" }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1136]
 fill = "#007affff"
 fill_share = 0.846
+fill_grey_delta = 0
+edge_grey_delta = 0.506
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -347,13 +426,17 @@ corner_bottom_right = { insets_px = [10.426, 7.369, 5.671, 4.447, 3.435, 2.569, 
 corner_bottom_left = { insets_px = [10.41, 7.384, 5.655, 4.455, 3.427, 2.58, 1.988, 1.345, 1.004, 0.478, 0.239, 0.114, 0.035, 0.0], radius_px = 13.5, rms_px = 0.106, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1688]
 fill = "#007affff"
 fill_share = 0.864
+fill_grey_delta = 0.996
+edge_grey_delta = 0.498
 stroke = "absent"
 edge_top = ["#007afffe", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -365,13 +448,17 @@ corner_bottom_right = { insets_px = [14.096, 10.616, 8.553, 6.957, 5.769, 4.725,
 corner_bottom_left = { insets_px = [14.1, 10.588, 8.561, 6.973, 5.753, 4.733, 3.882, 3.224, 2.424, 1.933, 1.376, 1.129, 0.62, 0.337, 0.173, 0.082, 0.024, 0.0], radius_px = 17.5, rms_px = 0.14, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 956]
 fill = "#007affff"
 fill_share = 0.699
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -383,15 +470,20 @@ corner_bottom_right = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radius_px = 3.5, rms_px = 0.041, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#cfe6ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1428]
 fill = "#007affff"
 fill_share = 0.738
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -403,15 +495,20 @@ corner_bottom_right = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.
 corner_bottom_left = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.048, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#e0efffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 2004]
 fill = "#007affff"
 fill_share = 0.779
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -423,15 +520,20 @@ corner_bottom_right = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0
 corner_bottom_left = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0.0, 0.0], radius_px = 5.5, rms_px = 0.04, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2340]
 fill = "#007affff"
 fill_share = 0.795
+fill_grey_delta = 0
+edge_grey_delta = 0.506
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -443,15 +545,20 @@ corner_bottom_right = { insets_px = [10.706, 7.384, 5.655, 4.455, 3.427, 2.58, 1
 corner_bottom_left = { insets_px = [10.706, 7.384, 5.655, 4.455, 3.427, 2.58, 1.988, 1.345, 1.004, 0.478, 0.239, 0.114, 0.035, 0.0], radius_px = 13.75, rms_px = 0.173, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.normal.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3236]
 fill = "#007affff"
 fill_share = 0.839
+fill_grey_delta = 0.498
+edge_grey_delta = 0.047
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffd", "#007affff"]
@@ -463,15 +570,20 @@ corner_bottom_right = { insets_px = [14.745, 10.616, 8.565, 6.973, 5.753, 4.733,
 corner_bottom_left = { insets_px = [14.745, 10.616, 8.565, 6.973, 5.753, 4.733, 3.882, 3.224, 2.42, 1.933, 1.376, 1.129, 0.62, 0.337, 0.173, 0.082, 0.024, 0.0], radius_px = 17.75, rms_px = 0.257, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.mini-capsule]
 drawn_box = [20, 74, 46, 13, 578]
 fill = "#006ee6ff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 0.788
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee7fc", "#006ee6ff"]
@@ -483,13 +595,17 @@ corner_bottom_right = { insets_px = [3.745, 2.024, 1.212, 0.447, 0.161, 0.031, 0
 corner_bottom_left = { insets_px = [3.745, 2.024, 1.212, 0.447, 0.161, 0.031, 0.0], radius_px = 6.0, rms_px = 0.052, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.small-capsule]
 drawn_box = [170, 70, 55, 20, 1048]
 fill = "#006ee6ff"
 fill_share = 0.724
+fill_grey_delta = 0.925
+edge_grey_delta = 0.616
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006fe7fb", "#006ee6ff"]
@@ -501,13 +617,17 @@ corner_bottom_right = { insets_px = [6.8, 4.439, 3.078, 2.22, 1.361, 0.831, 0.36
 corner_bottom_left = { insets_px = [6.78, 4.42, 3.114, 2.192, 1.361, 0.839, 0.369, 0.157, 0.047, 0.0], radius_px = 9.5, rms_px = 0.071, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1468]
 fill = "#006ee6ff"
 fill_share = 0.757
+fill_grey_delta = 1.133
+edge_grey_delta = 0.788
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee7fc", "#006ee6ff"]
@@ -519,13 +639,17 @@ corner_bottom_right = { insets_px = [8.678, 5.808, 4.38, 3.278, 2.341, 1.608, 1.
 corner_bottom_left = { insets_px = [8.651, 5.796, 4.392, 3.278, 2.341, 1.6, 1.176, 0.58, 0.282, 0.125, 0.035, 0.0], radius_px = 11.5, rms_px = 0.112, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.large-capsule]
 drawn_box = [470, 66, 69, 28, 1808]
 fill = "#006ee6ff"
 fill_share = 0.794
+fill_grey_delta = 0
+edge_grey_delta = 0.788
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee7fc", "#006ee6ff"]
@@ -537,13 +661,17 @@ corner_bottom_right = { insets_px = [10.627, 7.337, 5.647, 4.427, 3.416, 2.553, 
 corner_bottom_left = { insets_px = [10.612, 7.357, 5.635, 4.435, 3.408, 2.561, 1.969, 1.329, 0.992, 0.463, 0.227, 0.106, 0.031, 0.0], radius_px = 13.5, rms_px = 0.157, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2552]
 fill = "#006ee6ff"
 fill_share = 0.836
+fill_grey_delta = 0.596
+edge_grey_delta = 1.2
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006fe6fc", "#006ee6ff"]
@@ -555,13 +683,17 @@ corner_bottom_right = { insets_px = [14.553, 10.608, 8.529, 6.933, 5.745, 4.698,
 corner_bottom_left = { insets_px = [14.569, 10.584, 8.541, 6.953, 5.733, 4.714, 3.859, 3.212, 2.408, 1.918, 1.361, 1.118, 0.608, 0.322, 0.161, 0.078, 0.024, 0.0], radius_px = 17.75, rms_px = 0.231, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 594]
 fill = "#006ee6ff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 1.0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -573,13 +705,17 @@ corner_bottom_right = { insets_px = [1.702, 0.604, 0.165, 0.035, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.702, 0.604, 0.165, 0.035, 0.0, 0.0], radius_px = 3.5, rms_px = 0.05, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1090]
 fill = "#006ee6ff"
 fill_share = 0.739
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -591,13 +727,17 @@ corner_bottom_right = { insets_px = [2.565, 1.176, 0.396, 0.149, 0.039, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.612, 1.235, 0.404, 0.149, 0.039, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.043, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1548]
 fill = "#006ee6ff"
 fill_share = 0.785
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -609,13 +749,17 @@ corner_bottom_right = { insets_px = [3.29, 1.69, 0.894, 0.318, 0.122, 0.051, 0.0
 corner_bottom_left = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0.0, 0.0], radius_px = 5.5, rms_px = 0.047, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1908]
 fill = "#006ee6ff"
 fill_share = 0.831
+fill_grey_delta = 1.067
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -627,13 +771,17 @@ corner_bottom_right = { insets_px = [4.141, 2.38, 1.349, 0.659, 0.282, 0.129, 0.
 corner_bottom_left = { insets_px = [4.106, 2.4, 1.345, 0.678, 0.282, 0.125, 0.047, 0.027, 0.0, 0.0], radius_px = 6.5, rms_px = 0.039, radius = "6.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2726]
 fill = "#006ee6ff"
 fill_share = 0.883
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -645,8 +793,10 @@ corner_bottom_right = { insets_px = [5.925, 3.655, 2.455, 1.561, 1.114, 0.478, 0
 corner_bottom_left = { insets_px = [5.949, 3.631, 2.467, 1.549, 1.129, 0.482, 0.247, 0.125, 0.063, 0.031, 0.0, 0.0], radius_px = 8.5, rms_px = 0.074, radius = "8.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.mini-circle]
 drawn_box = [22, 188, 10, 8, 67]
@@ -654,11 +804,14 @@ fill = "non_uniform"
 fill_share = 0.167
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.431
 
 [key.default_c.aqua.pressed.small-circle]
 drawn_box = [173, 185, 15, 14, 182]
 fill = "#006ee6ff"
 fill_share = 0.382
+fill_grey_delta = 0
+edge_grey_delta = 1.2
 edge_top = ["#006fe6fc", "#2e88eaff"]
 stroke_top = "unclassified"
 edge_right = ["#0072efb8", "#006ee6ff"]
@@ -673,13 +826,17 @@ corner_bottom_right = { insets_px = [4.152, 2.827, 1.827, 1.231, 0.718, 0.42, 0.
 corner_bottom_left = { insets_px = [4.207, 2.694, 1.851, 1.231, 0.71, 0.42, 0.278], radius_px = 7.0, rms_px = 0.247, radius = { full = { maximum_px = "absent" } } }
 icon = "#e0edfcff"
 icon_pixels = 1
+icon_grey_delta = 2.294
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.69
 
 [key.default_c.aqua.pressed.regular-circle]
 drawn_box = [324, 184, 17, 17, 249]
 fill = "#006ee6ff"
 fill_share = 0.462
+fill_grey_delta = 1.133
+edge_grey_delta = 1.133
 edge_top = ["#006fe7fd", "#4d9aeeff"]
 stroke_top = "unclassified"
 edge_right = ["#006fe7fd", "#006ee6ff"]
@@ -694,13 +851,17 @@ corner_bottom_right = { insets_px = [4.831, 3.408, 2.255, 1.345, 0.729, 0.302, 0
 corner_bottom_left = { insets_px = [4.867, 3.388, 2.243, 1.341, 0.737, 0.302, 0.118, 0.024, 0.0], radius_px = 7.75, rms_px = 0.138, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 1.576
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.large-circle]
 drawn_box = [474, 182, 21, 21, 375]
 fill = "#006ee6ff"
 fill_share = 0.599
+fill_grey_delta = 0
+edge_grey_delta = 0.192
 stroke = "absent"
 edge_top = ["#006ee7fd", "#006ee6ff"]
 edge_right = ["#006ee7fd", "#006ee6ff"]
@@ -712,13 +873,17 @@ corner_bottom_right = { insets_px = [6.584, 4.675, 3.408, 2.361, 1.573, 1.149, 0
 corner_bottom_left = { insets_px = [6.584, 4.694, 3.396, 2.365, 1.565, 1.149, 0.494, 0.224, 0.09, 0.0, 0.0], radius_px = 9.75, rms_px = 0.116, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 2.294
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 705]
 fill = "#006ee6ff"
 fill_share = 0.744
+fill_grey_delta = 0
+edge_grey_delta = 0.596
 stroke = "absent"
 edge_top = ["#006ee7fe", "#006ee6ff"]
 edge_right = ["#006ee7fe", "#006ee6ff"]
@@ -730,13 +895,17 @@ corner_bottom_right = { insets_px = [9.757, 7.647, 5.953, 4.686, 3.663, 2.847, 2
 corner_bottom_left = { insets_px = [9.743, 7.639, 5.937, 4.694, 3.651, 2.859, 2.22, 1.486, 1.161, 0.627, 0.318, 0.145, 0.063, 0.0, 0.0], radius_px = 13.75, rms_px = 0.16, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 444]
 fill = "#006ee6ff"
 fill_share = 0.802
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -748,13 +917,17 @@ corner_bottom_right = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radius_px = 3.25, rms_px = 0.051, radius = "3.25px" }
 icon = "#cfe4faff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.small-icon_only]
 drawn_box = [170, 350, 35, 20, 690]
 fill = "#006ee6ff"
 fill_share = 0.855
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -766,13 +939,17 @@ corner_bottom_right = { insets_px = [2.565, 1.176, 0.396, 0.149, 0.039, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.612, 1.235, 0.404, 0.149, 0.039, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.043, radius = "4.5px" }
 icon = "#e0edfcff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 972]
 fill = "#006ee6ff"
 fill_share = 0.876
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -784,13 +961,17 @@ corner_bottom_right = { insets_px = [3.29, 1.69, 0.894, 0.318, 0.122, 0.051, 0.0
 corner_bottom_left = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0.0, 0.0], radius_px = 5.5, rms_px = 0.047, radius = "5.5px" }
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1136]
 fill = "#006ee6ff"
 fill_share = 0.846
+fill_grey_delta = 0
+edge_grey_delta = 0.788
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee7fc", "#006ee6ff"]
@@ -802,13 +983,17 @@ corner_bottom_right = { insets_px = [10.38, 7.337, 5.647, 4.427, 3.416, 2.553, 1
 corner_bottom_left = { insets_px = [10.363, 7.357, 5.635, 4.435, 3.408, 2.561, 1.969, 1.329, 0.992, 0.463, 0.227, 0.106, 0.031, 0.0], radius_px = 13.5, rms_px = 0.1, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1688]
 fill = "#006ee6ff"
 fill_share = 0.865
+fill_grey_delta = 0.996
+edge_grey_delta = 1.2
 stroke = "absent"
 edge_top = ["#006ee7fe", "#006ee6ff"]
 edge_right = ["#006fe6fc", "#006ee6ff"]
@@ -820,13 +1005,17 @@ corner_bottom_right = { insets_px = [14.054, 10.58, 8.529, 6.933, 5.745, 4.702, 
 corner_bottom_left = { insets_px = [14.083, 10.553, 8.533, 6.953, 5.733, 4.714, 3.859, 3.212, 2.408, 1.918, 1.361, 1.118, 0.608, 0.322, 0.161, 0.078, 0.024, 0.0], radius_px = 17.5, rms_px = 0.139, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 956]
 fill = "#006ee6ff"
 fill_share = 0.699
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -838,15 +1027,20 @@ corner_bottom_right = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radius_px = 3.25, rms_px = 0.051, radius = "3.25px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#cfe4faff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1428]
 fill = "#006ee6ff"
 fill_share = 0.738
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -858,15 +1052,20 @@ corner_bottom_right = { insets_px = [2.612, 1.235, 0.404, 0.149, 0.039, 0.024, 0
 corner_bottom_left = { insets_px = [2.612, 1.235, 0.404, 0.149, 0.039, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.043, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#e0edfcff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 2004]
 fill = "#006ee6ff"
 fill_share = 0.779
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee6ff", "#006ee6ff"]
@@ -878,15 +1077,20 @@ corner_bottom_right = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0
 corner_bottom_left = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0.0, 0.0], radius_px = 5.5, rms_px = 0.047, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2340]
 fill = "#006ee6ff"
 fill_share = 0.795
+fill_grey_delta = 0
+edge_grey_delta = 0.788
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006ee7fc", "#006ee6ff"]
@@ -898,15 +1102,20 @@ corner_bottom_right = { insets_px = [10.612, 7.357, 5.635, 4.435, 3.408, 2.561, 
 corner_bottom_left = { insets_px = [10.612, 7.357, 5.635, 4.435, 3.408, 2.561, 1.969, 1.329, 0.992, 0.463, 0.227, 0.106, 0.031, 0.0], radius_px = 13.5, rms_px = 0.157, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.pressed.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3236]
 fill = "#006ee6ff"
 fill_share = 0.839
+fill_grey_delta = 0.498
+edge_grey_delta = 1.133
 stroke = "absent"
 edge_top = ["#006ee6ff", "#006ee6ff"]
 edge_right = ["#006fe7fd", "#006ee6ff"]
@@ -918,15 +1127,20 @@ corner_bottom_right = { insets_px = [14.651, 10.584, 8.541, 6.953, 5.733, 4.714,
 corner_bottom_left = { insets_px = [14.651, 10.584, 8.541, 6.953, 5.733, 4.714, 3.859, 3.212, 2.408, 1.918, 1.361, 1.118, 0.608, 0.322, 0.161, 0.078, 0.024, 0.0], radius_px = 17.75, rms_px = 0.246, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8feff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.mini-capsule]
 drawn_box = [20, 74, 46, 13, 566]
 fill = "#0000000a"
 fill_share = 0.685
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -938,13 +1152,17 @@ corner_bottom_right = { insets_px = [4.6, 2.4, 1.5, 4.118, 0.4, 0.2, 0.0], radiu
 corner_bottom_left = { insets_px = [4.6, 2.4, 1.5, 4.118, 0.4, 0.2, 0.0], radius_px = 7.75, rms_px = 1.163, radius = "7.75px" }
 label = "#00000042"
 label_pixels = 3
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.small-capsule]
 drawn_box = [170, 70, 55, 20, 1022]
 fill = "#0000000a"
 fill_share = 0.782
+fill_grey_delta = 0.522
+edge_grey_delta = 0.482
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#00000009", "#0000000a"]
@@ -956,13 +1174,17 @@ corner_bottom_right = { insets_px = [8.2, 4.8, 3.5, 2.5, 1.6, 1.1, 1.636, 0.4, 0
 corner_bottom_left = { insets_px = [8.2, 5.0, 3.5, 2.5, 1.6, 1.1, 1.545, 0.4, 0.2, 0.1], radius_px = 10.5, rms_px = 0.358, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 30
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1448]
 fill = "#0000000a"
 fill_share = 0.798
+fill_grey_delta = 0.984
+edge_grey_delta = 0.482
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#00000009", "#0000000a"]
@@ -974,13 +1196,17 @@ corner_bottom_right = { insets_px = [10.2, 6.5, 4.7, 3.5, 2.5, 2.0, 1.4, 0.9, 3.
 corner_bottom_left = { insets_px = [10.1, 6.5, 4.8, 3.5, 2.6, 2.0, 1.4, 0.9, 3.385, 0.3, 0.2, 0.1], radius_px = 12.75, rms_px = 0.834, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.large-capsule]
 drawn_box = [470, 66, 69, 28, 1764]
 fill = "#0000000a"
 fill_share = 0.826
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -992,13 +1218,17 @@ corner_bottom_right = { insets_px = [12.4, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.5, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 2.917, 0.3, 0.2, 0.0], radius_px = 14.75, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2496]
 fill = "#0000000a"
 fill_share = 0.853
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1010,13 +1240,17 @@ corner_bottom_right = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2
 corner_bottom_left = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2.7, 2.3, 1.7, 1.3, 0.8, 0.5, 0.4, 0.2, 0.2, 0.0], radius_px = 18.75, rms_px = 0.587, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 586]
 fill = "#0000000a"
 fill_share = 0.685
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1028,13 +1262,17 @@ corner_bottom_right = { insets_px = [2.3, 1.0, 0.4, 3.133, 0.1, 0.0, 0.0], radiu
 corner_bottom_left = { insets_px = [2.3, 1.0, 0.4, 3.133, 0.1, 0.0, 0.0], radius_px = 4.75, rms_px = 1.139, radius = "4.75px" }
 label = "#00000042"
 label_pixels = 3
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1080]
 fill = "#0000000a"
 fill_share = 0.797
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1046,13 +1284,17 @@ corner_bottom_right = { insets_px = [3.3, 1.5, 0.7, 0.4, 0.2, 0.1, 1.0, 0.0, 0.0
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 0.909, 0.0, 0.0], radius_px = 5.25, rms_px = 0.324, radius = "5.25px" }
 label = "#00000042"
 label_pixels = 30
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1536]
 fill = "#0000000a"
 fill_share = 0.817
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1064,13 +1306,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 3.0
 corner_bottom_left = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 0.0, 3.0, 0.0, 0.0], radius_px = 6.25, rms_px = 0.909, radius = "6.25px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1900]
 fill = "#0000000a"
 fill_share = 0.857
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1082,13 +1328,17 @@ corner_bottom_right = { insets_px = [5.1, 2.7, 1.7, 1.0, 0.5, 0.3, 0.2, 0.2, 0.1
 corner_bottom_left = { insets_px = [5.1, 2.8, 1.6, 1.0, 0.5, 0.3, 0.2, 0.2, 0.1, 0.0, 0.0], radius_px = 7.25, rms_px = 0.147, radius = "7.25px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2704]
 fill = "#0000000a"
 fill_share = 0.903
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1100,8 +1350,10 @@ corner_bottom_right = { insets_px = [7.1, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2
 corner_bottom_left = { insets_px = [7.1, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2, 0.2, 0.1, 0.1, 0.0, 0.0], radius_px = 9.5, rms_px = 0.209, radius = "9.5px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.mini-circle]
 drawn_box = [22, 188, 10, 8, 62]
@@ -1109,11 +1361,14 @@ fill = "non_uniform"
 fill_share = 0.208
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.584
 
 [key.default_c.aqua.disabled.small-circle]
 drawn_box = [173, 185, 15, 14, 158]
 fill = "#0000000a"
 fill_share = 0.4
+fill_grey_delta = 0.522
+edge_grey_delta = 0.51
 edge_top = ["#0000000a", "#00000015"]
 stroke_top = "unclassified"
 edge_right = ["#00000005", "#0000000a"]
@@ -1128,13 +1383,17 @@ corner_bottom_right = { insets_px = [4.875, 3.784, 3.642, 3.138, 1.0, 0.7, 0.5],
 corner_bottom_left = { insets_px = [4.75, 2.946, 2.906, 2.517, 1.0, 0.7, 0.5], radius_px = 8.25, rms_px = 0.6, radius = "8.25px" }
 icon = "#0000003a"
 icon_pixels = 1
+icon_grey_delta = 0.624
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.regular-circle]
 drawn_box = [324, 184, 17, 17, 241]
 fill = "#0000000a"
 fill_share = 0.509
+fill_grey_delta = 0.522
+edge_grey_delta = 0.443
 edge_top = ["#0000000a", "#0000001d"]
 stroke_top = "unclassified"
 edge_right = ["#0000000a", "#0000000a"]
@@ -1149,13 +1408,17 @@ corner_bottom_right = { insets_px = [5.25, 3.8, 2.846, 3.111, 2.636, 0.909, 0.3,
 corner_bottom_left = { insets_px = [5.25, 3.7, 2.615, 2.444, 2.591, 0.818, 0.3, 0.2, 0.0], radius_px = 8.75, rms_px = 0.607, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.large-circle]
 drawn_box = [474, 182, 21, 21, 355]
 fill = "#0000000a"
 fill_share = 0.668
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1167,13 +1430,17 @@ corner_bottom_right = { insets_px = [7.333, 5.1, 3.8, 2.7, 1.9, 1.4, 1.182, 0.5,
 corner_bottom_left = { insets_px = [7.333, 5.1, 3.8, 2.8, 1.9, 1.4, 1.091, 0.5, 0.3, 0.1, 0.0], radius_px = 10.5, rms_px = 0.122, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 673]
 fill = "#0000000a"
 fill_share = 0.771
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1185,13 +1452,17 @@ corner_bottom_right = { insets_px = [10.667, 8.2, 6.5, 5.1, 4.1, 3.2, 2.5, 1.8, 
 corner_bottom_left = { insets_px = [10.667, 8.2, 6.4, 5.1, 4.1, 3.2, 2.5, 1.7, 1.4, 0.9, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 14.5, rms_px = 0.098, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 436]
 fill = "#0000000a"
 fill_share = 0.816
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1203,13 +1474,17 @@ corner_bottom_right = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_
 corner_bottom_left = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 4.25, rms_px = 0.079, radius = "4.25px" }
 icon = "#00000035"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.small-icon_only]
 drawn_box = [170, 350, 35, 20, 680]
 fill = "#0000000a"
 fill_share = 0.859
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1221,13 +1496,17 @@ corner_bottom_right = { insets_px = [3.3, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 5.25, rms_px = 0.121, radius = "5.25px" }
 icon = "#0000003a"
 icon_pixels = 1
+icon_grey_delta = 0.624
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 960]
 fill = "#0000000a"
 fill_share = 0.886
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1239,13 +1518,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 0.0
 corner_bottom_left = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 0.0, 0.0], radius_px = 6.25, rms_px = 0.101, radius = "6.25px" }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1092]
 fill = "#0000000a"
 fill_share = 0.866
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1257,13 +1540,17 @@ corner_bottom_right = { insets_px = [11.667, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 
 corner_bottom_left = { insets_px = [11.778, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 0.5, 0.3, 0.2, 0.0], radius_px = 14.5, rms_px = 0.282, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1636]
 fill = "#0000000a"
 fill_share = 0.87
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1275,13 +1562,17 @@ corner_bottom_right = { insets_px = [15.0, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2
 corner_bottom_left = { insets_px = [14.875, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2.7, 2.3, 1.7, 1.3, 0.8, 0.5, 0.4, 0.2, 0.2, 0.0], radius_px = 18.25, rms_px = 0.18, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 948]
 fill = "#0000000a"
 fill_share = 0.744
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1293,15 +1584,20 @@ corner_bottom_right = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_
 corner_bottom_left = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 4.25, rms_px = 0.079, radius = "4.25px" }
 label = "#00000042"
 label_pixels = 3
+label_grey_delta = 0.635
 icon = "#00000035"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1420]
 fill = "#0000000a"
 fill_share = 0.783
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1313,15 +1609,20 @@ corner_bottom_right = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 1.0, 0.0, 0.0
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 1.182, 0.0, 0.0], radius_px = 5.25, rms_px = 0.41, radius = "5.25px" }
 label = "#00000042"
 label_pixels = 30
+label_grey_delta = 0.635
 icon = "#0000003a"
 icon_pixels = 1
+icon_grey_delta = 0.624
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 1992]
 fill = "#0000000a"
 fill_share = 0.808
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1333,15 +1634,20 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 3.0, 0.0
 corner_bottom_left = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 3.615, 0.0, 0.0], radius_px = 6.25, rms_px = 1.147, radius = "6.25px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2296]
 fill = "#0000000a"
 fill_share = 0.824
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1353,15 +1659,20 @@ corner_bottom_right = { insets_px = [12.5, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.5, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 3.5, 0.5, 0.3, 0.2, 0.0], radius_px = 14.75, rms_px = 0.809, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3180]
 fill = "#0000000a"
 fill_share = 0.855
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1373,15 +1684,20 @@ corner_bottom_right = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2
 corner_bottom_left = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2.7, 2.3, 1.7, 1.3, 0.8, 0.5, 0.4, 0.2, 0.2, 0.0], radius_px = 18.75, rms_px = 0.587, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.mini-capsule]
 drawn_box = [20, 74, 46, 13, 566]
 fill = "#0000000a"
 fill_share = 0.685
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1393,13 +1709,17 @@ corner_bottom_right = { insets_px = [4.6, 2.4, 1.5, 4.118, 0.4, 0.2, 0.0], radiu
 corner_bottom_left = { insets_px = [4.6, 2.4, 1.5, 4.118, 0.4, 0.2, 0.0], radius_px = 7.75, rms_px = 1.163, radius = "7.75px" }
 label = "#00000042"
 label_pixels = 3
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.small-capsule]
 drawn_box = [170, 70, 55, 20, 1022]
 fill = "#0000000a"
 fill_share = 0.782
+fill_grey_delta = 0.522
+edge_grey_delta = 0.482
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#00000009", "#0000000a"]
@@ -1411,13 +1731,17 @@ corner_bottom_right = { insets_px = [8.2, 4.8, 3.5, 2.5, 1.6, 1.1, 1.636, 0.4, 0
 corner_bottom_left = { insets_px = [8.2, 5.0, 3.5, 2.5, 1.6, 1.1, 1.545, 0.4, 0.2, 0.1], radius_px = 10.5, rms_px = 0.358, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 30
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1448]
 fill = "#0000000a"
 fill_share = 0.798
+fill_grey_delta = 0.984
+edge_grey_delta = 0.482
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#00000009", "#0000000a"]
@@ -1429,13 +1753,17 @@ corner_bottom_right = { insets_px = [10.2, 6.5, 4.7, 3.5, 2.5, 2.0, 1.4, 0.9, 3.
 corner_bottom_left = { insets_px = [10.1, 6.5, 4.8, 3.5, 2.6, 2.0, 1.4, 0.9, 3.385, 0.3, 0.2, 0.1], radius_px = 12.75, rms_px = 0.834, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.large-capsule]
 drawn_box = [470, 66, 69, 28, 1764]
 fill = "#0000000a"
 fill_share = 0.826
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1447,13 +1775,17 @@ corner_bottom_right = { insets_px = [12.4, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.5, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 2.917, 0.3, 0.2, 0.0], radius_px = 14.75, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2496]
 fill = "#0000000a"
 fill_share = 0.853
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1465,13 +1797,17 @@ corner_bottom_right = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2
 corner_bottom_left = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2.7, 2.3, 1.7, 1.3, 0.8, 0.5, 0.4, 0.2, 0.2, 0.0], radius_px = 18.75, rms_px = 0.587, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 586]
 fill = "#0000000a"
 fill_share = 0.685
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1483,13 +1819,17 @@ corner_bottom_right = { insets_px = [2.3, 1.0, 0.4, 3.133, 0.1, 0.0, 0.0], radiu
 corner_bottom_left = { insets_px = [2.3, 1.0, 0.4, 3.133, 0.1, 0.0, 0.0], radius_px = 4.75, rms_px = 1.139, radius = "4.75px" }
 label = "#00000042"
 label_pixels = 3
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1080]
 fill = "#0000000a"
 fill_share = 0.797
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1501,13 +1841,17 @@ corner_bottom_right = { insets_px = [3.3, 1.5, 0.7, 0.4, 0.2, 0.1, 1.0, 0.0, 0.0
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 0.909, 0.0, 0.0], radius_px = 5.25, rms_px = 0.324, radius = "5.25px" }
 label = "#00000042"
 label_pixels = 30
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1536]
 fill = "#0000000a"
 fill_share = 0.817
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1519,13 +1863,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 3.0
 corner_bottom_left = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 0.0, 3.0, 0.0, 0.0], radius_px = 6.25, rms_px = 0.909, radius = "6.25px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1900]
 fill = "#0000000a"
 fill_share = 0.857
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1537,13 +1885,17 @@ corner_bottom_right = { insets_px = [5.1, 2.7, 1.7, 1.0, 0.5, 0.3, 0.2, 0.2, 0.1
 corner_bottom_left = { insets_px = [5.1, 2.8, 1.6, 1.0, 0.5, 0.3, 0.2, 0.2, 0.1, 0.0, 0.0], radius_px = 7.25, rms_px = 0.147, radius = "7.25px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2704]
 fill = "#0000000a"
 fill_share = 0.903
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1555,8 +1907,10 @@ corner_bottom_right = { insets_px = [7.1, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2
 corner_bottom_left = { insets_px = [7.1, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2, 0.2, 0.1, 0.1, 0.0, 0.0], radius_px = 9.5, rms_px = 0.209, radius = "9.5px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.mini-circle]
 drawn_box = [22, 188, 10, 8, 62]
@@ -1564,11 +1918,14 @@ fill = "non_uniform"
 fill_share = 0.208
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.584
 
 [key.default_c.aqua.disabled_pressed.small-circle]
 drawn_box = [173, 185, 15, 14, 158]
 fill = "#0000000a"
 fill_share = 0.4
+fill_grey_delta = 0.522
+edge_grey_delta = 0.51
 edge_top = ["#0000000a", "#00000015"]
 stroke_top = "unclassified"
 edge_right = ["#00000005", "#0000000a"]
@@ -1583,13 +1940,17 @@ corner_bottom_right = { insets_px = [4.875, 3.784, 3.642, 3.138, 1.0, 0.7, 0.5],
 corner_bottom_left = { insets_px = [4.75, 2.946, 2.906, 2.517, 1.0, 0.7, 0.5], radius_px = 8.25, rms_px = 0.6, radius = "8.25px" }
 icon = "#0000003a"
 icon_pixels = 1
+icon_grey_delta = 0.624
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.regular-circle]
 drawn_box = [324, 184, 17, 17, 241]
 fill = "#0000000a"
 fill_share = 0.509
+fill_grey_delta = 0.522
+edge_grey_delta = 0.443
 edge_top = ["#0000000a", "#0000001d"]
 stroke_top = "unclassified"
 edge_right = ["#0000000a", "#0000000a"]
@@ -1604,13 +1965,17 @@ corner_bottom_right = { insets_px = [5.25, 3.8, 2.846, 3.111, 2.636, 0.909, 0.3,
 corner_bottom_left = { insets_px = [5.25, 3.7, 2.615, 2.444, 2.591, 0.818, 0.3, 0.2, 0.0], radius_px = 8.75, rms_px = 0.607, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.large-circle]
 drawn_box = [474, 182, 21, 21, 355]
 fill = "#0000000a"
 fill_share = 0.668
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1622,13 +1987,17 @@ corner_bottom_right = { insets_px = [7.333, 5.1, 3.8, 2.7, 1.9, 1.4, 1.182, 0.5,
 corner_bottom_left = { insets_px = [7.333, 5.1, 3.8, 2.8, 1.9, 1.4, 1.091, 0.5, 0.3, 0.1, 0.0], radius_px = 10.5, rms_px = 0.122, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 673]
 fill = "#0000000a"
 fill_share = 0.771
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1640,13 +2009,17 @@ corner_bottom_right = { insets_px = [10.667, 8.2, 6.5, 5.1, 4.1, 3.2, 2.5, 1.8, 
 corner_bottom_left = { insets_px = [10.667, 8.2, 6.4, 5.1, 4.1, 3.2, 2.5, 1.7, 1.4, 0.9, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 14.5, rms_px = 0.098, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 436]
 fill = "#0000000a"
 fill_share = 0.816
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1658,13 +2031,17 @@ corner_bottom_right = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_
 corner_bottom_left = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 4.25, rms_px = 0.079, radius = "4.25px" }
 icon = "#00000035"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.small-icon_only]
 drawn_box = [170, 350, 35, 20, 680]
 fill = "#0000000a"
 fill_share = 0.859
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1676,13 +2053,17 @@ corner_bottom_right = { insets_px = [3.3, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 5.25, rms_px = 0.121, radius = "5.25px" }
 icon = "#0000003a"
 icon_pixels = 1
+icon_grey_delta = 0.624
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 960]
 fill = "#0000000a"
 fill_share = 0.886
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1694,13 +2075,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 0.0
 corner_bottom_left = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 0.0, 0.0], radius_px = 6.25, rms_px = 0.101, radius = "6.25px" }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1092]
 fill = "#0000000a"
 fill_share = 0.866
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1712,13 +2097,17 @@ corner_bottom_right = { insets_px = [11.667, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 
 corner_bottom_left = { insets_px = [11.778, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 0.5, 0.3, 0.2, 0.0], radius_px = 14.5, rms_px = 0.282, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1636]
 fill = "#0000000a"
 fill_share = 0.87
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1730,13 +2119,17 @@ corner_bottom_right = { insets_px = [15.0, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2
 corner_bottom_left = { insets_px = [14.875, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2.7, 2.3, 1.7, 1.3, 0.8, 0.5, 0.4, 0.2, 0.2, 0.0], radius_px = 18.25, rms_px = 0.18, radius = { full = { maximum_px = "absent" } } }
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 948]
 fill = "#0000000a"
 fill_share = 0.744
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1748,15 +2141,20 @@ corner_bottom_right = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_
 corner_bottom_left = { insets_px = [2.4, 0.9, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 4.25, rms_px = 0.079, radius = "4.25px" }
 label = "#00000042"
 label_pixels = 3
+label_grey_delta = 0.635
 icon = "#00000035"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1420]
 fill = "#0000000a"
 fill_share = 0.783
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1768,15 +2166,20 @@ corner_bottom_right = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 1.0, 0.0, 0.0
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 1.182, 0.0, 0.0], radius_px = 5.25, rms_px = 0.41, radius = "5.25px" }
 label = "#00000042"
 label_pixels = 30
+label_grey_delta = 0.635
 icon = "#0000003a"
 icon_pixels = 1
+icon_grey_delta = 0.624
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 1992]
 fill = "#0000000a"
 fill_share = 0.808
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1788,15 +2191,20 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 3.0, 0.0
 corner_bottom_left = { insets_px = [4.1, 2.1, 1.3, 0.5, 0.3, 0.2, 0.1, 3.615, 0.0, 0.0], radius_px = 6.25, rms_px = 1.147, radius = "6.25px" }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2296]
 fill = "#0000000a"
 fill_share = 0.824
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1808,15 +2216,20 @@ corner_bottom_right = { insets_px = [12.5, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.5, 8.0, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 3.5, 0.5, 0.3, 0.2, 0.0], radius_px = 14.75, rms_px = 0.809, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.aqua.disabled_pressed.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3180]
 fill = "#0000000a"
 fill_share = 0.855
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#0000000a", "#0000000a"]
 edge_right = ["#0000000a", "#0000000a"]
@@ -1828,15 +2241,20 @@ corner_bottom_right = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2
 corner_bottom_left = { insets_px = [16.9, 11.3, 9.0, 7.4, 6.1, 5.1, 4.2, 3.5, 2.7, 2.3, 1.7, 1.3, 0.8, 0.5, 0.4, 0.2, 0.2, 0.0], radius_px = 18.75, rms_px = 0.587, radius = { full = { maximum_px = "absent" } } }
 label = "#00000042"
 label_pixels = 33
+label_grey_delta = 0.635
 icon = "#0000003e"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.mini-capsule]
 drawn_box = [20, 74, 46, 13, 578]
 fill = "#007affff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 0.918
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#0079fffc", "#007affff"]
@@ -1848,13 +2266,17 @@ corner_bottom_right = { insets_px = [3.784, 2.043, 1.224, 0.463, 0.173, 0.035, 0
 corner_bottom_left = { insets_px = [3.784, 2.043, 1.224, 0.463, 0.173, 0.035, 0.0], radius_px = 6.0, rms_px = 0.051, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.small-capsule]
 drawn_box = [170, 70, 55, 20, 1048]
 fill = "#007affff"
 fill_share = 0.724
+fill_grey_delta = 0.973
+edge_grey_delta = 0.094
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffb", "#007affff"]
@@ -1866,13 +2288,17 @@ corner_bottom_right = { insets_px = [6.871, 4.463, 3.098, 2.231, 1.376, 0.847, 0
 corner_bottom_left = { insets_px = [6.831, 4.443, 3.129, 2.204, 1.376, 0.855, 0.384, 0.169, 0.051, 0.0], radius_px = 9.5, rms_px = 0.079, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1468]
 fill = "#007affff"
 fill_share = 0.757
+fill_grey_delta = 0.996
+edge_grey_delta = 0.094
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffb", "#007affff"]
@@ -1884,13 +2310,17 @@ corner_bottom_right = { insets_px = [8.741, 5.843, 4.4, 3.294, 2.357, 1.627, 1.1
 corner_bottom_left = { insets_px = [8.71, 5.827, 4.412, 3.294, 2.357, 1.62, 1.188, 0.596, 0.298, 0.133, 0.039, 0.0], radius_px = 11.5, rms_px = 0.122, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.large-capsule]
 drawn_box = [470, 66, 69, 28, 1808]
 fill = "#007affff"
 fill_share = 0.794
+fill_grey_delta = 0
+edge_grey_delta = 0.506
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -1902,13 +2332,17 @@ corner_bottom_right = { insets_px = [10.698, 7.369, 5.671, 4.447, 3.435, 2.569, 
 corner_bottom_left = { insets_px = [10.706, 7.384, 5.655, 4.455, 3.427, 2.58, 1.988, 1.345, 1.004, 0.478, 0.239, 0.114, 0.035, 0.0], radius_px = 13.75, rms_px = 0.173, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2552]
 fill = "#007affff"
 fill_share = 0.836
+fill_grey_delta = 0.498
+edge_grey_delta = 0.494
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -1920,13 +2354,17 @@ corner_bottom_right = { insets_px = [14.64, 10.639, 8.553, 6.957, 5.769, 4.722, 
 corner_bottom_left = { insets_px = [14.66, 10.616, 8.565, 6.973, 5.753, 4.733, 3.882, 3.224, 2.42, 1.933, 1.376, 1.129, 0.62, 0.337, 0.173, 0.082, 0.024, 0.0], radius_px = 17.75, rms_px = 0.24, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 594]
 fill = "#007affff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 1.0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -1938,13 +2376,17 @@ corner_bottom_right = { insets_px = [1.733, 0.627, 0.176, 0.039, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.733, 0.627, 0.176, 0.039, 0.0, 0.0], radius_px = 3.5, rms_px = 0.036, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1090]
 fill = "#007affff"
 fill_share = 0.739
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -1956,13 +2398,17 @@ corner_bottom_right = { insets_px = [2.596, 1.192, 0.412, 0.157, 0.043, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.048, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1548]
 fill = "#007affff"
 fill_share = 0.785
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -1974,13 +2420,17 @@ corner_bottom_right = { insets_px = [3.325, 1.718, 0.91, 0.333, 0.129, 0.059, 0.
 corner_bottom_left = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0.0, 0.0], radius_px = 5.5, rms_px = 0.04, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1908]
 fill = "#007affff"
 fill_share = 0.831
+fill_grey_delta = 1.02
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -1992,13 +2442,17 @@ corner_bottom_right = { insets_px = [4.184, 2.4, 1.361, 0.675, 0.298, 0.137, 0.0
 corner_bottom_left = { insets_px = [4.153, 2.42, 1.361, 0.694, 0.298, 0.137, 0.051, 0.031, 0.0, 0.0], radius_px = 6.5, rms_px = 0.035, radius = "6.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2726]
 fill = "#007affff"
 fill_share = 0.883
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2010,8 +2464,10 @@ corner_bottom_right = { insets_px = [5.973, 3.678, 2.475, 1.584, 1.125, 0.494, 0
 corner_bottom_left = { insets_px = [5.992, 3.651, 2.486, 1.565, 1.137, 0.498, 0.259, 0.133, 0.067, 0.035, 0.0, 0.0], radius_px = 8.5, rms_px = 0.08, radius = "8.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.mini-circle]
 drawn_box = [22, 188, 10, 8, 67]
@@ -2019,11 +2475,14 @@ fill = "non_uniform"
 fill_share = 0.167
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.431
 
 [key.default_c.darkAqua.normal.small-circle]
 drawn_box = [173, 185, 15, 14, 182]
 fill = "#007affff"
 fill_share = 0.382
+fill_grey_delta = 0
+edge_grey_delta = 0.494
 edge_top = ["#007afffc", "#2e92ffff"]
 stroke_top = "unclassified"
 edge_right = ["#007affb4", "#007affff"]
@@ -2038,13 +2497,17 @@ corner_bottom_right = { insets_px = [4.164, 2.851, 1.843, 1.243, 0.733, 0.435, 0
 corner_bottom_left = { insets_px = [4.22, 2.71, 1.871, 1.243, 0.725, 0.435, 0.294], radius_px = 7.0, rms_px = 0.256, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.698
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.69
 
 [key.default_c.darkAqua.normal.regular-circle]
 drawn_box = [324, 184, 17, 17, 249]
 fill = "#007affff"
 fill_share = 0.462
+fill_grey_delta = 0.973
+edge_grey_delta = 0.047
 edge_top = ["#007afffd", "#4da2ffff"]
 stroke_top = "unclassified"
 edge_right = ["#007afffd", "#007affff"]
@@ -2059,13 +2522,17 @@ corner_bottom_right = { insets_px = [4.842, 3.427, 2.271, 1.361, 0.745, 0.314, 0
 corner_bottom_left = { insets_px = [4.878, 3.408, 2.259, 1.357, 0.753, 0.318, 0.129, 0.027, 0.0], radius_px = 7.75, rms_px = 0.141, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 0.98
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.large-circle]
 drawn_box = [474, 182, 21, 21, 375]
 fill = "#007affff"
 fill_share = 0.599
+fill_grey_delta = 0
+edge_grey_delta = 0.047
 stroke = "absent"
 edge_top = ["#007afffd", "#007affff"]
 edge_right = ["#007afffd", "#007affff"]
@@ -2077,13 +2544,17 @@ corner_bottom_right = { insets_px = [6.598, 4.698, 3.427, 2.376, 1.592, 1.157, 0
 corner_bottom_left = { insets_px = [6.603, 4.718, 3.416, 2.38, 1.58, 1.157, 0.51, 0.235, 0.098, 0.0, 0.0], radius_px = 9.75, rms_px = 0.119, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.698
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 705]
 fill = "#007affff"
 fill_share = 0.744
+fill_grey_delta = 0
+edge_grey_delta = 1.02
 stroke = "absent"
 edge_top = ["#007bfffe", "#007affff"]
 edge_right = ["#007bfffe", "#007affff"]
@@ -2095,13 +2566,17 @@ corner_bottom_right = { insets_px = [9.778, 7.675, 5.976, 4.71, 3.686, 2.867, 2.
 corner_bottom_left = { insets_px = [9.759, 7.667, 5.961, 4.722, 3.671, 2.875, 2.231, 1.502, 1.173, 0.639, 0.329, 0.153, 0.067, 0.0, 0.0], radius_px = 13.75, rms_px = 0.162, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 444]
 fill = "#007affff"
 fill_share = 0.802
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2113,13 +2588,17 @@ corner_bottom_right = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radius_px = 3.5, rms_px = 0.041, radius = "3.5px" }
 icon = "#cfe6ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.small-icon_only]
 drawn_box = [170, 350, 35, 20, 690]
 fill = "#007affff"
 fill_share = 0.855
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2131,13 +2610,17 @@ corner_bottom_right = { insets_px = [2.596, 1.192, 0.412, 0.157, 0.043, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.048, radius = "4.5px" }
 icon = "#e0efffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 972]
 fill = "#007affff"
 fill_share = 0.876
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2149,13 +2632,17 @@ corner_bottom_right = { insets_px = [3.325, 1.718, 0.91, 0.333, 0.129, 0.059, 0.
 corner_bottom_left = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0.0, 0.0], radius_px = 5.5, rms_px = 0.04, radius = "5.5px" }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1136]
 fill = "#007affff"
 fill_share = 0.846
+fill_grey_delta = 0
+edge_grey_delta = 0.506
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -2167,13 +2654,17 @@ corner_bottom_right = { insets_px = [10.426, 7.369, 5.671, 4.447, 3.435, 2.569, 
 corner_bottom_left = { insets_px = [10.41, 7.384, 5.655, 4.455, 3.427, 2.58, 1.988, 1.345, 1.004, 0.478, 0.239, 0.114, 0.035, 0.0], radius_px = 13.5, rms_px = 0.106, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1688]
 fill = "#007affff"
 fill_share = 0.864
+fill_grey_delta = 0.996
+edge_grey_delta = 0.498
 stroke = "absent"
 edge_top = ["#007afffe", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -2185,13 +2676,17 @@ corner_bottom_right = { insets_px = [14.096, 10.616, 8.553, 6.957, 5.769, 4.725,
 corner_bottom_left = { insets_px = [14.1, 10.588, 8.561, 6.973, 5.753, 4.733, 3.882, 3.224, 2.424, 1.933, 1.376, 1.129, 0.62, 0.337, 0.173, 0.082, 0.024, 0.0], radius_px = 17.5, rms_px = 0.14, radius = { full = { maximum_px = "absent" } } }
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 956]
 fill = "#007affff"
 fill_share = 0.699
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2203,15 +2698,20 @@ corner_bottom_right = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.749, 0.596, 0.161, 0.063, 0.0, 0.0], radius_px = 3.5, rms_px = 0.041, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#cfe6ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1428]
 fill = "#007affff"
 fill_share = 0.738
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2223,15 +2723,20 @@ corner_bottom_right = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.
 corner_bottom_left = { insets_px = [2.639, 1.247, 0.42, 0.157, 0.043, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.048, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#e0efffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 2004]
 fill = "#007affff"
 fill_share = 0.779
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007affff", "#007affff"]
@@ -2243,15 +2748,20 @@ corner_bottom_right = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0
 corner_bottom_left = { insets_px = [3.353, 1.682, 0.945, 0.333, 0.129, 0.059, 0.0, 0.0], radius_px = 5.5, rms_px = 0.04, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2340]
 fill = "#007affff"
 fill_share = 0.795
+fill_grey_delta = 0
+edge_grey_delta = 0.506
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffc", "#007affff"]
@@ -2263,15 +2773,20 @@ corner_bottom_right = { insets_px = [10.706, 7.384, 5.655, 4.455, 3.427, 2.58, 1
 corner_bottom_left = { insets_px = [10.706, 7.384, 5.655, 4.455, 3.427, 2.58, 1.988, 1.345, 1.004, 0.478, 0.239, 0.114, 0.035, 0.0], radius_px = 13.75, rms_px = 0.173, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.normal.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3236]
 fill = "#007affff"
 fill_share = 0.839
+fill_grey_delta = 0.498
+edge_grey_delta = 0.047
 stroke = "absent"
 edge_top = ["#007affff", "#007affff"]
 edge_right = ["#007afffd", "#007affff"]
@@ -2283,15 +2798,20 @@ corner_bottom_right = { insets_px = [14.745, 10.616, 8.565, 6.973, 5.753, 4.733,
 corner_bottom_left = { insets_px = [14.745, 10.616, 8.565, 6.973, 5.753, 4.733, 3.882, 3.224, 2.42, 1.933, 1.376, 1.129, 0.62, 0.337, 0.173, 0.082, 0.024, 0.0], radius_px = 17.75, rms_px = 0.257, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f2f8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.mini-capsule]
 drawn_box = [20, 74, 46, 13, 578]
 fill = "#1987ffff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 1.071
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1886fffc", "#1987ffff"]
@@ -2303,13 +2823,17 @@ corner_bottom_right = { insets_px = [3.745, 2.024, 1.212, 0.447, 0.161, 0.031, 0
 corner_bottom_left = { insets_px = [3.745, 2.024, 1.212, 0.447, 0.161, 0.031, 0.0], radius_px = 6.0, rms_px = 0.052, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.small-capsule]
 drawn_box = [170, 70, 55, 20, 1048]
 fill = "#1987ffff"
 fill_share = 0.724
+fill_grey_delta = 0.596
+edge_grey_delta = 0.631
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1886fffb", "#1987ffff"]
@@ -2321,13 +2845,17 @@ corner_bottom_right = { insets_px = [6.8, 4.439, 3.078, 2.22, 1.361, 0.827, 0.36
 corner_bottom_left = { insets_px = [6.78, 4.42, 3.114, 2.192, 1.361, 0.839, 0.369, 0.157, 0.047, 0.0], radius_px = 9.5, rms_px = 0.071, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1468]
 fill = "#1987ffff"
 fill_share = 0.757
+fill_grey_delta = 0.996
+edge_grey_delta = 0.918
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1887fefc", "#1987ffff"]
@@ -2339,13 +2867,17 @@ corner_bottom_right = { insets_px = [8.655, 5.812, 4.38, 3.278, 2.341, 1.608, 1.
 corner_bottom_left = { insets_px = [8.651, 5.796, 4.392, 3.278, 2.341, 1.6, 1.176, 0.58, 0.282, 0.125, 0.035, 0.0], radius_px = 11.5, rms_px = 0.112, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.large-capsule]
 drawn_box = [470, 66, 69, 28, 1808]
 fill = "#1987ffff"
 fill_share = 0.794
+fill_grey_delta = 0
+edge_grey_delta = 0.918
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1887fffc", "#1987ffff"]
@@ -2357,13 +2889,17 @@ corner_bottom_right = { insets_px = [10.627, 7.337, 5.647, 4.427, 3.416, 2.549, 
 corner_bottom_left = { insets_px = [10.635, 7.357, 5.631, 4.435, 3.408, 2.561, 1.969, 1.329, 0.992, 0.463, 0.224, 0.106, 0.031, 0.0], radius_px = 13.5, rms_px = 0.164, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2552]
 fill = "#1987ffff"
 fill_share = 0.836
+fill_grey_delta = 0.969
+edge_grey_delta = 0.776
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1887fffc", "#1987ffff"]
@@ -2375,13 +2911,17 @@ corner_bottom_right = { insets_px = [14.553, 10.608, 8.529, 6.933, 5.749, 4.698,
 corner_bottom_left = { insets_px = [14.573, 10.58, 8.541, 6.953, 5.733, 4.714, 3.863, 3.212, 2.404, 1.918, 1.361, 1.118, 0.608, 0.322, 0.161, 0.075, 0.024, 0.0], radius_px = 17.75, rms_px = 0.232, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 594]
 fill = "#1987ffff"
 fill_share = 0.616
+fill_grey_delta = 0
+edge_grey_delta = 1.0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2393,13 +2933,17 @@ corner_bottom_right = { insets_px = [1.702, 0.608, 0.169, 0.035, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.702, 0.608, 0.169, 0.035, 0.0, 0.0], radius_px = 3.5, rms_px = 0.049, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1090]
 fill = "#1987ffff"
 fill_share = 0.739
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2411,13 +2955,17 @@ corner_bottom_right = { insets_px = [2.569, 1.173, 0.396, 0.145, 0.039, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.608, 1.235, 0.404, 0.145, 0.039, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.043, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1548]
 fill = "#1987ffff"
 fill_share = 0.785
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2429,13 +2977,17 @@ corner_bottom_right = { insets_px = [3.29, 1.69, 0.894, 0.318, 0.122, 0.055, 0.0
 corner_bottom_left = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0.0, 0.0], radius_px = 5.5, rms_px = 0.047, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1908]
 fill = "#1987ffff"
 fill_share = 0.831
+fill_grey_delta = 0.969
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2447,13 +2999,17 @@ corner_bottom_right = { insets_px = [4.145, 2.38, 1.349, 0.659, 0.282, 0.129, 0.
 corner_bottom_left = { insets_px = [4.11, 2.4, 1.345, 0.678, 0.282, 0.129, 0.047, 0.027, 0.0, 0.0], radius_px = 6.5, rms_px = 0.039, radius = "6.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2726]
 fill = "#1987ffff"
 fill_share = 0.883
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2465,8 +3021,10 @@ corner_bottom_right = { insets_px = [5.922, 3.651, 2.455, 1.565, 1.118, 0.478, 0
 corner_bottom_left = { insets_px = [5.945, 3.627, 2.467, 1.545, 1.129, 0.482, 0.243, 0.125, 0.063, 0.031, 0.0, 0.0], radius_px = 8.5, rms_px = 0.074, radius = "8.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.mini-circle]
 drawn_box = [22, 188, 10, 8, 67]
@@ -2474,11 +3032,14 @@ fill = "non_uniform"
 fill_share = 0.167
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.431
 
 [key.default_c.darkAqua.pressed.small-circle]
 drawn_box = [173, 185, 15, 14, 182]
 fill = "#1987ffff"
 fill_share = 0.382
+fill_grey_delta = 0
+edge_grey_delta = 0.859
 edge_top = ["#1887fffc", "#429dffff"]
 stroke_top = "unclassified"
 edge_right = ["#1183ffb7", "#1987ffff"]
@@ -2493,13 +3054,17 @@ corner_bottom_right = { insets_px = [4.152, 2.827, 1.827, 1.227, 0.718, 0.42, 0.
 corner_bottom_left = { insets_px = [4.207, 2.694, 1.851, 1.231, 0.71, 0.42, 0.282], radius_px = 7.0, rms_px = 0.248, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.196
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.976
 
 [key.default_c.darkAqua.pressed.regular-circle]
 drawn_box = [324, 184, 17, 17, 249]
 fill = "#1987ffff"
 fill_share = 0.462
+fill_grey_delta = 0.596
+edge_grey_delta = 0.184
 edge_top = ["#1887fffd", "#5eabffff"]
 stroke_top = "unclassified"
 edge_right = ["#1887fffd", "#1987ffff"]
@@ -2514,13 +3079,17 @@ corner_bottom_right = { insets_px = [4.821, 3.408, 2.255, 1.345, 0.729, 0.298, 0
 corner_bottom_left = { insets_px = [4.862, 3.392, 2.243, 1.341, 0.737, 0.302, 0.118, 0.024, 0.0], radius_px = 7.75, rms_px = 0.139, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.275
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.large-circle]
 drawn_box = [474, 182, 21, 21, 375]
 fill = "#1987ffff"
 fill_share = 0.599
+fill_grey_delta = 0
+edge_grey_delta = 0.184
 stroke = "absent"
 edge_top = ["#1887fffd", "#1987ffff"]
 edge_right = ["#1887fffd", "#1987ffff"]
@@ -2532,13 +3101,17 @@ corner_bottom_right = { insets_px = [6.58, 4.671, 3.408, 2.361, 1.573, 1.145, 0.
 corner_bottom_left = { insets_px = [6.58, 4.694, 3.396, 2.365, 1.565, 1.145, 0.494, 0.224, 0.09, 0.0, 0.0], radius_px = 9.75, rms_px = 0.116, radius = { full = { maximum_px = "absent" } } }
 icon = "#000000ff"
 icon_pixels = 1
+icon_grey_delta = 1.196
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 705]
 fill = "#1987ffff"
 fill_share = 0.744
+fill_grey_delta = 0
+edge_grey_delta = 0.969
 stroke = "absent"
 edge_top = ["#1988fffe", "#1987ffff"]
 edge_right = ["#1988fffe", "#1987ffff"]
@@ -2550,13 +3123,17 @@ corner_bottom_right = { insets_px = [9.757, 7.647, 5.953, 4.686, 3.663, 2.847, 2
 corner_bottom_left = { insets_px = [9.739, 7.639, 5.937, 4.694, 3.651, 2.859, 2.22, 1.486, 1.161, 0.627, 0.314, 0.141, 0.063, 0.0, 0.0], radius_px = 13.75, rms_px = 0.161, radius = { full = { maximum_px = "absent" } } }
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 444]
 fill = "#1987ffff"
 fill_share = 0.802
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2568,13 +3145,17 @@ corner_bottom_right = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radius_px = 3.25, rms_px = 0.051, radius = "3.25px" }
 icon = "#d4e8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.small-icon_only]
 drawn_box = [170, 350, 35, 20, 690]
 fill = "#1987ffff"
 fill_share = 0.855
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2586,13 +3167,17 @@ corner_bottom_right = { insets_px = [2.569, 1.173, 0.396, 0.145, 0.039, 0.0, 0.0
 corner_bottom_left = { insets_px = [2.608, 1.235, 0.404, 0.145, 0.039, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.043, radius = "4.5px" }
 icon = "#e3f0ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 972]
 fill = "#1987ffff"
 fill_share = 0.876
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2604,13 +3189,17 @@ corner_bottom_right = { insets_px = [3.29, 1.69, 0.894, 0.318, 0.122, 0.055, 0.0
 corner_bottom_left = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0.0, 0.0], radius_px = 5.5, rms_px = 0.047, radius = "5.5px" }
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1136]
 fill = "#1987ffff"
 fill_share = 0.846
+fill_grey_delta = 0
+edge_grey_delta = 0.918
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1887fffc", "#1987ffff"]
@@ -2622,13 +3211,17 @@ corner_bottom_right = { insets_px = [10.38, 7.337, 5.647, 4.427, 3.416, 2.549, 1
 corner_bottom_left = { insets_px = [10.363, 7.357, 5.631, 4.435, 3.408, 2.561, 1.969, 1.329, 0.992, 0.463, 0.224, 0.106, 0.031, 0.0], radius_px = 13.5, rms_px = 0.1, radius = { full = { maximum_px = "absent" } } }
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1688]
 fill = "#1987ffff"
 fill_share = 0.865
+fill_grey_delta = 1.184
+edge_grey_delta = 0.776
 stroke = "absent"
 edge_top = ["#1987fffe", "#1987ffff"]
 edge_right = ["#1887fffc", "#1987ffff"]
@@ -2640,13 +3233,17 @@ corner_bottom_right = { insets_px = [14.017, 10.584, 8.529, 6.933, 5.749, 4.702,
 corner_bottom_left = { insets_px = [14.041, 10.553, 8.541, 6.953, 5.733, 4.714, 3.863, 3.212, 2.408, 1.918, 1.361, 1.118, 0.608, 0.322, 0.161, 0.075, 0.024, 0.0], radius_px = 17.5, rms_px = 0.131, radius = { full = { maximum_px = "absent" } } }
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 956]
 fill = "#1987ffff"
 fill_share = 0.699
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2658,15 +3255,20 @@ corner_bottom_right = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [1.718, 0.576, 0.153, 0.055, 0.0, 0.0], radius_px = 3.25, rms_px = 0.051, radius = "3.25px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#d4e8ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1428]
 fill = "#1987ffff"
 fill_share = 0.738
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2678,15 +3280,20 @@ corner_bottom_right = { insets_px = [2.608, 1.235, 0.404, 0.145, 0.039, 0.024, 0
 corner_bottom_left = { insets_px = [2.608, 1.235, 0.404, 0.145, 0.039, 0.024, 0.0, 0.0], radius_px = 4.5, rms_px = 0.043, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#e3f0ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 2004]
 fill = "#1987ffff"
 fill_share = 0.779
+fill_grey_delta = 0
+edge_grey_delta = 0
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1987ffff", "#1987ffff"]
@@ -2698,15 +3305,20 @@ corner_bottom_right = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0
 corner_bottom_left = { insets_px = [3.318, 1.659, 0.929, 0.318, 0.122, 0.055, 0.0, 0.0], radius_px = 5.5, rms_px = 0.047, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2340]
 fill = "#1987ffff"
 fill_share = 0.795
+fill_grey_delta = 0
+edge_grey_delta = 0.918
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1887fffc", "#1987ffff"]
@@ -2718,15 +3330,20 @@ corner_bottom_right = { insets_px = [10.635, 7.357, 5.631, 4.435, 3.408, 2.561, 
 corner_bottom_left = { insets_px = [10.635, 7.357, 5.631, 4.435, 3.408, 2.561, 1.969, 1.329, 0.992, 0.463, 0.224, 0.106, 0.031, 0.0], radius_px = 13.5, rms_px = 0.164, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.pressed.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3236]
 fill = "#1987ffff"
 fill_share = 0.839
+fill_grey_delta = 0.969
+edge_grey_delta = 0.184
 stroke = "absent"
 edge_top = ["#1987ffff", "#1987ffff"]
 edge_right = ["#1887fffd", "#1987ffff"]
@@ -2738,15 +3355,20 @@ corner_bottom_right = { insets_px = [14.655, 10.58, 8.541, 6.953, 5.733, 4.714, 
 corner_bottom_left = { insets_px = [14.655, 10.58, 8.541, 6.953, 5.733, 4.714, 3.863, 3.212, 2.404, 1.918, 1.361, 1.118, 0.608, 0.322, 0.161, 0.075, 0.024, 0.0], radius_px = 17.75, rms_px = 0.247, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 1
+label_grey_delta = 0
 icon = "#f3f9ffff"
 icon_pixels = 1
+icon_grey_delta = 0
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.mini-capsule]
 drawn_box = [20, 74, 46, 13, 566]
 fill = "#ffffff0a"
 fill_share = 0.635
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2758,13 +3380,17 @@ corner_bottom_right = { insets_px = [4.5, 2.4, 1.5, 5.227, 2.857, 0.2, 3.375], r
 corner_bottom_left = { insets_px = [4.5, 2.4, 1.5, 5.0, 2.571, 0.2, 3.0], radius_px = 8.5, rms_px = 1.922, radius = "8.5px" }
 label = "#ffffff3f"
 label_pixels = 17
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.small-capsule]
 drawn_box = [170, 70, 55, 20, 1028]
 fill = "#ffffff0a"
 fill_share = 0.743
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2776,13 +3402,17 @@ corner_bottom_right = { insets_px = [8.0, 4.8, 3.5, 2.5, 1.6, 1.1, 2.846, 5.6, 0
 corner_bottom_left = { insets_px = [8.0, 4.8, 3.5, 2.5, 1.6, 1.1, 2.769, 5.2, 0.2, 1.667], radius_px = 11.25, rms_px = 1.682, radius = "11.25px" }
 label = "#ffffff3f"
 label_pixels = 50
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1448]
 fill = "#ffffff0a"
 fill_share = 0.775
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2794,13 +3424,17 @@ corner_bottom_right = { insets_px = [10.0, 6.4, 4.7, 3.5, 2.5, 1.9, 1.4, 3.692, 
 corner_bottom_left = { insets_px = [10.0, 6.4, 4.7, 3.5, 2.5, 1.9, 1.4, 3.692, 7.318, 0.3, 0.2, 0.0], radius_px = 13.5, rms_px = 2.046, radius = "13.5px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.large-capsule]
 drawn_box = [470, 66, 69, 28, 1768]
 fill = "#ffffff0a"
 fill_share = 0.809
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2812,13 +3446,17 @@ corner_bottom_right = { insets_px = [12.3, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.2, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 6.471, 0.3, 0.2, 0.0], radius_px = 15.0, rms_px = 1.607, radius = "15px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2500]
 fill = "#ffffff0a"
 fill_share = 0.842
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2830,13 +3468,17 @@ corner_bottom_right = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2
 corner_bottom_left = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2.7, 2.2, 1.6, 1.3, 0.8, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 18.75, rms_px = 0.58, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 586]
 fill = "#ffffff0a"
 fill_share = 0.635
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2848,13 +3490,17 @@ corner_bottom_right = { insets_px = [2.3, 0.9, 0.4, 4.368, 2.154, 0.0, 3.375], r
 corner_bottom_left = { insets_px = [2.3, 0.9, 0.4, 4.105, 1.923, 0.0, 3.0], radius_px = 5.5, rms_px = 2.008, radius = "5.5px" }
 label = "#ffffff3f"
 label_pixels = 17
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1080]
 fill = "#ffffff0a"
 fill_share = 0.757
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2866,13 +3512,17 @@ corner_bottom_right = { insets_px = [3.2, 1.5, 0.7, 0.4, 0.2, 0.1, 2.385, 5.4, 0
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 2.308, 5.0, 0.0, 1.667], radius_px = 5.25, rms_px = 1.823, radius = "5.25px" }
 label = "#ffffff3f"
 label_pixels = 50
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1536]
 fill = "#ffffff0a"
 fill_share = 0.795
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2884,13 +3534,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 5.778, 0.0, 0.0], radius_px = 6.25, rms_px = 1.745, radius = "6.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1900]
 fill = "#ffffff0a"
 fill_share = 0.84
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2902,13 +3556,17 @@ corner_bottom_right = { insets_px = [4.9, 2.7, 1.5, 1.0, 0.5, 0.3, 0.2, 0.2, 0.0
 corner_bottom_left = { insets_px = [5.0, 2.7, 1.5, 1.0, 0.5, 0.3, 0.2, 0.2, 0.0, 0.0], radius_px = 7.25, rms_px = 0.155, radius = "7.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2704]
 fill = "#ffffff0a"
 fill_share = 0.891
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2920,8 +3578,10 @@ corner_bottom_right = { insets_px = [7.0, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2
 corner_bottom_left = { insets_px = [7.0, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2, 0.2, 0.1, 0.0, 0.0], radius_px = 9.25, rms_px = 0.197, radius = "9.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.mini-circle]
 drawn_box = [22, 188, 10, 8, 62]
@@ -2929,11 +3589,14 @@ fill = "non_uniform"
 fill_share = 0.208
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.51
 
 [key.default_c.darkAqua.disabled.small-circle]
 drawn_box = [173, 185, 15, 14, 158]
 fill = "#ffffff0a"
 fill_share = 0.4
+fill_grey_delta = 0.478
+edge_grey_delta = 0.49
 edge_top = ["#ffffff0a", "#ffffff15"]
 stroke_top = "unclassified"
 edge_right = ["#ffffff05", "#ffffff0a"]
@@ -2948,13 +3611,17 @@ corner_bottom_right = { insets_px = [4.875, 3.778, 3.627, 3.138, 1.0, 0.7, 0.5],
 corner_bottom_left = { insets_px = [4.75, 2.944, 2.902, 2.552, 1.0, 0.7, 0.5], radius_px = 8.25, rms_px = 0.608, radius = "8.25px" }
 icon = "#ffffff37"
 icon_pixels = 2
+icon_grey_delta = 0.616
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.regular-circle]
 drawn_box = [324, 184, 17, 17, 241]
 fill = "#ffffff0a"
 fill_share = 0.509
+fill_grey_delta = 0.522
+edge_grey_delta = 0.055
 edge_top = ["#ffffff0a", "#ffffff1c"]
 stroke_top = "unclassified"
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2969,13 +3636,17 @@ corner_bottom_right = { insets_px = [5.444, 3.7, 2.846, 3.038, 2.571, 0.909, 0.3
 corner_bottom_left = { insets_px = [5.556, 3.7, 2.615, 2.423, 2.524, 0.818, 0.3, 0.1, 0.0], radius_px = 9.0, rms_px = 0.539, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.large-circle]
 drawn_box = [474, 182, 21, 21, 357]
 fill = "#ffffff0a"
 fill_share = 0.668
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -2987,13 +3658,17 @@ corner_bottom_right = { insets_px = [7.333, 5.1, 3.8, 2.6, 1.9, 1.4, 1.182, 0.5,
 corner_bottom_left = { insets_px = [7.333, 5.1, 3.8, 2.7, 1.9, 1.4, 1.091, 0.5, 0.2, 0.1, 0.0], radius_px = 10.5, rms_px = 0.113, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 673]
 fill = "#ffffff0a"
 fill_share = 0.774
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3005,13 +3680,17 @@ corner_bottom_right = { insets_px = [10.667, 8.1, 6.3, 5.1, 4.1, 3.1, 2.5, 1.7, 
 corner_bottom_left = { insets_px = [10.667, 8.1, 6.3, 5.1, 4.0, 3.1, 2.5, 1.7, 1.4, 0.8, 0.5, 0.4, 0.2, 0.0, 0.0], radius_px = 14.5, rms_px = 0.096, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 436]
 fill = "#ffffff0a"
 fill_share = 0.816
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3023,13 +3702,17 @@ corner_bottom_right = { insets_px = [2.3, 0.9, 0.4, 0.2, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [2.3, 0.9, 0.4, 0.2, 0.0, 0.0], radius_px = 4.25, rms_px = 0.08, radius = "4.25px" }
 icon = "#ffffff33"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.small-icon_only]
 drawn_box = [170, 350, 35, 20, 680]
 fill = "#ffffff0a"
 fill_share = 0.859
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3041,13 +3724,17 @@ corner_bottom_right = { insets_px = [3.2, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 5.25, rms_px = 0.121, radius = "5.25px" }
 icon = "#ffffff37"
 icon_pixels = 2
+icon_grey_delta = 0.616
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 960]
 fill = "#ffffff0a"
 fill_share = 0.886
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3059,13 +3746,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 0.0], radius_px = 6.25, rms_px = 0.109, radius = "6.25px" }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1096]
 fill = "#ffffff0a"
 fill_share = 0.866
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3077,13 +3768,17 @@ corner_bottom_right = { insets_px = [11.667, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 
 corner_bottom_left = { insets_px = [11.556, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 0.5, 0.3, 0.2, 0.0], radius_px = 14.25, rms_px = 0.241, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1640]
 fill = "#ffffff0a"
 fill_share = 0.87
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3095,13 +3790,17 @@ corner_bottom_right = { insets_px = [15.667, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5,
 corner_bottom_left = { insets_px = [15.667, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2.7, 2.2, 1.6, 1.3, 0.8, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 18.5, rms_px = 0.344, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 948]
 fill = "#ffffff0a"
 fill_share = 0.716
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3113,15 +3812,20 @@ corner_bottom_right = { insets_px = [2.3, 0.9, 0.4, 2.231, 1.5, 0.0, 0.0], radiu
 corner_bottom_left = { insets_px = [2.3, 0.9, 0.4, 2.462, 1.75, 0.0, 0.0], radius_px = 4.75, rms_px = 1.111, radius = "4.75px" }
 label = "#ffffff3f"
 label_pixels = 17
+label_grey_delta = 0.373
 icon = "#ffffff33"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1420]
 fill = "#ffffff0a"
 fill_share = 0.754
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3133,15 +3837,20 @@ corner_bottom_right = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 2.385, 1.667,
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 3.0, 2.25, 0.0, 0.0], radius_px = 5.25, rms_px = 1.191, radius = "5.25px" }
 label = "#ffffff3f"
 label_pixels = 50
+label_grey_delta = 0.373
 icon = "#ffffff37"
 icon_pixels = 2
+icon_grey_delta = 0.616
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 1992]
 fill = "#ffffff0a"
 fill_share = 0.791
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3153,15 +3862,20 @@ corner_bottom_right = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 5.778, 0
 corner_bottom_left = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 7.056, 0.0, 0.0], radius_px = 6.25, rms_px = 2.234, radius = "6.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2300]
 fill = "#ffffff0a"
 fill_share = 0.811
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3173,15 +3887,20 @@ corner_bottom_right = { insets_px = [12.2, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.2, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 7.765, 0.5, 0.3, 0.2, 0.0], radius_px = 15.25, rms_px = 1.847, radius = "15.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3184]
 fill = "#ffffff0a"
 fill_share = 0.846
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3193,15 +3912,20 @@ corner_bottom_right = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2
 corner_bottom_left = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2.7, 2.2, 1.6, 1.3, 0.8, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 18.75, rms_px = 0.58, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.mini-capsule]
 drawn_box = [20, 74, 46, 13, 566]
 fill = "#ffffff0a"
 fill_share = 0.635
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3213,13 +3937,17 @@ corner_bottom_right = { insets_px = [4.5, 2.4, 1.5, 5.227, 2.857, 0.2, 3.375], r
 corner_bottom_left = { insets_px = [4.5, 2.4, 1.5, 5.0, 2.571, 0.2, 3.0], radius_px = 8.5, rms_px = 1.922, radius = "8.5px" }
 label = "#ffffff3f"
 label_pixels = 17
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.small-capsule]
 drawn_box = [170, 70, 55, 20, 1028]
 fill = "#ffffff0a"
 fill_share = 0.743
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3231,13 +3959,17 @@ corner_bottom_right = { insets_px = [8.0, 4.8, 3.5, 2.5, 1.6, 1.1, 2.846, 5.6, 0
 corner_bottom_left = { insets_px = [8.0, 4.8, 3.5, 2.5, 1.6, 1.1, 2.769, 5.2, 0.2, 1.667], radius_px = 11.25, rms_px = 1.682, radius = "11.25px" }
 label = "#ffffff3f"
 label_pixels = 50
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.regular-capsule]
 drawn_box = [320, 68, 65, 24, 1448]
 fill = "#ffffff0a"
 fill_share = 0.775
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3249,13 +3981,17 @@ corner_bottom_right = { insets_px = [10.0, 6.4, 4.7, 3.5, 2.5, 1.9, 1.4, 3.692, 
 corner_bottom_left = { insets_px = [10.0, 6.4, 4.7, 3.5, 2.5, 1.9, 1.4, 3.692, 7.318, 0.3, 0.2, 0.0], radius_px = 13.5, rms_px = 2.046, radius = "13.5px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.large-capsule]
 drawn_box = [470, 66, 69, 28, 1768]
 fill = "#ffffff0a"
 fill_share = 0.809
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3267,13 +4003,17 @@ corner_bottom_right = { insets_px = [12.3, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.2, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 6.471, 0.3, 0.2, 0.0], radius_px = 15.0, rms_px = 1.607, radius = "15px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.extraLarge-capsule]
 drawn_box = [620, 62, 77, 36, 2500]
 fill = "#ffffff0a"
 fill_share = 0.842
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3285,13 +4025,17 @@ corner_bottom_right = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2
 corner_bottom_left = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2.7, 2.2, 1.6, 1.3, 0.8, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 18.75, rms_px = 0.58, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.mini-rounded_rectangle]
 drawn_box = [20, 130, 46, 13, 586]
 fill = "#ffffff0a"
 fill_share = 0.635
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3303,13 +4047,17 @@ corner_bottom_right = { insets_px = [2.3, 0.9, 0.4, 4.368, 2.154, 0.0, 3.375], r
 corner_bottom_left = { insets_px = [2.3, 0.9, 0.4, 4.105, 1.923, 0.0, 3.0], radius_px = 5.5, rms_px = 2.008, radius = "5.5px" }
 label = "#ffffff3f"
 label_pixels = 17
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.small-rounded_rectangle]
 drawn_box = [170, 126, 55, 20, 1080]
 fill = "#ffffff0a"
 fill_share = 0.757
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3321,13 +4069,17 @@ corner_bottom_right = { insets_px = [3.2, 1.5, 0.7, 0.4, 0.2, 0.1, 2.385, 5.4, 0
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 2.308, 5.0, 0.0, 1.667], radius_px = 5.25, rms_px = 1.823, radius = "5.25px" }
 label = "#ffffff3f"
 label_pixels = 50
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.regular-rounded_rectangle]
 drawn_box = [320, 124, 65, 24, 1536]
 fill = "#ffffff0a"
 fill_share = 0.795
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3339,13 +4091,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 5.778, 0.0, 0.0], radius_px = 6.25, rms_px = 1.745, radius = "6.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.large-rounded_rectangle]
 drawn_box = [470, 122, 69, 28, 1900]
 fill = "#ffffff0a"
 fill_share = 0.84
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3357,13 +4113,17 @@ corner_bottom_right = { insets_px = [4.9, 2.7, 1.5, 1.0, 0.5, 0.3, 0.2, 0.2, 0.0
 corner_bottom_left = { insets_px = [5.0, 2.7, 1.5, 1.0, 0.5, 0.3, 0.2, 0.2, 0.0, 0.0], radius_px = 7.25, rms_px = 0.155, radius = "7.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.extraLarge-rounded_rectangle]
 drawn_box = [620, 118, 77, 36, 2704]
 fill = "#ffffff0a"
 fill_share = 0.891
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3375,8 +4135,10 @@ corner_bottom_right = { insets_px = [7.0, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2
 corner_bottom_left = { insets_px = [7.0, 4.0, 2.9, 1.9, 1.3, 0.7, 0.5, 0.3, 0.2, 0.2, 0.1, 0.0, 0.0], radius_px = 9.25, rms_px = 0.197, radius = "9.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.mini-circle]
 drawn_box = [22, 188, 10, 8, 62]
@@ -3384,11 +4146,14 @@ fill = "non_uniform"
 fill_share = 0.208
 shadow = "drawn"
 shadow_pixels = 4
+shadow_grey_delta = 0.51
 
 [key.default_c.darkAqua.disabled_pressed.small-circle]
 drawn_box = [173, 185, 15, 14, 158]
 fill = "#ffffff0a"
 fill_share = 0.4
+fill_grey_delta = 0.478
+edge_grey_delta = 0.49
 edge_top = ["#ffffff0a", "#ffffff15"]
 stroke_top = "unclassified"
 edge_right = ["#ffffff05", "#ffffff0a"]
@@ -3403,13 +4168,17 @@ corner_bottom_right = { insets_px = [4.875, 3.778, 3.627, 3.138, 1.0, 0.7, 0.5],
 corner_bottom_left = { insets_px = [4.75, 2.944, 2.902, 2.552, 1.0, 0.7, 0.5], radius_px = 8.25, rms_px = 0.608, radius = "8.25px" }
 icon = "#ffffff37"
 icon_pixels = 2
+icon_grey_delta = 0.616
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.regular-circle]
 drawn_box = [324, 184, 17, 17, 241]
 fill = "#ffffff0a"
 fill_share = 0.509
+fill_grey_delta = 0.522
+edge_grey_delta = 0.055
 edge_top = ["#ffffff0a", "#ffffff1c"]
 stroke_top = "unclassified"
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3424,13 +4193,17 @@ corner_bottom_right = { insets_px = [5.444, 3.7, 2.846, 3.038, 2.571, 0.909, 0.3
 corner_bottom_left = { insets_px = [5.556, 3.7, 2.615, 2.423, 2.524, 0.818, 0.3, 0.1, 0.0], radius_px = 9.0, rms_px = 0.539, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.large-circle]
 drawn_box = [474, 182, 21, 21, 357]
 fill = "#ffffff0a"
 fill_share = 0.668
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3442,13 +4215,17 @@ corner_bottom_right = { insets_px = [7.333, 5.1, 3.8, 2.6, 1.9, 1.4, 1.182, 0.5,
 corner_bottom_left = { insets_px = [7.333, 5.1, 3.8, 2.7, 1.9, 1.4, 1.091, 0.5, 0.2, 0.1, 0.0], radius_px = 10.5, rms_px = 0.113, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.extraLarge-circle]
 drawn_box = [624, 178, 29, 29, 673]
 fill = "#ffffff0a"
 fill_share = 0.774
+fill_grey_delta = 0.984
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3460,13 +4237,17 @@ corner_bottom_right = { insets_px = [10.667, 8.1, 6.3, 5.1, 4.1, 3.1, 2.5, 1.7, 
 corner_bottom_left = { insets_px = [10.667, 8.1, 6.3, 5.1, 4.0, 3.1, 2.5, 1.7, 1.4, 0.8, 0.5, 0.4, 0.2, 0.0, 0.0], radius_px = 14.5, rms_px = 0.096, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.mini-icon_only]
 drawn_box = [20, 352, 28, 16, 436]
 fill = "#ffffff0a"
 fill_share = 0.816
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3478,13 +4259,17 @@ corner_bottom_right = { insets_px = [2.3, 0.9, 0.4, 0.2, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [2.3, 0.9, 0.4, 0.2, 0.0, 0.0], radius_px = 4.25, rms_px = 0.08, radius = "4.25px" }
 icon = "#ffffff33"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.small-icon_only]
 drawn_box = [170, 350, 35, 20, 680]
 fill = "#ffffff0a"
 fill_share = 0.859
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3496,13 +4281,17 @@ corner_bottom_right = { insets_px = [3.2, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 0.0, 0.0], radius_px = 5.25, rms_px = 0.121, radius = "5.25px" }
 icon = "#ffffff37"
 icon_pixels = 2
+icon_grey_delta = 0.616
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.regular-icon_only]
 drawn_box = [320, 348, 41, 24, 960]
 fill = "#ffffff0a"
 fill_share = 0.886
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3514,13 +4303,17 @@ corner_bottom_right = { insets_px = [4.1, 2.1, 1.2, 0.5, 0.3, 0.2, 0.0, 0.0], ra
 corner_bottom_left = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 0.0, 0.0], radius_px = 6.25, rms_px = 0.109, radius = "6.25px" }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.large-icon_only]
 drawn_box = [470, 346, 45, 28, 1096]
 fill = "#ffffff0a"
 fill_share = 0.866
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3532,13 +4325,17 @@ corner_bottom_right = { insets_px = [11.667, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 
 corner_bottom_left = { insets_px = [11.556, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 0.7, 0.5, 0.3, 0.2, 0.0], radius_px = 14.25, rms_px = 0.241, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.extraLarge-icon_only]
 drawn_box = [620, 342, 53, 36, 1640]
 fill = "#ffffff0a"
 fill_share = 0.87
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3550,13 +4347,17 @@ corner_bottom_right = { insets_px = [15.667, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5,
 corner_bottom_left = { insets_px = [15.667, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2.7, 2.2, 1.6, 1.3, 0.8, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 18.5, rms_px = 0.344, radius = { full = { maximum_px = "absent" } } }
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.mini-with_icon]
 drawn_box = [20, 408, 60, 16, 948]
 fill = "#ffffff0a"
 fill_share = 0.716
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3568,15 +4369,20 @@ corner_bottom_right = { insets_px = [2.3, 0.9, 0.4, 2.231, 1.5, 0.0, 0.0], radiu
 corner_bottom_left = { insets_px = [2.3, 0.9, 0.4, 2.462, 1.75, 0.0, 0.0], radius_px = 4.75, rms_px = 1.111, radius = "4.75px" }
 label = "#ffffff3f"
 label_pixels = 17
+label_grey_delta = 0.373
 icon = "#ffffff33"
 icon_pixels = 1
+icon_grey_delta = 0.608
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.small-with_icon]
 drawn_box = [170, 406, 72, 20, 1420]
 fill = "#ffffff0a"
 fill_share = 0.754
+fill_grey_delta = 0.478
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3588,15 +4394,20 @@ corner_bottom_right = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 2.385, 1.667,
 corner_bottom_left = { insets_px = [3.4, 1.5, 0.7, 0.4, 0.2, 0.1, 3.0, 2.25, 0.0, 0.0], radius_px = 5.25, rms_px = 1.191, radius = "5.25px" }
 label = "#ffffff3f"
 label_pixels = 50
+label_grey_delta = 0.373
 icon = "#ffffff37"
 icon_pixels = 2
+icon_grey_delta = 0.616
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.regular-with_icon]
 drawn_box = [320, 404, 84, 24, 1992]
 fill = "#ffffff0a"
 fill_share = 0.791
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3608,15 +4419,20 @@ corner_bottom_right = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 5.778, 0
 corner_bottom_left = { insets_px = [4.0, 2.0, 1.2, 0.5, 0.3, 0.2, 0.1, 7.056, 0.0, 0.0], radius_px = 6.25, rms_px = 2.234, radius = "6.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.large-with_icon]
 drawn_box = [470, 402, 88, 28, 2300]
 fill = "#ffffff0a"
 fill_share = 0.811
+fill_grey_delta = 1.016
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3628,15 +4444,20 @@ corner_bottom_right = { insets_px = [12.2, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.
 corner_bottom_left = { insets_px = [12.2, 7.9, 6.0, 4.9, 3.9, 2.9, 2.3, 1.5, 1.2, 7.765, 0.5, 0.3, 0.2, 0.0], radius_px = 15.25, rms_px = 1.847, radius = "15.25px" }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [key.default_c.darkAqua.disabled_pressed.extraLarge-with_icon]
 drawn_box = [620, 398, 96, 36, 3184]
 fill = "#ffffff0a"
 fill_share = 0.846
+fill_grey_delta = 0.522
+edge_grey_delta = 0.02
 stroke = "absent"
 edge_top = ["#ffffff0a", "#ffffff0a"]
 edge_right = ["#ffffff0a", "#ffffff0a"]
@@ -3648,7 +4469,10 @@ corner_bottom_right = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2
 corner_bottom_left = { insets_px = [16.8, 11.3, 9.0, 7.3, 6.1, 5.1, 4.1, 3.5, 2.7, 2.2, 1.6, 1.3, 0.8, 0.5, 0.4, 0.2, 0.1, 0.0], radius_px = 18.75, rms_px = 0.58, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff3f"
 label_pixels = 66
+label_grey_delta = 0.373
 icon = "#ffffff3b"
 icon_pixels = 2
+icon_grey_delta = 0.631
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
