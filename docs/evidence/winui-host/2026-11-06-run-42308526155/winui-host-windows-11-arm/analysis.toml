@@ -1,0 +1,79 @@
+# Output of analysis/read_host.py (its docstring is the method), file analysis.toml.
+# input_image: every file it reads, as a repository path (spec S17 *`evidence`*).
+input_image = ["docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/frames.toml", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/text-default.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_ltr.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_mixed.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_mixed_end.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_red_to_translucent_blue.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_translucent_green_to_red.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_black_to_white.csv"]
+
+[button.primary]
+padding_top_px = 6
+padding_right_px = 12
+padding_bottom_px = 7
+padding_left_px = 12
+stroke_top_width_px = 1
+stroke_right_width_px = 1
+stroke_bottom_width_px = 1
+stroke_left_width_px = 1
+focus_offset_top_px = 1
+focus_offset_right_px = 1
+focus_offset_bottom_px = 1
+focus_offset_left_px = 1
+label_font_family = "Segoe UI Variable"
+label_font_size_px = 14
+label_font_weight = 400
+
+[button.dialog_default]
+padding_top_px = 6
+padding_right_px = 12
+padding_bottom_px = 7
+padding_left_px = 12
+stroke_top_width_px = 1
+stroke_right_width_px = 1
+stroke_bottom_width_px = 1
+stroke_left_width_px = 1
+focus_offset_top_px = 1
+focus_offset_right_px = 1
+focus_offset_bottom_px = 1
+focus_offset_left_px = 1
+label_font_family = "Segoe UI Variable"
+label_font_size_px = 14
+label_font_weight = 400
+
+[caret]
+caret_ltr_columns = [32]
+caret_ltr_carets = 1
+caret_mixed_columns = [34]
+caret_mixed_carets = 1
+caret_mixed_end_columns = [61]
+caret_mixed_end_carets = 1
+width_px = 1
+secondary = "absent"
+
+[text_rendering]
+grey_pixels = 19740
+coloured_pixels = 0
+matches_host_counts = true
+antialiasing = "grayscale"
+monitor_equals_default = true
+subpixel_order = "rgb"
+gamma = 1.8
+contrast = 0.5
+grayscale_enhanced_contrast = 1.0
+
+[fallbacks]
+same_as_no_base = true
+per_language = { "en-US" = ["Segoe UI"], "el-GR" = ["Segoe UI"], "ru-RU" = ["Segoe UI"], "ar-SA" = ["Segoe UI"], "fa-IR" = ["Segoe UI"], "he-IL" = ["Segoe UI"], "hi-IN" = ["Nirmala UI"], "bn-IN" = ["Nirmala UI"], "ta-IN" = ["Nirmala UI"], "th-TH" = ["Leelawadee UI"], "lo-LA" = ["Leelawadee UI"], "km-KH" = ["Leelawadee UI"], "my-MM" = ["Myanmar Text"], "si-LK" = ["Nirmala UI"], "hy-AM" = ["Segoe UI"], "ka-GE" = ["Segoe UI"], "am-ET" = ["Ebrima"], "ja-JP" = ["Yu Gothic UI"], "zh-CN" = ["Microsoft YaHei UI"], "zh-TW" = ["Microsoft JhengHei UI"], "zh-HK" = ["Microsoft JhengHei UI"], "ko-KR" = ["Malgun Gothic"] }
+
+[color_space]
+color_space_red_to_translucent_blue_straight_worst = 0.759
+color_space_red_to_translucent_blue_premultiplied_worst = 35.594
+color_space_red_to_translucent_blue_oklab_worst = 27.838
+color_space_translucent_green_to_red_straight_worst = 0.708
+color_space_translucent_green_to_red_premultiplied_worst = 16.201
+color_space_translucent_green_to_red_oklab_worst = 50.669
+color_space_black_to_white_straight_worst = 0.062
+color_space_black_to_white_premultiplied_worst = 0.062
+color_space_black_to_white_oklab_worst = 0.066
+space = "straight_srgb8"
+
+[scroll_into_view]
+scroll_into_view_focus_one_step = true
+scroll_into_view_focus_next_one_step = true
+duration_ms = 0

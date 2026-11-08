@@ -1,0 +1,28 @@
+# Output of analysis/read_focus.py (its docstring is the method), file focus-visible.toml.
+# input_image: every file it reads, as a repository path (spec S17 *`evidence`*).
+input_image = ["docs/evidence/android-host/2026-11-06-run-42307873328/measure/focus.toml", "docs/evidence/android-host/2026-11-06-run-42307873328/measure/focus-0-initial.png", "docs/evidence/android-host/2026-11-06-run-42307873328/measure/focus-1-tap.png", "docs/evidence/android-host/2026-11-06-run-42307873328/measure/focus-2-tab.png", "docs/evidence/android-host/2026-11-06-run-42307873328/measure/focus-3-tap-again.png"]
+focus_visible_when = { keyboard = {} }
+
+[step."0-initial"]
+focused = false
+in_touch_mode = true
+interactions = []
+differs_from_initial = 0
+
+[step."1-tap"]
+focused = false
+in_touch_mode = true
+interactions = ["Press", "Release"]
+differs_from_initial = 0
+
+[step."2-tab"]
+focused = true
+in_touch_mode = false
+interactions = ["Focus"]
+differs_from_initial = 11538
+
+[step."3-tap-again"]
+focused = false
+in_touch_mode = true
+interactions = ["Press", "Unfocus", "Release"]
+differs_from_initial = 0
