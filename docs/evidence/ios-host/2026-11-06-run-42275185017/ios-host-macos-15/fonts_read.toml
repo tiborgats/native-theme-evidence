@@ -1,0 +1,1054 @@
+# Output of analysis/fonts_read.py (its docstring is the method), file fonts_read.toml.
+# input_image: every file it reads, as a repository path (spec S17 *`evidence`*).
+input_image = ["docs/evidence/ios-host/2026-11-06-run-42275185017/ios-host-macos-15/measure1/index.toml"]
+
+[styles.large_title.regular]
+family = ".AppleSystemUIFont"
+size = 34.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTitle0"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 41.0
+
+[styles.large_title.tight]
+family = ".AppleSystemUIFont"
+size = 34.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortTitle0"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 39.0
+
+[styles.large_title.loose]
+family = ".AppleSystemUIFont"
+size = 34.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallTitle0"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 43.0
+
+[styles.large_title.bold]
+family = ".AppleSystemUIFont"
+size = 34.0
+name = ".SFUI-Bold"
+text_style = "UICTFontTextStyleEmphasizedTitle0"
+symbolic_traits = 2
+weight_trait = 0.4
+style = "normal"
+weight = 700
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 41.0
+
+[styles.title1.regular]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTitle1"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 34.0
+
+[styles.title1.tight]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortTitle1"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 32.0
+
+[styles.title1.loose]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallTitle1"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 36.0
+
+[styles.title1.bold]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Bold"
+text_style = "UICTFontTextStyleEmphasizedTitle1"
+symbolic_traits = 2
+weight_trait = 0.4
+style = "normal"
+weight = 700
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 34.0
+
+[styles.title2.regular]
+family = ".AppleSystemUIFont"
+size = 22.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTitle2"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 28.0
+
+[styles.title2.tight]
+family = ".AppleSystemUIFont"
+size = 22.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortTitle2"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 26.0
+
+[styles.title2.loose]
+family = ".AppleSystemUIFont"
+size = 22.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallTitle2"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 30.0
+
+[styles.title2.bold]
+family = ".AppleSystemUIFont"
+size = 22.0
+name = ".SFUI-Bold"
+text_style = "UICTFontTextStyleEmphasizedTitle2"
+symbolic_traits = 2
+weight_trait = 0.4
+style = "normal"
+weight = 700
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 28.0
+
+[styles.title3.regular]
+family = ".AppleSystemUIFont"
+size = 20.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTitle3"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 25.0
+
+[styles.title3.tight]
+family = ".AppleSystemUIFont"
+size = 20.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortTitle3"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 23.0
+
+[styles.title3.loose]
+family = ".AppleSystemUIFont"
+size = 20.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallTitle3"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 27.0
+
+[styles.title3.bold]
+family = ".AppleSystemUIFont"
+size = 20.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedTitle3"
+symbolic_traits = 2
+weight_trait = 0.4
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 25.0
+
+[styles.headline.regular]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleHeadline"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 22.001
+
+[styles.headline.tight]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleShortEmphasizedHeadline"
+symbolic_traits = 32770
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.001
+
+[styles.headline.loose]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleTallEmphasizedHeadline"
+symbolic_traits = 65538
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 24.001
+
+[styles.headline.bold]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedHeadline"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 22.001
+
+[styles.subheadline.regular]
+family = ".AppleSystemUIFont"
+size = 15.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleSubhead"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.0
+
+[styles.subheadline.tight]
+family = ".AppleSystemUIFont"
+size = 15.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortSubhead"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 18.0
+
+[styles.subheadline.loose]
+family = ".AppleSystemUIFont"
+size = 15.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleSubhead"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.0
+
+[styles.subheadline.bold]
+family = ".AppleSystemUIFont"
+size = 15.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedSubhead"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.0
+
+[styles.body.regular]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleBody"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 22.001
+
+[styles.body.tight]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortBody"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.001
+
+[styles.body.loose]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallBody"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 24.001
+
+[styles.body.bold]
+family = ".AppleSystemUIFont"
+size = 17.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedBody"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 22.001
+
+[styles.callout.regular]
+family = ".AppleSystemUIFont"
+size = 16.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleCallout"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.999
+
+[styles.callout.tight]
+family = ".AppleSystemUIFont"
+size = 16.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortCallout"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 18.999
+
+[styles.callout.loose]
+family = ".AppleSystemUIFont"
+size = 16.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallCallout"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 22.999
+
+[styles.callout.bold]
+family = ".AppleSystemUIFont"
+size = 16.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedCallout"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 20.999
+
+[styles.footnote.regular]
+family = ".AppleSystemUIFont"
+size = 13.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleFootnote"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 18.0
+
+[styles.footnote.tight]
+family = ".AppleSystemUIFont"
+size = 13.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortFootnote"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 16.0
+
+[styles.footnote.loose]
+family = ".AppleSystemUIFont"
+size = 13.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleFootnote"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 18.0
+
+[styles.footnote.bold]
+family = ".AppleSystemUIFont"
+size = 13.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedFootnote"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 18.0
+
+[styles.caption1.regular]
+family = ".AppleSystemUIFont"
+size = 12.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleCaption1"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 16.001
+
+[styles.caption1.tight]
+family = ".AppleSystemUIFont"
+size = 12.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortCaption1"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 14.001
+
+[styles.caption1.loose]
+family = ".AppleSystemUIFont"
+size = 12.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallCaption1"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 18.001
+
+[styles.caption1.bold]
+family = ".AppleSystemUIFont"
+size = 12.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedCaption1"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 16.001
+
+[styles.caption2.regular]
+family = ".AppleSystemUIFont"
+size = 11.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleCaption2"
+symbolic_traits = 0
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 13.0
+
+[styles.caption2.tight]
+family = ".AppleSystemUIFont"
+size = 11.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleShortCaption2"
+symbolic_traits = 32768
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 11.0
+
+[styles.caption2.loose]
+family = ".AppleSystemUIFont"
+size = 11.0
+name = ".SFUI-Regular"
+text_style = "UICTFontTextStyleTallCaption2"
+symbolic_traits = 65536
+weight_trait = 0.0
+style = "normal"
+weight = 400
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 15.0
+
+[styles.caption2.bold]
+family = ".AppleSystemUIFont"
+size = 11.0
+name = ".SFUI-Semibold"
+text_style = "UICTFontTextStyleEmphasizedCaption2"
+symbolic_traits = 2
+weight_trait = 0.3
+style = "normal"
+weight = 590
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 13.0
+
+[styles.extra_large_title.regular]
+family = ".AppleSystemUIFont"
+size = 36.0
+name = ".SFUI-Bold"
+text_style = "UICTFontTextStyleExtraLargeTitle"
+symbolic_traits = 2
+weight_trait = 0.4
+style = "normal"
+weight = 700
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 42.0
+
+[styles.extra_large_title.tight]
+family = ".AppleSystemUIFont"
+size = 36.0
+name = ".SFUI-Black"
+text_style = "UICTFontTextStyleEmphasizedExtraLargeTitle"
+symbolic_traits = 2
+weight_trait = 0.62
+style = "normal"
+weight = 1000
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 42.0
+
+[styles.extra_large_title.loose]
+family = ".AppleSystemUIFont"
+size = 36.0
+name = ".SFUI-Black"
+text_style = "UICTFontTextStyleEmphasizedExtraLargeTitle"
+symbolic_traits = 2
+weight_trait = 0.62
+style = "normal"
+weight = 1000
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 42.0
+
+[styles.extra_large_title.bold]
+family = ".AppleSystemUIFont"
+size = 36.0
+name = ".SFUI-Black"
+text_style = "UICTFontTextStyleEmphasizedExtraLargeTitle"
+symbolic_traits = 2
+weight_trait = 0.62
+style = "normal"
+weight = 1000
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 42.0
+
+[styles.extra_large_title2.regular]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Bold"
+text_style = "UICTFontTextStyleExtraLargeTitle2"
+symbolic_traits = 2
+weight_trait = 0.4
+style = "normal"
+weight = 700
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 34.0
+
+[styles.extra_large_title2.tight]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Black"
+text_style = "UICTFontTextStyleEmphasizedExtraLargeTitle2"
+symbolic_traits = 2
+weight_trait = 0.62
+style = "normal"
+weight = 1000
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 34.0
+
+[styles.extra_large_title2.loose]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Black"
+text_style = "UICTFontTextStyleEmphasizedExtraLargeTitle2"
+symbolic_traits = 2
+weight_trait = 0.62
+style = "normal"
+weight = 1000
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 34.0
+
+[styles.extra_large_title2.bold]
+family = ".AppleSystemUIFont"
+size = 28.0
+name = ".SFUI-Black"
+text_style = "UICTFontTextStyleEmphasizedExtraLargeTitle2"
+symbolic_traits = 2
+weight_trait = 0.62
+style = "normal"
+weight = 1000
+axes = { opsz = "follows_size" }
+features = {}
+line_height = 34.0
+
+[button_titles.light.plain.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.gray.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.tinted.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.filled.title]
+text = "Button"
+font_from = "font_style.31"
+font_detail_variation_equal = true
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.filled_subtitle.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.filled_subtitle.subtitle]
+text = "Subtitle"
+font_from = "font_style.41"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.system.title]
+text = "Button"
+font_from = "font_role.14"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_truncating_middle"
+number_of_lines = 1
+elision = "middle"
+wrap = "none"
+max_lines = 1
+
+[button_titles.light.filled_overlong_word.title]
+text = "Supercalifragilisticexpialidocious"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 4
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.filled_long_title.title]
+text = "A long title of several words"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 4
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.filled_long_subtitle.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.filled_long_subtitle.subtitle]
+text = "A long subtitle of several words"
+font_from = "font_style.41"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 4
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.plain.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.gray.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.tinted.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.filled.title]
+text = "Button"
+font_from = "font_style.31"
+font_detail_variation_equal = true
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.filled_subtitle.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.filled_subtitle.subtitle]
+text = "Subtitle"
+font_from = "font_style.41"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.system.title]
+text = "Button"
+font_from = "font_role.14"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_truncating_middle"
+number_of_lines = 1
+elision = "middle"
+wrap = "none"
+max_lines = 1
+
+[button_titles.dark.filled_overlong_word.title]
+text = "Supercalifragilisticexpialidocious"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 4
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.filled_long_title.title]
+text = "A long title of several words"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 4
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.filled_long_subtitle.title]
+text = "Button"
+font_from = "font_style.31"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 1
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.dark.filled_long_subtitle.subtitle]
+text = "A long subtitle of several words"
+font_from = "font_style.41"
+style = "normal"
+axes = { opsz = "follows_size" }
+features = {}
+lines = 4
+line_height = "auto"
+decoration = "absent"
+case = "mixed"
+line_break_mode = "by_word_wrapping"
+number_of_lines = 0
+elision = "none"
+wrap = "word_char"
+max_lines = "none"
+
+[button_titles.light.wrap_evidence]
+overlong_word = "Supercalifragilisticexpialidocious"
+overlong_word_lines = 4
+broken_inside_word = true
+
+[button_titles.dark.wrap_evidence]
+overlong_word = "Supercalifragilisticexpialidocious"
+overlong_word_lines = 4
+broken_inside_word = true
+
+[fallbacks]
+emoji_family = ".Apple Color Emoji UI"
+emoji_postscript_name = ".AppleColorEmojiUI"
+
+[rendering]
+antialiasing = "grayscale"
+captures = 18
+text_visible = 12
+chroma_over_2_total = 0
+min_distinct_colors = 218
