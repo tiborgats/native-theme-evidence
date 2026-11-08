@@ -14,7 +14,11 @@ It reads, under the image folder (`os-probe-macos-26`, the default, or `os-probe
 `layers-<pass>-<sheet>.toml` measure_button_layers.py wrote (each button's `drawn_box`, `fill` and `stroke_<side>`)
 and the layer PNGs it names in its `input_image`, and writes `tiebreak-corners.toml`, per
 `<pass>.<sheet>.<appearance>.<state>.<button>` where `fill` is a colour (or the outline rule holds), as the earlier
-script does.
+script does. Added by the macOS tie-break round 7 (2026-11-08), with measure_button_layers.py's grey captures: per
+corner, `grey_delta`, the largest byte difference of the layer composited over #808080 and the capture over grey
+(`<state>-over-grey.png`, named in the same `input_image`) at the corner square's pixels the fit reads (those
+`fit_corner` does not mask: the label's or another paint's), measure_button_layers.py's `grey_delta` rule; a corner
+whose layer is not one linear overlay there (more than 2 levels) is not read from it. Every other key is unchanged.
 
 It exits 1, writing nothing, when a file it needs is missing or not as expected.
 """
@@ -170,6 +174,36 @@ def fit_corner(square, fill, n, outline=False):
     return {"fit_px": round(best[0], 2), "rms": round(rms, 4), "area_px": round(area, 3), "masked": masked}
 
 
+def fit_points(square, fill, n, outline=False):
+    """The (row, column) of the corner square's pixels `fit_corner` reads (its mask rule, unchanged)."""
+    fr, fg, fb, fa = fill
+    pts = []
+    for j in range(n):
+        inside = False
+        for i in range(n):
+            r, g, b, a = square[j][i]
+            if outline and inside:
+                pts.append((j, i))
+                continue
+            if a > fa + 3 or (a >= fa / 2 and max(abs(r - fr), abs(g - fg), abs(b - fb)) > 8):
+                continue
+            if outline and a >= fa / 2:
+                inside = True
+            pts.append((j, i))
+    return pts
+
+
+def square_grey_delta(square, grey_square, pts):
+    """measure_button_layers.py's grey_delta over the square's points: the layer composited over 128 against grey."""
+    d = 0.0
+    for j, i in pts:
+        p, g = square[j][i], grey_square[j][i]
+        a = p[3] / 255
+        for c in range(3):
+            d = max(d, abs(p[c] * a + 128 * (1 - a) - g[c]))
+    return round(d, 3)
+
+
 def parse_fill(s):
     if not isinstance(s, str) or not s.startswith("#") or len(s) != 9:
         return None
@@ -192,6 +226,7 @@ def main() -> int:
         for lp in sorted(RUN.glob("layers-*.toml")):
             doc = tomllib.loads(lp.read_text())
             pngs = {p for p in doc["input_image"] if p.endswith("-layer.png")}
+            greys = {p for p in doc["input_image"] if p.endswith("-over-grey.png")}
             (pname,) = [k for k in doc if k != "input_image"]
             for sheet, apps in doc[pname].items():
                 for app in APPEARANCES:
@@ -200,6 +235,9 @@ def main() -> int:
                         (img,) = [p for p in pngs if p.endswith(f"/{app}/{sub}{state}-layer.png")]
                         _, _, rows = read_png(Path(img))
                         images.append(img)
+                        (gimg,) = [p for p in greys if p == img[:-len("-layer.png")] + "-over-grey.png"]
+                        _, _, grows = read_png(Path(gimg))
+                        images.append(gimg)
                         for button, m in buttons.items():
                             fill = parse_fill(m.get("fill"))
                             outline = False
@@ -217,11 +255,13 @@ def main() -> int:
                                 res["read_from"] = "outline"
                             fits = {}
                             for corner in CORNERS:
-                                f = fit_corner(corner_square(rows, (x, y, w, h), corner, n), fill, n, outline)
+                                sq = corner_square(rows, (x, y, w, h), corner, n)
+                                f = fit_corner(sq, fill, n, outline)
                                 if f is None:
                                     break
                                 fits[corner] = f
-                                res[corner] = f
+                                res[corner] = dict(f, grey_delta=square_grey_delta(
+                                    sq, corner_square(grows, (x, y, w, h), corner, n), fit_points(sq, fill, n, outline)))
                             if len(fits) < 4:
                                 res["radius"] = "unfit"
                             else:

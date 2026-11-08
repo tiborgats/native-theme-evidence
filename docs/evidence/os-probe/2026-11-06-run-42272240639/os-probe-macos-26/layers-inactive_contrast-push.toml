@@ -1,23 +1,33 @@
 # Output of analysis/measure_button_layers.py (its docstring is the method), file layers-inactive_contrast-push.toml.
-# input_image: every file this part reads (layers, the probe.toml files whose frames and cell rects
-# it takes, and the pass's settings.txt where it checks the pass's setting).
+# input_image: every file this part reads (layers, their captures over grey, the probe.toml files
+# whose frames and cell rects it takes, and the pass's settings.txt where it checks the pass's setting).
 input_image = [
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/probe.toml",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/settings.txt",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/normal-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/normal-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/pressed-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/disabled-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/disabled-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/disabled_pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/aqua/disabled_pressed-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/normal-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/normal-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/pressed-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/disabled-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/disabled-over-grey.png",
     "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/disabled_pressed-layer.png",
+    "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/button-pass-inactive-increase-contrast-on/darkAqua/disabled_pressed-over-grey.png",
 ]
 
 [inactive_contrast.push.aqua.normal.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#0000002c"
 fill_share = 0.748
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -32,13 +42,17 @@ corner_bottom_right = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, 
 corner_bottom_left = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_px = 0.455, radius = "3.75px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.043
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#0000002c"
 fill_share = 0.748
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -53,13 +67,17 @@ corner_bottom_right = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, 
 corner_bottom_left = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_px = 0.455, radius = "3.75px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.043
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#0000002c"
 fill_share = 0.748
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -74,13 +92,17 @@ corner_bottom_right = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, 
 corner_bottom_left = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_px = 0.455, radius = "3.75px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.043
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#0000005e"
 fill_share = 0.752
+fill_grey_delta = 0.816
+edge_grey_delta = 0.816
 edge_top = ["#000000ff", "#0000005e"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000005e"]
@@ -95,13 +117,17 @@ corner_bottom_right = { insets_px = [2.478, 0.447, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.478, 0.447, 0.0, 0.0], radius_px = 4.0, rms_px = 0.311, radius = "4px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.471
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#0000002c"
 fill_share = 0.771
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -116,13 +142,17 @@ corner_bottom_right = { insets_px = [3.486, 0.977, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.529, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.541
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#0000002c"
 fill_share = 0.771
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -137,13 +167,17 @@ corner_bottom_right = { insets_px = [3.486, 0.977, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.529, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.541
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#0000002c"
 fill_share = 0.771
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -158,13 +192,17 @@ corner_bottom_right = { insets_px = [3.486, 0.977, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.529, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.541
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1088]
 fill = "#0000005e"
 fill_share = 0.784
+fill_grey_delta = 0.816
+edge_grey_delta = 0.816
 edge_top = ["#000000ff", "#0000005e"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000005e"]
@@ -179,13 +217,17 @@ corner_bottom_right = { insets_px = [3.365, 0.968, 0.202, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.357, 1.0, 0.223, 0.0, 0.0], radius_px = 4.75, rms_px = 0.35, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.regular-plain]
 drawn_box = [20, 180, 65, 24, 1548]
 fill = "#0000002c"
 fill_share = 0.799
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -200,13 +242,17 @@ corner_bottom_right = { insets_px = [4.424, 1.386, 0.886, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.419, 1.295, 0.909, 0.0, 0.0], radius_px = 5.75, rms_px = 0.526, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.regular-default]
 drawn_box = [160, 180, 65, 24, 1548]
 fill = "#0000002c"
 fill_share = 0.799
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -221,13 +267,17 @@ corner_bottom_right = { insets_px = [4.424, 1.386, 0.886, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.419, 1.295, 0.909, 0.0, 0.0], radius_px = 5.75, rms_px = 0.526, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1548]
 fill = "#0000002c"
 fill_share = 0.799
+fill_grey_delta = 0.588
+edge_grey_delta = 22.588
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000d2", "#0000002c"]
@@ -242,13 +292,17 @@ corner_bottom_right = { insets_px = [4.424, 1.386, 0.886, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.419, 1.295, 0.909, 0.0, 0.0], radius_px = 5.75, rms_px = 0.526, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1548]
 fill = "#0000005e"
 fill_share = 0.802
+fill_grey_delta = 1.314
+edge_grey_delta = 0.816
 edge_top = ["#000000ff", "#0000005e"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000005e"]
@@ -263,13 +317,17 @@ corner_bottom_right = { insets_px = [4.255, 1.585, 0.894, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.255, 1.532, 0.904, 0.0, 0.0], radius_px = 5.75, rms_px = 0.422, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#0000002c"
 fill_share = 0.784
+fill_grey_delta = 0.91
+edge_grey_delta = 29.616
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000c4", "#00000034"]
@@ -284,13 +342,17 @@ corner_bottom_right = { insets_px = [12.062, 6.614, 5.0, 4.0, 3.0, 2.0, 1.682, 1
 corner_bottom_left = { insets_px = [12.029, 6.727, 5.0, 4.0, 3.0, 2.0, 1.636, 1.0, 0.795, 0.0, 0.0], radius_px = 13.25, rms_px = 0.749, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#0000002c"
 fill_share = 0.784
+fill_grey_delta = 0.91
+edge_grey_delta = 29.616
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000c4", "#00000034"]
@@ -305,13 +367,17 @@ corner_bottom_right = { insets_px = [12.062, 6.614, 5.0, 4.0, 3.0, 2.0, 1.682, 1
 corner_bottom_left = { insets_px = [12.029, 6.727, 5.0, 4.0, 3.0, 2.0, 1.636, 1.0, 0.795, 0.0, 0.0], radius_px = 13.25, rms_px = 0.749, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#0000002c"
 fill_share = 0.784
+fill_grey_delta = 0.91
+edge_grey_delta = 29.616
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000c4", "#00000034"]
@@ -326,13 +392,17 @@ corner_bottom_right = { insets_px = [12.062, 6.614, 5.0, 4.0, 3.0, 2.0, 1.682, 1
 corner_bottom_left = { insets_px = [12.029, 6.727, 5.0, 4.0, 3.0, 2.0, 1.636, 1.0, 0.795, 0.0, 0.0], radius_px = 13.25, rms_px = 0.749, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#0000005e"
 fill_share = 0.786
+fill_grey_delta = 1.812
+edge_grey_delta = 5.522
 edge_top = ["#000000ff", "#0000005e"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000f4", "#00000066"]
@@ -347,13 +417,17 @@ corner_bottom_right = { insets_px = [11.882, 6.777, 5.223, 4.0, 3.0, 2.191, 1.81
 corner_bottom_left = { insets_px = [11.867, 6.84, 5.213, 4.0, 3.0, 2.191, 1.787, 1.0, 0.883, 0.125, 0.0, 0.0], radius_px = 13.5, rms_px = 0.638, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2552]
 fill = "#0000002c"
 fill_share = 0.819
+fill_grey_delta = 17.91
+edge_grey_delta = 27.608
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000c8", "#00000032"]
@@ -368,13 +442,17 @@ corner_bottom_right = { insets_px = [16.054, 9.882, 8.0, 6.318, 5.0, 4.0, 3.364,
 corner_bottom_left = { insets_px = [16.059, 9.804, 8.0, 6.341, 5.0, 4.0, 3.341, 3.0, 2.0, 1.568, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.836, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2552]
 fill = "#0000002c"
 fill_share = 0.819
+fill_grey_delta = 17.91
+edge_grey_delta = 27.608
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000c8", "#00000032"]
@@ -389,13 +467,17 @@ corner_bottom_right = { insets_px = [16.054, 9.882, 8.0, 6.318, 5.0, 4.0, 3.364,
 corner_bottom_left = { insets_px = [16.059, 9.804, 8.0, 6.341, 5.0, 4.0, 3.341, 3.0, 2.0, 1.568, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.836, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2552]
 fill = "#0000002c"
 fill_share = 0.819
+fill_grey_delta = 17.91
+edge_grey_delta = 27.608
 edge_top = ["#000000d2", "#0000002c"]
 stroke_top = { width = 1, edge = "#000000d2" }
 edge_right = ["#000000c8", "#00000032"]
@@ -410,13 +492,17 @@ corner_bottom_right = { insets_px = [16.054, 9.882, 8.0, 6.318, 5.0, 4.0, 3.364,
 corner_bottom_left = { insets_px = [16.059, 9.804, 8.0, 6.341, 5.0, 4.0, 3.341, 3.0, 2.0, 1.568, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.836, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.normal.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2552]
 fill = "#0000005e"
 fill_share = 0.82
+fill_grey_delta = 29.812
+edge_grey_delta = 3.804
 edge_top = ["#000000ff", "#0000005e"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000f8", "#00000064"]
@@ -431,13 +517,17 @@ corner_bottom_right = { insets_px = [16.044, 10.01, 8.0, 6.596, 5.404, 4.372, 3.
 corner_bottom_left = { insets_px = [16.06, 9.979, 8.032, 6.617, 5.394, 4.394, 3.617, 3.0, 2.0, 1.745, 1.0, 1.0, 0.383, 0.0, 0.0], radius_px = 17.5, rms_px = 0.732, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#00000076"
 fill_share = 0.752
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -452,13 +542,17 @@ corner_bottom_right = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, 
 corner_bottom_left = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_px = 0.218, radius = "3.75px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#00000076"
 fill_share = 0.752
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -473,13 +567,17 @@ corner_bottom_right = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, 
 corner_bottom_left = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_px = 0.218, radius = "3.75px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#00000076"
 fill_share = 0.752
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -494,13 +592,17 @@ corner_bottom_right = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, 
 corner_bottom_left = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_px = 0.218, radius = "3.75px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#00000096"
 fill_share = 0.756
+fill_grey_delta = 1.204
+edge_grey_delta = 0.706
 edge_top = ["#000000ff", "#00000096"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000096"]
@@ -515,13 +617,17 @@ corner_bottom_right = { insets_px = [1.957, 0.5, 0.0, 0.0], radius_px = 3.5, rms
 corner_bottom_left = { insets_px = [1.957, 0.5, 0.0, 0.0], radius_px = 3.5, rms_px = 0.131, radius = "3.5px" }
 label = "#000000ff"
 label_pixels = 3
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.small-plain]
 drawn_box = [20, 126, 55, 20, 1090]
 fill = "#00000076"
 fill_share = 0.784
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -536,13 +642,17 @@ corner_bottom_right = { insets_px = [3.059, 0.966, 0.254, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.063, 1.0, 0.271, 0.0, 0.0], radius_px = 4.75, rms_px = 0.251, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.537
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.small-default]
 drawn_box = [160, 126, 55, 20, 1090]
 fill = "#00000076"
 fill_share = 0.784
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -557,13 +667,17 @@ corner_bottom_right = { insets_px = [3.059, 0.966, 0.254, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.063, 1.0, 0.271, 0.0, 0.0], radius_px = 4.75, rms_px = 0.251, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.537
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1090]
 fill = "#00000076"
 fill_share = 0.784
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -578,13 +692,17 @@ corner_bottom_right = { insets_px = [3.059, 0.966, 0.254, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.063, 1.0, 0.271, 0.0, 0.0], radius_px = 4.75, rms_px = 0.251, radius = "4.75px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.537
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1090]
 fill = "#00000096"
 fill_share = 0.792
+fill_grey_delta = 1.204
+edge_grey_delta = 0.706
 edge_top = ["#000000ff", "#00000096"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000096"]
@@ -599,13 +717,17 @@ corner_bottom_right = { insets_px = [2.776, 0.96, 0.307, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [2.824, 1.0, 0.327, 0.0, 0.0], radius_px = 4.5, rms_px = 0.164, radius = "4.5px" }
 label = "#000000ff"
 label_pixels = 25
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.regular-plain]
 drawn_box = [20, 180, 65, 24, 1548]
 fill = "#00000076"
 fill_share = 0.802
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -620,13 +742,17 @@ corner_bottom_right = { insets_px = [3.886, 1.593, 0.881, 0.042, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [3.91, 1.551, 0.898, 0.051, 0.0, 0.0], radius_px = 5.75, rms_px = 0.278, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.regular-default]
 drawn_box = [160, 180, 65, 24, 1548]
 fill = "#00000076"
 fill_share = 0.802
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -641,13 +767,17 @@ corner_bottom_right = { insets_px = [3.886, 1.593, 0.881, 0.042, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [3.91, 1.551, 0.898, 0.051, 0.0, 0.0], radius_px = 5.75, rms_px = 0.278, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1548]
 fill = "#00000076"
 fill_share = 0.802
+fill_grey_delta = 0.733
+edge_grey_delta = 0.231
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000076"]
@@ -662,13 +792,17 @@ corner_bottom_right = { insets_px = [3.886, 1.593, 0.881, 0.042, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [3.91, 1.551, 0.898, 0.051, 0.0, 0.0], radius_px = 5.75, rms_px = 0.278, radius = "5.75px" }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1548]
 fill = "#00000096"
 fill_share = 0.806
+fill_grey_delta = 1.204
+edge_grey_delta = 0.706
 edge_top = ["#000000ff", "#00000096"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#00000096"]
@@ -683,13 +817,17 @@ corner_bottom_right = { insets_px = [3.604, 1.613, 0.873, 0.12, 0.0, 0.0], radiu
 corner_bottom_left = { insets_px = [3.596, 1.567, 0.887, 0.127, 0.0, 0.0], radius_px = 5.5, rms_px = 0.17, radius = "5.5px" }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#00000076"
 fill_share = 0.786
+fill_grey_delta = 0.765
+edge_grey_delta = 3.753
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000007e"]
@@ -704,13 +842,17 @@ corner_bottom_right = { insets_px = [11.235, 6.797, 5.314, 4.025, 3.034, 2.28, 1
 corner_bottom_left = { insets_px = [11.22, 6.856, 5.288, 4.034, 3.034, 2.28, 1.814, 1.0, 0.89, 0.217, 0.0, 0.0], radius_px = 13.25, rms_px = 0.458, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#00000076"
 fill_share = 0.786
+fill_grey_delta = 0.765
+edge_grey_delta = 3.753
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000007e"]
@@ -725,13 +867,17 @@ corner_bottom_right = { insets_px = [11.235, 6.797, 5.314, 4.025, 3.034, 2.28, 1
 corner_bottom_left = { insets_px = [11.22, 6.856, 5.288, 4.034, 3.034, 2.28, 1.814, 1.0, 0.89, 0.217, 0.0, 0.0], radius_px = 13.25, rms_px = 0.458, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#00000076"
 fill_share = 0.786
+fill_grey_delta = 0.765
+edge_grey_delta = 3.753
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000007e"]
@@ -746,13 +892,17 @@ corner_bottom_right = { insets_px = [11.235, 6.797, 5.314, 4.025, 3.034, 2.28, 1
 corner_bottom_left = { insets_px = [11.22, 6.856, 5.288, 4.034, 3.034, 2.28, 1.814, 1.0, 0.89, 0.217, 0.0, 0.0], radius_px = 13.25, rms_px = 0.458, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#00000096"
 fill_share = 0.789
+fill_grey_delta = 1.702
+edge_grey_delta = 4.69
 edge_top = ["#000000ff", "#00000096"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000009e"]
@@ -767,13 +917,17 @@ corner_bottom_right = { insets_px = [10.725, 6.913, 5.367, 4.127, 3.14, 2.34, 1.
 corner_bottom_left = { insets_px = [10.718, 6.953, 5.353, 4.133, 3.133, 2.34, 1.827, 1.027, 0.9, 0.278, 0.0, 0.0], radius_px = 13.25, rms_px = 0.31, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2552]
 fill = "#00000076"
 fill_share = 0.818
+fill_grey_delta = 0.733
+edge_grey_delta = 2.757
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000007c"]
@@ -788,13 +942,17 @@ corner_bottom_right = { insets_px = [15.392, 10.115, 8.102, 6.636, 5.466, 4.441,
 corner_bottom_left = { insets_px = [15.4, 10.082, 8.127, 6.653, 5.449, 4.449, 3.653, 3.0, 2.085, 1.771, 1.0, 1.0, 0.449, 0.0, 0.0], radius_px = 17.5, rms_px = 0.564, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2552]
 fill = "#00000076"
 fill_share = 0.818
+fill_grey_delta = 0.733
+edge_grey_delta = 2.757
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000007c"]
@@ -809,13 +967,17 @@ corner_bottom_right = { insets_px = [15.392, 10.115, 8.102, 6.636, 5.466, 4.441,
 corner_bottom_left = { insets_px = [15.4, 10.082, 8.127, 6.653, 5.449, 4.449, 3.653, 3.0, 2.085, 1.771, 1.0, 1.0, 0.449, 0.0, 0.0], radius_px = 17.5, rms_px = 0.564, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2552]
 fill = "#00000076"
 fill_share = 0.818
+fill_grey_delta = 0.733
+edge_grey_delta = 2.757
 edge_top = ["#000000ff", "#00000076"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000007c"]
@@ -830,13 +992,17 @@ corner_bottom_right = { insets_px = [15.392, 10.115, 8.102, 6.636, 5.466, 4.441,
 corner_bottom_left = { insets_px = [15.4, 10.082, 8.127, 6.653, 5.449, 4.449, 3.653, 3.0, 2.085, 1.771, 1.0, 1.0, 0.449, 0.0, 0.0], radius_px = 17.5, rms_px = 0.564, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 31
+label_grey_delta = 0.533
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.pressed.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2552]
 fill = "#00000096"
 fill_share = 0.82
+fill_grey_delta = 1.204
+edge_grey_delta = 3.694
 edge_top = ["#000000ff", "#00000096"]
 stroke_top = { width = 1, edge = "#000000ff" }
 edge_right = ["#000000ff", "#0000009c"]
@@ -851,13 +1017,17 @@ corner_bottom_right = { insets_px = [14.757, 10.183, 8.2, 6.667, 5.513, 4.487, 3
 corner_bottom_left = { insets_px = [14.773, 10.157, 8.213, 6.687, 5.5, 4.5, 3.68, 3.0, 2.173, 1.787, 1.093, 1.0, 0.493, 0.0, 0.0], radius_px = 17.25, rms_px = 0.405, radius = { full = { maximum_px = "absent" } } }
 label = "#000000ff"
 label_pixels = 29
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#00000017"
 fill_share = 0.748
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -872,13 +1042,17 @@ corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#00000017"
 fill_share = 0.748
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -893,13 +1067,17 @@ corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#00000017"
 fill_share = 0.748
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -914,13 +1092,17 @@ corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#00000030"
 fill_share = 0.752
+fill_grey_delta = 0.596
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#00000083", "#00000030"]
@@ -935,13 +1117,17 @@ corner_bottom_right = { insets_px = [2.573, 0.458, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.573, 0.458, 0.0, 0.0], radius_px = 4.0, rms_px = 0.332, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.31
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#00000017"
 fill_share = 0.771
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -956,13 +1142,17 @@ corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rm
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
 label = "#0000008e"
 label_pixels = 27
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#00000017"
 fill_share = 0.771
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -977,13 +1167,17 @@ corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rm
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
 label = "#0000008e"
 label_pixels = 27
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#00000017"
 fill_share = 0.771
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -998,13 +1192,17 @@ corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rm
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
 label = "#0000008e"
 label_pixels = 27
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1088]
 fill = "#00000030"
 fill_share = 0.784
+fill_grey_delta = 0.596
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#00000083", "#00000030"]
@@ -1019,13 +1217,17 @@ corner_bottom_right = { insets_px = [3.45, 0.979, 0.208, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [3.489, 1.0, 0.229, 0.0, 0.0], radius_px = 5.0, rms_px = 0.389, radius = "5px" }
 label = "#0000008e"
 label_pixels = 28
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.regular-plain]
 drawn_box = [20, 180, 65, 24, 1540]
 fill = "#00000017"
 fill_share = 0.799
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1040,13 +1242,17 @@ corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.regular-default]
 drawn_box = [160, 180, 65, 24, 1540]
 fill = "#00000017"
 fill_share = 0.799
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1061,13 +1267,17 @@ corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1540]
 fill = "#00000017"
 fill_share = 0.799
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1082,13 +1292,17 @@ corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1548]
 fill = "#00000030"
 fill_share = 0.803
+fill_grey_delta = 0.596
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#00000083", "#00000030"]
@@ -1103,13 +1317,17 @@ corner_bottom_right = { insets_px = [4.359, 1.583, 0.896, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.351, 1.562, 0.917, 0.0, 0.0], radius_px = 6.0, rms_px = 0.449, radius = "6px" }
 label = "#0000008e"
 label_pixels = 32
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#00000017"
 fill_share = 0.785
+fill_grey_delta = 1.451
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000063", "#0000001b"]
@@ -1124,13 +1342,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#00000017"
 fill_share = 0.785
+fill_grey_delta = 1.451
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000063", "#0000001b"]
@@ -1145,13 +1367,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#00000017"
 fill_share = 0.785
+fill_grey_delta = 1.451
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000063", "#0000001b"]
@@ -1166,13 +1392,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#00000030"
 fill_share = 0.794
+fill_grey_delta = 16.902
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#0000007b", "#00000034"]
@@ -1187,13 +1417,17 @@ corner_bottom_right = { insets_px = [12.076, 6.812, 5.25, 4.0, 3.0, 2.208, 1.812
 corner_bottom_left = { insets_px = [12.038, 6.833, 5.208, 4.0, 3.0, 2.208, 1.812, 1.0, 0.875, 0.143, 0.0, 0.0], radius_px = 13.5, rms_px = 0.677, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 32
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2550]
 fill = "#00000017"
 fill_share = 0.822
+fill_grey_delta = 8.953
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000065", "#0000001a"]
@@ -1208,13 +1442,17 @@ corner_bottom_right = { insets_px = [16.231, 9.889, 8.0, 6.348, 5.0, 4.0, 3.435,
 corner_bottom_left = { insets_px = [16.24, 9.815, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.875, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2550]
 fill = "#00000017"
 fill_share = 0.822
+fill_grey_delta = 8.953
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000065", "#0000001a"]
@@ -1229,13 +1467,17 @@ corner_bottom_right = { insets_px = [16.231, 9.889, 8.0, 6.348, 5.0, 4.0, 3.435,
 corner_bottom_left = { insets_px = [16.24, 9.815, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.875, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2550]
 fill = "#00000017"
 fill_share = 0.822
+fill_grey_delta = 8.953
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000065", "#0000001a"]
@@ -1250,13 +1492,17 @@ corner_bottom_right = { insets_px = [16.231, 9.889, 8.0, 6.348, 5.0, 4.0, 3.435,
 corner_bottom_left = { insets_px = [16.24, 9.815, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.875, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2550]
 fill = "#00000030"
 fill_share = 0.824
+fill_grey_delta = 15.906
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#0000007d", "#00000033"]
@@ -1271,13 +1517,17 @@ corner_bottom_right = { insets_px = [16.118, 10.06, 8.021, 6.625, 5.417, 4.375, 
 corner_bottom_left = { insets_px = [16.118, 10.0, 8.042, 6.646, 5.396, 4.396, 3.646, 3.0, 2.021, 1.75, 1.0, 1.0, 0.396, 0.0, 0.0], radius_px = 17.5, rms_px = 0.74, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 32
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#00000017"
 fill_share = 0.748
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1292,13 +1542,17 @@ corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#00000017"
 fill_share = 0.748
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1313,13 +1567,17 @@ corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#00000017"
 fill_share = 0.748
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1334,13 +1592,17 @@ corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#00000030"
 fill_share = 0.752
+fill_grey_delta = 0.596
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#00000083", "#00000030"]
@@ -1355,13 +1617,17 @@ corner_bottom_right = { insets_px = [2.573, 0.458, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.573, 0.458, 0.0, 0.0], radius_px = 4.0, rms_px = 0.332, radius = "4px" }
 label = "#0000008e"
 label_pixels = 3
+label_grey_delta = 0.31
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#00000017"
 fill_share = 0.771
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1376,13 +1642,17 @@ corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rm
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
 label = "#0000008e"
 label_pixels = 27
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#00000017"
 fill_share = 0.771
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1397,13 +1667,17 @@ corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rm
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
 label = "#0000008e"
 label_pixels = 27
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#00000017"
 fill_share = 0.771
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1418,13 +1692,17 @@ corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rm
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
 label = "#0000008e"
 label_pixels = 27
+label_grey_delta = 0.725
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1088]
 fill = "#00000030"
 fill_share = 0.784
+fill_grey_delta = 0.596
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#00000083", "#00000030"]
@@ -1439,13 +1717,17 @@ corner_bottom_right = { insets_px = [3.45, 0.979, 0.208, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [3.489, 1.0, 0.229, 0.0, 0.0], radius_px = 5.0, rms_px = 0.389, radius = "5px" }
 label = "#0000008e"
 label_pixels = 28
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.regular-plain]
 drawn_box = [20, 180, 65, 24, 1540]
 fill = "#00000017"
 fill_share = 0.799
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1460,13 +1742,17 @@ corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.regular-default]
 drawn_box = [160, 180, 65, 24, 1540]
 fill = "#00000017"
 fill_share = 0.799
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1481,13 +1767,17 @@ corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1540]
 fill = "#00000017"
 fill_share = 0.799
+fill_grey_delta = 0.455
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#0000006a", "#00000017"]
@@ -1502,13 +1792,17 @@ corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1548]
 fill = "#00000030"
 fill_share = 0.803
+fill_grey_delta = 0.596
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#00000083", "#00000030"]
@@ -1523,13 +1817,17 @@ corner_bottom_right = { insets_px = [4.359, 1.583, 0.896, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.351, 1.562, 0.917, 0.0, 0.0], radius_px = 6.0, rms_px = 0.449, radius = "6px" }
 label = "#0000008e"
 label_pixels = 32
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#00000017"
 fill_share = 0.785
+fill_grey_delta = 1.451
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000063", "#0000001b"]
@@ -1544,13 +1842,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#00000017"
 fill_share = 0.785
+fill_grey_delta = 1.451
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000063", "#0000001b"]
@@ -1565,13 +1867,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#00000017"
 fill_share = 0.785
+fill_grey_delta = 1.451
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000063", "#0000001b"]
@@ -1586,13 +1892,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#00000030"
 fill_share = 0.794
+fill_grey_delta = 16.902
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#0000007b", "#00000034"]
@@ -1607,13 +1917,17 @@ corner_bottom_right = { insets_px = [12.076, 6.812, 5.25, 4.0, 3.0, 2.208, 1.812
 corner_bottom_left = { insets_px = [12.038, 6.833, 5.208, 4.0, 3.0, 2.208, 1.812, 1.0, 0.875, 0.143, 0.0, 0.0], radius_px = 13.5, rms_px = 0.677, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 32
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2550]
 fill = "#00000017"
 fill_share = 0.822
+fill_grey_delta = 8.953
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000065", "#0000001a"]
@@ -1628,13 +1942,17 @@ corner_bottom_right = { insets_px = [16.231, 9.889, 8.0, 6.348, 5.0, 4.0, 3.435,
 corner_bottom_left = { insets_px = [16.24, 9.815, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.875, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2550]
 fill = "#00000017"
 fill_share = 0.822
+fill_grey_delta = 8.953
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000065", "#0000001a"]
@@ -1649,13 +1967,17 @@ corner_bottom_right = { insets_px = [16.231, 9.889, 8.0, 6.348, 5.0, 4.0, 3.435,
 corner_bottom_left = { insets_px = [16.24, 9.815, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.875, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2550]
 fill = "#00000017"
 fill_share = 0.822
+fill_grey_delta = 8.953
+edge_grey_delta = 41.792
 edge_top = ["#0000006a", "#00000017"]
 stroke_top = { width = 1, edge = "#0000006a" }
 edge_right = ["#00000065", "#0000001a"]
@@ -1670,13 +1992,17 @@ corner_bottom_right = { insets_px = [16.231, 9.889, 8.0, 6.348, 5.0, 4.0, 3.435,
 corner_bottom_left = { insets_px = [16.24, 9.815, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.875, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 31
+label_grey_delta = 0.722
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.aqua.disabled_pressed.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2550]
 fill = "#00000030"
 fill_share = 0.824
+fill_grey_delta = 15.906
+edge_grey_delta = 41.243
 edge_top = ["#00000083", "#00000030"]
 stroke_top = { width = 1, edge = "#00000083" }
 edge_right = ["#0000007d", "#00000033"]
@@ -1691,13 +2017,17 @@ corner_bottom_right = { insets_px = [16.118, 10.06, 8.021, 6.625, 5.417, 4.375, 
 corner_bottom_left = { insets_px = [16.118, 10.0, 8.042, 6.646, 5.396, 4.396, 3.646, 3.0, 2.021, 1.75, 1.0, 1.0, 0.396, 0.0, 0.0], radius_px = 17.5, rms_px = 0.74, radius = { full = { maximum_px = "absent" } } }
 label = "#0000008e"
 label_pixels = 32
+label_grey_delta = 0.318
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#ffffff2d"
 fill_share = 0.714
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1712,13 +2042,17 @@ corner_bottom_right = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_px = 0.457, radius = "4px" }
 label = "#ffffffff"
 label_pixels = 6
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#ffffff2d"
 fill_share = 0.714
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1733,13 +2067,17 @@ corner_bottom_right = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_px = 0.457, radius = "4px" }
 label = "#ffffffff"
 label_pixels = 6
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#ffffff2d"
 fill_share = 0.714
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1754,13 +2092,17 @@ corner_bottom_right = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_px = 0.457, radius = "4px" }
 label = "#ffffffff"
 label_pixels = 6
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#ffffff51"
 fill_share = 0.714
+fill_grey_delta = 1.161
+edge_grey_delta = 3.984
 edge_top = ["#fffffff7", "#ffffff51"]
 stroke_top = { width = 1, edge = "#fffffff7" }
 edge_right = ["#fffffff7", "#ffffff51"]
@@ -1775,13 +2117,17 @@ corner_bottom_right = { insets_px = [2.575, 0.407, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.575, 0.407, 0.0, 0.0], radius_px = 4.0, rms_px = 0.35, radius = "4px" }
 label = "#ffffffff"
 label_pixels = 10
+label_grey_delta = 0.518
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#ffffff2d"
 fill_share = 0.734
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1796,13 +2142,17 @@ corner_bottom_right = { insets_px = [3.502, 0.978, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.55, 1.0, 0.0, 0.0], radius_px = 5.0, rms_px = 0.521, radius = "5px" }
 label = "#ffffffff"
 label_pixels = 39
+label_grey_delta = 0.541
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#ffffff2d"
 fill_share = 0.734
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1817,13 +2167,17 @@ corner_bottom_right = { insets_px = [3.502, 0.978, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.55, 1.0, 0.0, 0.0], radius_px = 5.0, rms_px = 0.521, radius = "5px" }
 label = "#ffffffff"
 label_pixels = 39
+label_grey_delta = 0.541
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#ffffff2d"
 fill_share = 0.734
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1838,13 +2192,17 @@ corner_bottom_right = { insets_px = [3.502, 0.978, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.55, 1.0, 0.0, 0.0], radius_px = 5.0, rms_px = 0.521, radius = "5px" }
 label = "#ffffffff"
 label_pixels = 39
+label_grey_delta = 0.541
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1088]
 fill = "#ffffff51"
 fill_share = 0.734
+fill_grey_delta = 1.161
+edge_grey_delta = 3.984
 edge_top = ["#fffffff7", "#ffffff51"]
 stroke_top = { width = 1, edge = "#fffffff7" }
 edge_right = ["#fffffff7", "#ffffff51"]
@@ -1859,13 +2217,17 @@ corner_bottom_right = { insets_px = [3.437, 0.975, 0.111, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.486, 1.0, 0.148, 0.0, 0.0], radius_px = 5.0, rms_px = 0.408, radius = "5px" }
 label = "#ffffffff"
 label_pixels = 40
+label_grey_delta = 0.514
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.regular-plain]
 drawn_box = [20, 180, 65, 24, 1548]
 fill = "#ffffff2d"
 fill_share = 0.777
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1880,13 +2242,17 @@ corner_bottom_right = { insets_px = [4.445, 1.4, 0.889, 0.0, 0.0], radius_px = 5
 corner_bottom_left = { insets_px = [4.445, 1.311, 0.911, 0.0, 0.0], radius_px = 5.75, rms_px = 0.531, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.regular-default]
 drawn_box = [160, 180, 65, 24, 1548]
 fill = "#ffffff2d"
 fill_share = 0.777
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1901,13 +2267,17 @@ corner_bottom_right = { insets_px = [4.445, 1.4, 0.889, 0.0, 0.0], radius_px = 5
 corner_bottom_left = { insets_px = [4.445, 1.311, 0.911, 0.0, 0.0], radius_px = 5.75, rms_px = 0.531, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1548]
 fill = "#ffffff2d"
 fill_share = 0.777
+fill_grey_delta = 0.91
+edge_grey_delta = 21.914
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffd3", "#ffffff2d"]
@@ -1922,13 +2292,17 @@ corner_bottom_right = { insets_px = [4.445, 1.4, 0.889, 0.0, 0.0], radius_px = 5
 corner_bottom_left = { insets_px = [4.445, 1.311, 0.911, 0.0, 0.0], radius_px = 5.75, rms_px = 0.531, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1548]
 fill = "#ffffff51"
 fill_share = 0.777
+fill_grey_delta = 1.161
+edge_grey_delta = 3.984
 edge_top = ["#fffffff7", "#ffffff51"]
 stroke_top = { width = 1, edge = "#fffffff7" }
 edge_right = ["#fffffff7", "#ffffff51"]
@@ -1943,13 +2317,17 @@ corner_bottom_right = { insets_px = [4.372, 1.556, 0.889, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.352, 1.506, 0.901, 0.0, 0.0], radius_px = 5.75, rms_px = 0.46, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.518
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#ffffff2d"
 fill_share = 0.767
+fill_grey_delta = 1.09
+edge_grey_delta = 29.384
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffc4", "#ffffff35"]
@@ -1964,13 +2342,17 @@ corner_bottom_right = { insets_px = [12.1, 6.622, 5.0, 4.0, 3.0, 2.0, 1.667, 1.0
 corner_bottom_left = { insets_px = [12.062, 6.733, 5.0, 4.0, 3.0, 2.0, 1.644, 1.0, 0.8, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#ffffff2d"
 fill_share = 0.767
+fill_grey_delta = 1.09
+edge_grey_delta = 29.384
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffc4", "#ffffff35"]
@@ -1985,13 +2367,17 @@ corner_bottom_right = { insets_px = [12.1, 6.622, 5.0, 4.0, 3.0, 2.0, 1.667, 1.0
 corner_bottom_left = { insets_px = [12.062, 6.733, 5.0, 4.0, 3.0, 2.0, 1.644, 1.0, 0.8, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#ffffff2d"
 fill_share = 0.767
+fill_grey_delta = 1.09
+edge_grey_delta = 29.384
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffc4", "#ffffff35"]
@@ -2006,13 +2392,17 @@ corner_bottom_right = { insets_px = [12.1, 6.622, 5.0, 4.0, 3.0, 2.0, 1.667, 1.0
 corner_bottom_left = { insets_px = [12.062, 6.733, 5.0, 4.0, 3.0, 2.0, 1.644, 1.0, 0.8, 0.0, 0.0], radius_px = 13.25, rms_px = 0.757, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#ffffff51"
 fill_share = 0.767
+fill_grey_delta = 1.663
+edge_grey_delta = 10.957
 edge_top = ["#fffffff7", "#ffffff51"]
 stroke_top = { width = 1, edge = "#fffffff7" }
 edge_right = ["#ffffffe9", "#ffffff59"]
@@ -2027,13 +2417,17 @@ corner_bottom_right = { insets_px = [12.065, 6.753, 5.148, 4.0, 3.0, 2.111, 1.79
 corner_bottom_left = { insets_px = [12.04, 6.827, 5.123, 4.0, 3.0, 2.123, 1.765, 1.0, 0.877, 0.048, 0.0, 0.0], radius_px = 13.5, rms_px = 0.695, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.518
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2552]
 fill = "#ffffff2d"
 fill_share = 0.808
+fill_grey_delta = 18.592
+edge_grey_delta = 27.392
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffc8", "#ffffff33"]
@@ -2048,13 +2442,17 @@ corner_bottom_right = { insets_px = [16.049, 9.885, 8.0, 6.333, 5.0, 4.0, 3.378,
 corner_bottom_left = { insets_px = [16.059, 9.808, 8.0, 6.356, 5.0, 4.0, 3.356, 3.0, 2.0, 1.578, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.835, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2552]
 fill = "#ffffff2d"
 fill_share = 0.808
+fill_grey_delta = 18.592
+edge_grey_delta = 27.392
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffc8", "#ffffff33"]
@@ -2069,13 +2467,17 @@ corner_bottom_right = { insets_px = [16.049, 9.885, 8.0, 6.333, 5.0, 4.0, 3.378,
 corner_bottom_left = { insets_px = [16.059, 9.808, 8.0, 6.356, 5.0, 4.0, 3.356, 3.0, 2.0, 1.578, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.835, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2552]
 fill = "#ffffff2d"
 fill_share = 0.808
+fill_grey_delta = 18.592
+edge_grey_delta = 27.392
 edge_top = ["#ffffffd3", "#ffffff2d"]
 stroke_top = { width = 1, edge = "#ffffffd3" }
 edge_right = ["#ffffffc8", "#ffffff33"]
@@ -2090,13 +2492,17 @@ corner_bottom_right = { insets_px = [16.049, 9.885, 8.0, 6.333, 5.0, 4.0, 3.378,
 corner_bottom_left = { insets_px = [16.059, 9.808, 8.0, 6.356, 5.0, 4.0, 3.356, 3.0, 2.0, 1.578, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.835, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.545
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.normal.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2552]
 fill = "#ffffff51"
 fill_share = 0.805
+fill_grey_delta = 1.161
+edge_grey_delta = 9.961
 edge_top = ["#fffffff7", "#ffffff51"]
 stroke_top = { width = 1, edge = "#fffffff7" }
 edge_right = ["#ffffffeb", "#ffffff57"]
@@ -2111,13 +2517,17 @@ corner_bottom_right = { insets_px = [16.104, 9.918, 8.0, 6.556, 5.346, 4.309, 3.
 corner_bottom_left = { insets_px = [16.125, 9.894, 8.0, 6.58, 5.321, 4.321, 3.58, 3.0, 2.0, 1.716, 1.0, 1.0, 0.321, 0.0, 0.0], radius_px = 17.5, rms_px = 0.762, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.518
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#ffffff6c"
 fill_share = 0.72
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2132,13 +2542,17 @@ corner_bottom_right = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, r
 corner_bottom_left = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_px = 0.248, radius = "3.75px" }
 label = "#ffffffff"
 label_pixels = 10
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#ffffff6c"
 fill_share = 0.72
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2153,13 +2567,17 @@ corner_bottom_right = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, r
 corner_bottom_left = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_px = 0.248, radius = "3.75px" }
 label = "#ffffffff"
 label_pixels = 10
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#ffffff6c"
 fill_share = 0.72
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2174,13 +2592,17 @@ corner_bottom_right = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, r
 corner_bottom_left = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_px = 0.248, radius = "3.75px" }
 label = "#ffffffff"
 label_pixels = 10
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#ffffff85"
 fill_share = 0.724
+fill_grey_delta = 1.263
+edge_grey_delta = 0.761
 edge_top = ["#ffffffff", "#ffffff85"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff85"]
@@ -2195,13 +2617,17 @@ corner_bottom_right = { insets_px = [2.106, 0.489, 0.0, 0.0], radius_px = 3.5, r
 corner_bottom_left = { insets_px = [2.106, 0.489, 0.0, 0.0], radius_px = 3.5, rms_px = 0.186, radius = "3.5px" }
 label = "#ffffffff"
 label_pixels = 6
+label_grey_delta = 0.525
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#ffffff6c"
 fill_share = 0.734
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2216,13 +2642,17 @@ corner_bottom_right = { insets_px = [3.145, 0.972, 0.222, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.184, 1.0, 0.25, 0.0, 0.0], radius_px = 4.75, rms_px = 0.289, radius = "4.75px" }
 label = "#ffffffff"
 label_pixels = 40
+label_grey_delta = 0.529
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#ffffff6c"
 fill_share = 0.734
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2237,13 +2667,17 @@ corner_bottom_right = { insets_px = [3.145, 0.972, 0.222, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.184, 1.0, 0.25, 0.0, 0.0], radius_px = 4.75, rms_px = 0.289, radius = "4.75px" }
 label = "#ffffffff"
 label_pixels = 40
+label_grey_delta = 0.529
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#ffffff6c"
 fill_share = 0.734
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2258,13 +2692,17 @@ corner_bottom_right = { insets_px = [3.145, 0.972, 0.222, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.184, 1.0, 0.25, 0.0, 0.0], radius_px = 4.75, rms_px = 0.289, radius = "4.75px" }
 label = "#ffffffff"
 label_pixels = 40
+label_grey_delta = 0.529
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1090]
 fill = "#ffffff85"
 fill_share = 0.743
+fill_grey_delta = 0.765
+edge_grey_delta = 0.761
 edge_top = ["#ffffffff", "#ffffff85"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff85"]
@@ -2279,13 +2717,17 @@ corner_bottom_right = { insets_px = [2.922, 0.97, 0.271, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [2.929, 1.0, 0.293, 0.0, 0.0], radius_px = 4.5, rms_px = 0.206, radius = "4.5px" }
 label = "#ffffffff"
 label_pixels = 39
+label_grey_delta = 0.522
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.regular-plain]
 drawn_box = [20, 180, 65, 24, 1548]
 fill = "#ffffff6c"
 fill_share = 0.778
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2300,13 +2742,17 @@ corner_bottom_right = { insets_px = [4.031, 1.583, 0.88, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [4.024, 1.546, 0.898, 0.0, 0.0], radius_px = 5.75, rms_px = 0.349, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.regular-default]
 drawn_box = [160, 180, 65, 24, 1548]
 fill = "#ffffff6c"
 fill_share = 0.778
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2321,13 +2767,17 @@ corner_bottom_right = { insets_px = [4.031, 1.583, 0.88, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [4.024, 1.546, 0.898, 0.0, 0.0], radius_px = 5.75, rms_px = 0.349, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1548]
 fill = "#ffffff6c"
 fill_share = 0.778
+fill_grey_delta = 1.286
+edge_grey_delta = 0.788
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff6c"]
@@ -2342,13 +2792,17 @@ corner_bottom_right = { insets_px = [4.031, 1.583, 0.88, 0.0, 0.0], radius_px = 
 corner_bottom_left = { insets_px = [4.024, 1.546, 0.898, 0.0, 0.0], radius_px = 5.75, rms_px = 0.349, radius = "5.75px" }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1548]
 fill = "#ffffff85"
 fill_share = 0.779
+fill_grey_delta = 1.263
+edge_grey_delta = 0.761
 edge_top = ["#ffffffff", "#ffffff85"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff85"]
@@ -2363,13 +2817,17 @@ corner_bottom_right = { insets_px = [3.741, 1.602, 0.872, 0.083, 0.0, 0.0], radi
 corner_bottom_left = { insets_px = [3.761, 1.564, 0.895, 0.09, 0.0, 0.0], radius_px = 5.5, rms_px = 0.225, radius = "5.5px" }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.525
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#ffffff6c"
 fill_share = 0.772
+fill_grey_delta = 31.714
+edge_grey_delta = 3.227
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff74"]
@@ -2384,13 +2842,17 @@ corner_bottom_right = { insets_px = [11.447, 6.787, 5.269, 4.0, 3.0, 2.241, 1.81
 corner_bottom_left = { insets_px = [11.439, 6.852, 5.25, 4.0, 3.0, 2.25, 1.796, 1.0, 0.889, 0.182, 0.0, 0.0], radius_px = 13.25, rms_px = 0.521, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#ffffff6c"
 fill_share = 0.772
+fill_grey_delta = 31.714
+edge_grey_delta = 3.227
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff74"]
@@ -2405,13 +2867,17 @@ corner_bottom_right = { insets_px = [11.447, 6.787, 5.269, 4.0, 3.0, 2.241, 1.81
 corner_bottom_left = { insets_px = [11.439, 6.852, 5.25, 4.0, 3.0, 2.25, 1.796, 1.0, 0.889, 0.182, 0.0, 0.0], radius_px = 13.25, rms_px = 0.521, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#ffffff6c"
 fill_share = 0.772
+fill_grey_delta = 31.714
+edge_grey_delta = 3.227
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff74"]
@@ -2426,13 +2892,17 @@ corner_bottom_right = { insets_px = [11.447, 6.787, 5.269, 4.0, 3.0, 2.241, 1.81
 corner_bottom_left = { insets_px = [11.439, 6.852, 5.25, 4.0, 3.0, 2.25, 1.796, 1.0, 0.889, 0.182, 0.0, 0.0], radius_px = 13.25, rms_px = 0.521, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#ffffff85"
 fill_share = 0.768
+fill_grey_delta = 1.765
+edge_grey_delta = 4.776
 edge_top = ["#ffffffff", "#ffffff85"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff8d"]
@@ -2447,13 +2917,17 @@ corner_bottom_right = { insets_px = [10.965, 6.857, 5.338, 4.075, 3.083, 2.308, 
 corner_bottom_left = { insets_px = [10.953, 6.902, 5.316, 4.083, 3.083, 2.308, 1.82, 1.0, 0.902, 0.252, 0.0, 0.0], radius_px = 13.25, rms_px = 0.381, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.525
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2552]
 fill = "#ffffff6c"
 fill_share = 0.805
+fill_grey_delta = 1.286
+edge_grey_delta = 2.224
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff72"]
@@ -2468,13 +2942,17 @@ corner_bottom_right = { insets_px = [15.682, 10.072, 8.065, 6.62, 5.444, 4.417, 
 corner_bottom_left = { insets_px = [15.698, 10.027, 8.083, 6.639, 5.426, 4.426, 3.639, 3.0, 2.037, 1.759, 1.0, 1.0, 0.426, 0.0, 0.0], radius_px = 17.5, rms_px = 0.64, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2552]
 fill = "#ffffff6c"
 fill_share = 0.805
+fill_grey_delta = 1.286
+edge_grey_delta = 2.224
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff72"]
@@ -2489,13 +2967,17 @@ corner_bottom_right = { insets_px = [15.682, 10.072, 8.065, 6.62, 5.444, 4.417, 
 corner_bottom_left = { insets_px = [15.698, 10.027, 8.083, 6.639, 5.426, 4.426, 3.639, 3.0, 2.037, 1.759, 1.0, 1.0, 0.426, 0.0, 0.0], radius_px = 17.5, rms_px = 0.64, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2552]
 fill = "#ffffff6c"
 fill_share = 0.805
+fill_grey_delta = 1.286
+edge_grey_delta = 2.224
 edge_top = ["#ffffffff", "#ffffff6c"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff72"]
@@ -2510,13 +2992,17 @@ corner_bottom_right = { insets_px = [15.682, 10.072, 8.065, 6.62, 5.444, 4.417, 
 corner_bottom_left = { insets_px = [15.698, 10.027, 8.083, 6.639, 5.426, 4.426, 3.639, 3.0, 2.037, 1.759, 1.0, 1.0, 0.426, 0.0, 0.0], radius_px = 17.5, rms_px = 0.64, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 55
+label_grey_delta = 0.549
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.pressed.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2552]
 fill = "#ffffff85"
 fill_share = 0.806
+fill_grey_delta = 1.263
+edge_grey_delta = 3.773
 edge_top = ["#ffffffff", "#ffffff85"]
 stroke_top = { width = 1, edge = "#ffffffff" }
 edge_right = ["#ffffffff", "#ffffff8b"]
@@ -2531,13 +3017,17 @@ corner_bottom_right = { insets_px = [15.031, 10.147, 8.158, 6.654, 5.489, 4.459,
 corner_bottom_left = { insets_px = [15.059, 10.11, 8.165, 6.669, 5.474, 4.474, 3.669, 3.0, 2.128, 1.774, 1.038, 1.0, 0.474, 0.0, 0.0], radius_px = 17.25, rms_px = 0.48, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffffff"
 label_pixels = 52
+label_grey_delta = 0.525
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#ffffff17"
 fill_share = 0.72
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2552,13 +3042,17 @@ corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 label = "#ffffff7f"
 label_pixels = 11
+label_grey_delta = 0.753
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#ffffff17"
 fill_share = 0.72
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2573,13 +3067,17 @@ corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 label = "#ffffff7f"
 label_pixels = 11
+label_grey_delta = 0.753
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#ffffff17"
 fill_share = 0.72
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2594,13 +3092,17 @@ corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 label = "#ffffff7f"
 label_pixels = 11
+label_grey_delta = 0.753
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#ffffff29"
 fill_share = 0.72
+fill_grey_delta = 0.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff7c", "#ffffff29"]
@@ -2615,13 +3117,17 @@ corner_bottom_right = { insets_px = [2.573, 0.415, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.573, 0.415, 0.0, 0.0], radius_px = 4.0, rms_px = 0.347, radius = "4px" }
 label = "#ffffff80"
 label_pixels = 11
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#ffffff17"
 fill_share = 0.734
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2636,13 +3142,17 @@ corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
 label = "#ffffff7f"
 label_pixels = 44
+label_grey_delta = 0.749
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#ffffff17"
 fill_share = 0.734
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2657,13 +3167,17 @@ corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
 label = "#ffffff7f"
 label_pixels = 44
+label_grey_delta = 0.749
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#ffffff17"
 fill_share = 0.734
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2678,13 +3192,17 @@ corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
 label = "#ffffff7f"
 label_pixels = 44
+label_grey_delta = 0.749
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1088]
 fill = "#ffffff29"
 fill_share = 0.734
+fill_grey_delta = 0.58
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff7c", "#ffffff29"]
@@ -2699,13 +3217,17 @@ corner_bottom_right = { insets_px = [3.427, 0.976, 0.146, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.468, 1.0, 0.171, 0.0, 0.0], radius_px = 5.0, rms_px = 0.398, radius = "5px" }
 label = "#ffffff80"
 label_pixels = 44
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.regular-plain]
 drawn_box = [20, 180, 65, 24, 1540]
 fill = "#ffffff17"
 fill_share = 0.778
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2720,13 +3242,17 @@ corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.regular-default]
 drawn_box = [160, 180, 65, 24, 1540]
 fill = "#ffffff17"
 fill_share = 0.778
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2741,13 +3267,17 @@ corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1540]
 fill = "#ffffff17"
 fill_share = 0.778
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2762,13 +3292,17 @@ corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1544]
 fill = "#ffffff29"
 fill_share = 0.778
+fill_grey_delta = 0.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff7c", "#ffffff29"]
@@ -2783,13 +3317,17 @@ corner_bottom_right = { insets_px = [4.347, 1.561, 0.902, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.331, 1.488, 0.927, 0.0, 0.0], radius_px = 5.75, rms_px = 0.455, radius = "5.75px" }
 label = "#ffffff80"
 label_pixels = 59
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#ffffff17"
 fill_share = 0.769
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff62", "#ffffff1b"]
@@ -2804,13 +3342,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#ffffff17"
 fill_share = 0.769
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff62", "#ffffff1b"]
@@ -2825,13 +3367,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#ffffff17"
 fill_share = 0.769
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff62", "#ffffff1b"]
@@ -2846,13 +3392,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#ffffff29"
 fill_share = 0.769
+fill_grey_delta = 1.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff76", "#ffffff2d"]
@@ -2867,13 +3417,17 @@ corner_bottom_right = { insets_px = [11.992, 6.78, 5.146, 4.0, 3.0, 2.122, 1.78,
 corner_bottom_left = { insets_px = [11.992, 6.829, 5.122, 4.0, 3.0, 2.122, 1.78, 1.0, 0.854, 0.048, 0.0, 0.0], radius_px = 13.5, rms_px = 0.684, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff80"
 label_pixels = 59
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2552]
 fill = "#ffffff17"
 fill_share = 0.811
+fill_grey_delta = 9.047
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff64", "#ffffff1a"]
@@ -2888,13 +3442,17 @@ corner_bottom_right = { insets_px = [16.165, 9.846, 8.0, 6.304, 5.0, 4.0, 3.391,
 corner_bottom_left = { insets_px = [16.155, 9.808, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.858, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2552]
 fill = "#ffffff17"
 fill_share = 0.811
+fill_grey_delta = 9.047
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff64", "#ffffff1a"]
@@ -2909,13 +3467,17 @@ corner_bottom_right = { insets_px = [16.165, 9.846, 8.0, 6.304, 5.0, 4.0, 3.391,
 corner_bottom_left = { insets_px = [16.155, 9.808, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.858, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2552]
 fill = "#ffffff17"
 fill_share = 0.811
+fill_grey_delta = 9.047
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff64", "#ffffff1a"]
@@ -2930,13 +3492,17 @@ corner_bottom_right = { insets_px = [16.165, 9.846, 8.0, 6.304, 5.0, 4.0, 3.391,
 corner_bottom_left = { insets_px = [16.155, 9.808, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.858, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2552]
 fill = "#ffffff29"
 fill_share = 0.809
+fill_grey_delta = 15.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff77", "#ffffff2c"]
@@ -2951,13 +3517,17 @@ corner_bottom_right = { insets_px = [16.124, 9.93, 8.0, 6.537, 5.341, 4.293, 3.6
 corner_bottom_left = { insets_px = [16.116, 9.884, 8.0, 6.585, 5.341, 4.341, 3.585, 3.0, 2.0, 1.707, 1.0, 1.0, 0.341, 0.0, 0.0], radius_px = 17.5, rms_px = 0.758, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff80"
 label_pixels = 59
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.mini-plain]
 drawn_box = [20, 72, 46, 16, 732]
 fill = "#ffffff17"
 fill_share = 0.72
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2972,13 +3542,17 @@ corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 label = "#ffffff7f"
 label_pixels = 11
+label_grey_delta = 0.753
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.mini-default]
 drawn_box = [160, 72, 46, 16, 732]
 fill = "#ffffff17"
 fill_share = 0.72
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -2993,13 +3567,17 @@ corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 label = "#ffffff7f"
 label_pixels = 11
+label_grey_delta = 0.753
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.mini-toggle_off]
 drawn_box = [300, 72, 46, 16, 732]
 fill = "#ffffff17"
 fill_share = 0.72
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3014,13 +3592,17 @@ corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 label = "#ffffff7f"
 label_pixels = 11
+label_grey_delta = 0.753
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.mini-toggle_on]
 drawn_box = [440, 72, 46, 16, 732]
 fill = "#ffffff29"
 fill_share = 0.72
+fill_grey_delta = 0.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff7c", "#ffffff29"]
@@ -3035,13 +3617,17 @@ corner_bottom_right = { insets_px = [2.573, 0.415, 0.0, 0.0], radius_px = 4.0, r
 corner_bottom_left = { insets_px = [2.573, 0.415, 0.0, 0.0], radius_px = 4.0, rms_px = 0.347, radius = "4px" }
 label = "#ffffff80"
 label_pixels = 11
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.small-plain]
 drawn_box = [20, 126, 55, 20, 1088]
 fill = "#ffffff17"
 fill_share = 0.734
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3056,13 +3642,17 @@ corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
 label = "#ffffff7f"
 label_pixels = 44
+label_grey_delta = 0.749
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.small-default]
 drawn_box = [160, 126, 55, 20, 1088]
 fill = "#ffffff17"
 fill_share = 0.734
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3077,13 +3667,17 @@ corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
 label = "#ffffff7f"
 label_pixels = 44
+label_grey_delta = 0.749
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.small-toggle_off]
 drawn_box = [300, 126, 55, 20, 1088]
 fill = "#ffffff17"
 fill_share = 0.734
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3098,13 +3692,17 @@ corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, 
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
 label = "#ffffff7f"
 label_pixels = 44
+label_grey_delta = 0.749
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.small-toggle_on]
 drawn_box = [440, 126, 55, 20, 1088]
 fill = "#ffffff29"
 fill_share = 0.734
+fill_grey_delta = 0.58
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff7c", "#ffffff29"]
@@ -3119,13 +3717,17 @@ corner_bottom_right = { insets_px = [3.427, 0.976, 0.146, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [3.468, 1.0, 0.171, 0.0, 0.0], radius_px = 5.0, rms_px = 0.398, radius = "5px" }
 label = "#ffffff80"
 label_pixels = 44
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.regular-plain]
 drawn_box = [20, 180, 65, 24, 1540]
 fill = "#ffffff17"
 fill_share = 0.778
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3140,13 +3742,17 @@ corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.regular-default]
 drawn_box = [160, 180, 65, 24, 1540]
 fill = "#ffffff17"
 fill_share = 0.778
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3161,13 +3767,17 @@ corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.regular-toggle_off]
 drawn_box = [300, 180, 65, 24, 1540]
 fill = "#ffffff17"
 fill_share = 0.778
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff6a", "#ffffff17"]
@@ -3182,13 +3792,17 @@ corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.regular-toggle_on]
 drawn_box = [440, 180, 65, 24, 1544]
 fill = "#ffffff29"
 fill_share = 0.778
+fill_grey_delta = 0.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff7c", "#ffffff29"]
@@ -3203,13 +3817,17 @@ corner_bottom_right = { insets_px = [4.347, 1.561, 0.902, 0.0, 0.0], radius_px =
 corner_bottom_left = { insets_px = [4.331, 1.488, 0.927, 0.0, 0.0], radius_px = 5.75, rms_px = 0.455, radius = "5.75px" }
 label = "#ffffff80"
 label_pixels = 59
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.large-plain]
 drawn_box = [20, 234, 69, 28, 1808]
 fill = "#ffffff17"
 fill_share = 0.769
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff62", "#ffffff1b"]
@@ -3224,13 +3842,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.large-default]
 drawn_box = [160, 234, 69, 28, 1808]
 fill = "#ffffff17"
 fill_share = 0.769
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff62", "#ffffff1b"]
@@ -3245,13 +3867,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.large-toggle_off]
 drawn_box = [300, 234, 69, 28, 1808]
 fill = "#ffffff17"
 fill_share = 0.769
+fill_grey_delta = 0.953
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff62", "#ffffff1b"]
@@ -3266,13 +3892,17 @@ corner_bottom_right = { insets_px = [12.057, 6.696, 5.0, 4.0, 3.0, 2.0, 1.696, 1
 corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.25, rms_px = 0.759, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.large-toggle_on]
 drawn_box = [440, 234, 69, 28, 1808]
 fill = "#ffffff29"
 fill_share = 0.769
+fill_grey_delta = 1.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff76", "#ffffff2d"]
@@ -3287,13 +3917,17 @@ corner_bottom_right = { insets_px = [11.992, 6.78, 5.146, 4.0, 3.0, 2.122, 1.78,
 corner_bottom_left = { insets_px = [11.992, 6.829, 5.122, 4.0, 3.0, 2.122, 1.78, 1.0, 0.854, 0.048, 0.0, 0.0], radius_px = 13.5, rms_px = 0.684, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff80"
 label_pixels = 59
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.extraLarge-plain]
 drawn_box = [20, 286, 77, 36, 2552]
 fill = "#ffffff17"
 fill_share = 0.811
+fill_grey_delta = 9.047
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff64", "#ffffff1a"]
@@ -3308,13 +3942,17 @@ corner_bottom_right = { insets_px = [16.165, 9.846, 8.0, 6.304, 5.0, 4.0, 3.391,
 corner_bottom_left = { insets_px = [16.155, 9.808, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.858, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.extraLarge-default]
 drawn_box = [160, 286, 77, 36, 2552]
 fill = "#ffffff17"
 fill_share = 0.811
+fill_grey_delta = 9.047
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff64", "#ffffff1a"]
@@ -3329,13 +3967,17 @@ corner_bottom_right = { insets_px = [16.165, 9.846, 8.0, 6.304, 5.0, 4.0, 3.391,
 corner_bottom_left = { insets_px = [16.155, 9.808, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.858, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.extraLarge-toggle_off]
 drawn_box = [300, 286, 77, 36, 2552]
 fill = "#ffffff17"
 fill_share = 0.811
+fill_grey_delta = 9.047
+edge_grey_delta = 41.208
 edge_top = ["#ffffff6a", "#ffffff17"]
 stroke_top = { width = 1, edge = "#ffffff6a" }
 edge_right = ["#ffffff64", "#ffffff1a"]
@@ -3350,13 +3992,17 @@ corner_bottom_right = { insets_px = [16.165, 9.846, 8.0, 6.304, 5.0, 4.0, 3.391,
 corner_bottom_left = { insets_px = [16.155, 9.808, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.25, rms_px = 0.858, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff7f"
 label_pixels = 59
+label_grey_delta = 0.737
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0
 
 [inactive_contrast.push.darkAqua.disabled_pressed.extraLarge-toggle_on]
 drawn_box = [440, 286, 77, 36, 2552]
 fill = "#ffffff29"
 fill_share = 0.809
+fill_grey_delta = 15.584
+edge_grey_delta = 42.243
 edge_top = ["#ffffff7c", "#ffffff29"]
 stroke_top = { width = 1, edge = "#ffffff7c" }
 edge_right = ["#ffffff77", "#ffffff2c"]
@@ -3371,5 +4017,7 @@ corner_bottom_right = { insets_px = [16.124, 9.93, 8.0, 6.537, 5.341, 4.293, 3.6
 corner_bottom_left = { insets_px = [16.116, 9.884, 8.0, 6.585, 5.341, 4.341, 3.585, 3.0, 2.0, 1.707, 1.0, 1.0, 0.341, 0.0, 0.0], radius_px = 17.5, rms_px = 0.758, radius = { full = { maximum_px = "absent" } } }
 label = "#ffffff80"
 label_pixels = 59
+label_grey_delta = 0.784
 shadow = "absent"
 shadow_pixels = 0
+shadow_grey_delta = 0

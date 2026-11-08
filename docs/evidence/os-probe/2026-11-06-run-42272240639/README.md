@@ -9,7 +9,8 @@ of MP-record), dispatched by hand through `.github/workflows/os-probe.yml` on th
 button-focus-accent,button-key-not-main,button-main-not-key,button-inactive-contrast,focus-transition`:
 <https://github.com/tiborgats/native-theme/actions/runs/42272240639>. GitHub deletes run artifacts after 90 days; this
 folder keeps the files the macOS facts can cite, as the run uploaded them (PNGs and recordings byte for byte), and
-nothing else of the run (left in the artifact: the button pass's per-backdrop captures, the plain sheets' layers its
+nothing else of the run (left in the artifact: the button pass's per-backdrop captures but the captures over grey that
+the analysis reads, below, the plain sheets' layers its
 earlier runs already hold, the hover captures but the combo buttons', the focus recordings' frames, the SDK headers).
 
 `run.toml` records the images' builds. macOS 26 is **26.7.2 (25G332)** on this image (runner image macos26
@@ -96,3 +97,17 @@ passes' renders and captures, the focus pass under the red accent, the caret rec
 hover and click captures. The run's artifacts keep them until GitHub deletes them (90 days after 2026-11-06), and
 commit 71b4c68a holds them in the history. The `settings.txt` and `environment.txt` no fact or analysis reads are
 kept, pending a spec rule on them.
+
+## The grey check (the macOS tie-break round 7, 2026-11-08)
+
+The probe's own `check_grey` (each button's region of the layer composited over the grey backdrop against the capture
+over grey, `max_byte_delta` and `pixels_over_2`) finds many of this run's layers not one linear overlay, chiefly under
+Increase Contrast in the inactive window (its edge line) and on glass. As run 41006842699's analysis did for its
+Increase Contrast pass, every value is now checked at the pixels it is read from: the tie-break brought from the run's
+artifact, byte for byte, the 304 captures over grey (`<state>-over-grey.png`) of the layers `measure_button_layers.py`
+reads (each layer they belong to is the committed one byte for byte), and re-ran `measure_button_layers.py` and
+`tiebreak_corners.py`, which now read them: `fill_grey_delta`, `label_grey_delta`, `icon_grey_delta`,
+`edge_grey_delta` and `shadow_grey_delta` in `layers-<pass>-<sheet>.toml`, and each corner's `grey_delta` in
+`tiebreak-corners.toml` (their docstrings state the pixels). Every other key of both outputs is unchanged. A value
+whose delta exceeds 2 levels is not read from the layer (the facts' header, docs/facts/macos/button.toml).
+
