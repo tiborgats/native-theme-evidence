@@ -1,0 +1,53 @@
+# Output of analysis/roles_text_highlights.py (its docstring is the method) over docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26.
+input_image = [
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure-differ-levels.txt",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/index.toml",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/dark/find/default/black/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/dark/find/default/white/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/dark/text_selection/focused/black/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/dark/text_selection/focused/white/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/dark/text_selection/unfocused/black/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/dark/text_selection/unfocused/white/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/light/find/default/black/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/light/find/default/white/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/light/text_selection/focused/black/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/light/text_selection/focused/white/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/light/text_selection/unfocused/black/text.png",
+    "docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-26/measure1/screen/light/text_selection/unfocused/white/text.png",
+]
+
+[text_selection.light]
+highlight = "#0055a533"
+highlight_pixels = 5900
+highlight_box = [57, 57, 248, 127]
+selected_glyph = "#000000ff"
+selected_glyph_pixels = 1670
+
+[text_selection_unfocused.light]
+chromatic_pixels = 0
+selection = "absent"
+
+[find.light]
+current_match = "#ffdd00ff"
+current_match_pixels = 8131
+transparent_pixels = 10140
+result_count = 3
+highlighted_result_index = 1
+
+[text_selection.dark]
+highlight = "#0053a659"
+highlight_pixels = 6145
+highlight_box = [57, 57, 248, 127]
+selected_glyph = "#ffffffff"
+selected_glyph_pixels = 634
+
+[text_selection_unfocused.dark]
+chromatic_pixels = 0
+selection = "absent"
+
+[find.dark]
+current_match = "#ffdd00ff"
+current_match_pixels = 8131
+transparent_pixels = 0
+result_count = 3
+highlighted_result_index = 1

@@ -1,0 +1,268 @@
+# Output of analysis/read_icon_presence.py (docs/evidence/ios-host/2026-10-30-run-41020880059/analysis/; its docstring is the method) over docs/evidence/ios-host/2026-11-06-run-42276668803/ios-host-macos-15.
+input_image = "docs/evidence/ios-host/2026-11-06-run-42276668803/ios-host-macos-15/run1/index.toml"
+
+[no_image]
+icon = "absent"
+cells = 1174
+specimens = 65
+kinds = ["button_type", "configuration"]
+
+[specimens."bordered"]
+icon = "absent"
+cells = 56
+
+[specimens."bordered+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_prominent"]
+icon = "absent"
+cells = 56
+
+[specimens."bordered_prominent+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_prominent+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_prominent+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_prominent+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_tinted"]
+icon = "absent"
+cells = 56
+
+[specimens."bordered_tinted+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_tinted+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_tinted+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."bordered_tinted+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."borderless"]
+icon = "absent"
+cells = 56
+
+[specimens."borderless+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."borderless+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."borderless+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."borderless+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."filled"]
+icon = "absent"
+cells = 56
+
+[specimens."filled+corner_style_capsule"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+corner_style_dynamic"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+corner_style_fixed"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+corner_style_large"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+corner_style_medium"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+corner_style_small"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+menu_on_hold"]
+icon = "absent"
+cells = 8
+
+[specimens."filled+menu_primary_action"]
+icon = "absent"
+cells = 8
+
+[specimens."filled+menu_primary_action+indicator_none"]
+icon = "absent"
+cells = 8
+
+[specimens."filled+menu_primary_action+indicator_popup"]
+icon = "absent"
+cells = 8
+
+[specimens."filled+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."filled+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."gray"]
+icon = "absent"
+cells = 56
+
+[specimens."gray+corner_style_capsule"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+corner_style_dynamic"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+corner_style_fixed"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+corner_style_large"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+corner_style_medium"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+corner_style_small"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+menu_on_hold"]
+icon = "absent"
+cells = 8
+
+[specimens."gray+menu_primary_action"]
+icon = "absent"
+cells = 8
+
+[specimens."gray+menu_primary_action+indicator_none"]
+icon = "absent"
+cells = 8
+
+[specimens."gray+menu_primary_action+indicator_popup"]
+icon = "absent"
+cells = 8
+
+[specimens."gray+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."gray+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."plain"]
+icon = "absent"
+cells = 56
+
+[specimens."plain+menu_on_hold"]
+icon = "absent"
+cells = 8
+
+[specimens."plain+menu_primary_action"]
+icon = "absent"
+cells = 8
+
+[specimens."plain+menu_primary_action+indicator_none"]
+icon = "absent"
+cells = 8
+
+[specimens."plain+menu_primary_action+indicator_popup"]
+icon = "absent"
+cells = 8
+
+[specimens."plain+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."plain+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."plain+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."plain+subtitle_Subtitle"]
+icon = "absent"
+cells = 14
+
+[specimens."system"]
+icon = "absent"
+cells = 14
+
+[specimens."tinted"]
+icon = "absent"
+cells = 56
+
+[specimens."tinted+role_cancel"]
+icon = "absent"
+cells = 14
+
+[specimens."tinted+role_destructive"]
+icon = "absent"
+cells = 14
+
+[specimens."tinted+role_primary"]
+icon = "absent"
+cells = 14
+
+[specimens."tinted+subtitle_Subtitle"]
+icon = "absent"
+cells = 14

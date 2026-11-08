@@ -1,0 +1,1727 @@
+# Output of analysis/symbols_read.py (its docstring is the method) over docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-15.
+input_image = ["docs/evidence/ios-host/2026-11-06-run-42269041636/ios-host-macos-15/measure1/index.toml"]
+
+[defaults.plain]
+default_size = "regular"
+
+[defaults.gray]
+default_size = "regular"
+
+[defaults.tinted]
+default_size = "regular"
+
+[defaults.filled]
+default_size = "regular"
+
+[defaults.borderless]
+default_size = "regular"
+
+[defaults.bordered]
+default_size = "regular"
+
+[defaults.bordered_tinted]
+default_size = "regular"
+
+[defaults.bordered_prominent]
+default_size = "regular"
+
+[buttons.plain.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.plain.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.plain.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.gray.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.gray.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.tinted.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.tinted.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.filled.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.filled.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.borderless.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.borderless.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_tinted.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_tinted.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.mini.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.mini.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.mini.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.mini.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.small.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.small.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.small.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.small.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortSubhead"
+size = 15.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.medium.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.medium.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.medium.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.medium.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.large.image]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.large.icon_only]
+symbol = "star"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+symbol_variants = []
+glyph = "absent"
+
+[buttons.bordered_prominent.large.indicator_popup]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[buttons.bordered_prominent.large.pop_up]
+symbol = "chevron.up.chevron.down"
+text_style = "UICTFontTextStyleShortBody"
+size = 17.0
+scale = "small"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+
+[types.system]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+glyph = "absent"
+symbol_variants = []
+
+[types.info_light]
+symbol = "info.circle"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+glyph_name = "info.circle"
+
+[types.info_dark]
+symbol = "info.circle"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+glyph_name = "info.circle"
+
+[types.detail_disclosure]
+symbol = "info.circle"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+glyph_name = "info.circle"
+
+[types.contact_add]
+symbol = "plus.circle"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+glyph_name = "plus.circle"
+
+[types.close]
+symbol = "xmark"
+point_size = 15.0
+size = 15.0
+scale = "medium"
+weight_name = "Bold"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+glyph_name = "xmark"
+
+[contexts.light.toolbar.star]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.light.toolbar.square_and_arrow_up]
+symbol = "square.and.arrow.up"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.light.toolbar.plus]
+symbol = "plus"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.light.navigation_bar.star]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.light.navigation_bar.chevron_backward]
+symbol = "chevron.backward"
+text_style = "UICTFontTextStyleEmphasizedBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.light.tab_bar.star]
+symbol = "star"
+point_size = 18.0
+size = 18.0
+scale = "large"
+weight_name = "Medium"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.light.tab_bar.circle]
+symbol = "circle"
+point_size = 18.0
+size = 18.0
+scale = "large"
+weight_name = "Medium"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#ffffffff"
+
+[contexts.light.segmented.star]
+symbol = "star"
+rendering_mode = "template"
+fill = "#000000ff"
+
+[contexts.light.search_bar.xmark_circle_fill]
+symbol = "xmark.circle.fill"
+scale = "medium"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "original"
+fill = "#007affff"
+
+[contexts.light.search_bar.magnifyingglass]
+symbol = "magnifyingglass"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "medium"
+weight_name = "Regular"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#3c3c4399"
+
+[contexts.light.list.star]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#007affff"
+
+[contexts.dark.toolbar.star]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"
+
+[contexts.dark.toolbar.square_and_arrow_up]
+symbol = "square.and.arrow.up"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"
+
+[contexts.dark.toolbar.plus]
+symbol = "plus"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"
+
+[contexts.dark.navigation_bar.star]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"
+
+[contexts.dark.navigation_bar.chevron_backward]
+symbol = "chevron.backward"
+text_style = "UICTFontTextStyleEmphasizedBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"
+
+[contexts.dark.tab_bar.star]
+symbol = "star"
+point_size = 18.0
+size = 18.0
+scale = "large"
+weight_name = "Medium"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"
+
+[contexts.dark.tab_bar.circle]
+symbol = "circle"
+point_size = 18.0
+size = 18.0
+scale = "large"
+weight_name = "Medium"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#ffffffff"
+
+[contexts.dark.segmented.star]
+symbol = "star"
+rendering_mode = "template"
+fill = "#ffffffff"
+
+[contexts.dark.search_bar.xmark_circle_fill]
+symbol = "xmark.circle.fill"
+scale = "medium"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "original"
+fill = "#0a84ffff"
+
+[contexts.dark.search_bar.magnifyingglass]
+symbol = "magnifyingglass"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "medium"
+weight_name = "Regular"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#ebebf599"
+
+[contexts.dark.list.star]
+symbol = "star"
+text_style = "UICTFontTextStyleBody"
+size = 17.0
+scale = "large"
+weight = "absent"
+axes = {}
+symbolic_colors = {}
+rendering_mode = "template"
+fill = "#0a84ffff"

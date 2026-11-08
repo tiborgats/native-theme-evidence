@@ -1,0 +1,742 @@
+# Output of analysis/press_focus.py (its docstring is the method) over docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26.
+input_image = [
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/index.toml",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/bordered/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/bordered/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/bordered_prominent/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/bordered_prominent/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/bordered_tinted/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/bordered_tinted/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/borderless/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/borderless/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/clear_glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/clear_glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/filled/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/filled/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/gray/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/gray/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/plain/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/plain/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/prominent_clear_glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/prominent_clear_glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/prominent_glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/prominent_glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/system/default/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/system/default/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/tinted/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/dark/tinted/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/bordered/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/bordered/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/bordered_prominent/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/bordered_prominent/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/bordered_tinted/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/bordered_tinted/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/borderless/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/borderless/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/clear_glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/clear_glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/filled/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/filled/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/gray/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/gray/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/plain/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/plain/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/prominent_clear_glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/prominent_clear_glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/prominent_glass/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/prominent_glass/medium/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/system/default/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/system/default/system/focused.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/tinted/medium/system/normal.png",
+    "docs/evidence/ios-host/2026-11-06-run-42275053139/ios-host-macos-26/focus1/screen/light/tinted/medium/system/focused.png",
+]
+
+[token.dark]
+color = "#0088ff"
+width = 3.0
+offset_top = -1.5
+offset_right = -1.5
+offset_bottom = -1.5
+offset_left = -1.5
+kind = "ring"
+dash = "solid"
+shadow = "absent"
+specimens_read = 13
+specimens = 13
+
+[token.light]
+color = "#0088ff"
+width = 3.0
+offset_top = -1.5
+offset_right = -1.5
+offset_bottom = -1.5
+offset_left = -1.5
+kind = "ring"
+dash = "solid"
+shadow = "absent"
+specimens_read = 10
+specimens = 13
+
+[halo.dark.bordered]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.bordered_prominent]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.bordered_tinted]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.borderless]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.clear_glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.filled]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.gray]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.plain]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.prominent_clear_glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.prominent_glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.system]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.dark.tinted]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.bordered]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.bordered_prominent]
+color = "#0088ff"
+width = "unread"
+offset_left = "unread"
+offset_right = "unread"
+offset_top = "unread"
+offset_bottom = "unread"
+
+[halo.light.bordered_tinted]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.borderless]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.clear_glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.filled]
+color = "#0088ff"
+width = "unread"
+offset_left = "unread"
+offset_right = "unread"
+offset_top = "unread"
+offset_bottom = "unread"
+
+[halo.light.glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.gray]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.plain]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.prominent_clear_glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.prominent_glass]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[halo.light.system]
+color = "#0088ff"
+width = "unread"
+offset_left = "unread"
+offset_right = "unread"
+offset_top = "unread"
+offset_bottom = "unread"
+
+[halo.light.tinted]
+color = "#0088ff"
+width = 3.0
+offset_left = -1.5
+offset_right = -1.5
+offset_top = -1.5
+offset_bottom = -1.5
+solid = true
+outside_pixels = 0
+outside_max_levels = 0
+centre_unchanged = true
+
+[cells.dark.bordered]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.bordered_prominent]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.bordered_tinted]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.borderless]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.clear_glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.filled]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.gray]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.plain]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.prominent_clear_glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.prominent_glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.dark.tinted]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.bordered]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.bordered_prominent]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.bordered_tinted]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.borderless]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.clear_glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.filled]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.gray]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.plain]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.prominent_clear_glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.prominent_glass]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
+
+[cells.light.tinted]
+is_focused = true
+can_become_focused = true
+same_as_normal = true
+padding_top = 7.0
+padding_left = 12.0
+padding_bottom = 7.0
+padding_right = 12.0
+icon_placement = "leading"
+icon_text_gap = 0.0
+subtitle_gap = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+opacity = 1.0
