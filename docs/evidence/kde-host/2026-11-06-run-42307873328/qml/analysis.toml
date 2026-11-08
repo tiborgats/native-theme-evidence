@@ -3,6 +3,7 @@
 input_image = ["docs/evidence/kde-host/2026-11-06-run-42307873328/qml/index.txt", "docs/evidence/kde-host/2026-11-06-run-42307873328/fonts/fonts.toml"]
 size_for_labels_px = 16
 general_font = "Noto Sans 9.75pt"
-general_font_height_px = 18
+general_font_height_px = 17.6875
+rounded_icon_size_input_px = 17
 rounded_icon_size_px = 16
 consistent = true
