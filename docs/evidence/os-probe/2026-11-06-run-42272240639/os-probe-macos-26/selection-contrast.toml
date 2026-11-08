@@ -1,0 +1,37 @@
+# Output of analysis/measure_selection_contrast.py (its docstring is the method), file selection-contrast.toml.
+# input_image: every file it reads, as a repository path (spec S17 *`evidence`*).
+input_image = ["docs/evidence/os-probe/2026-10-31-run-41195846264/os-probe-macos-26/increase-contrast-on/probe.toml", "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/increase-contrast-on-accent-red/probe.toml", "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/increase-contrast-on-accent-red/settings.txt", "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/increase-contrast-on-accent-red/renders/selection/aqua-emphasized.png", "docs/evidence/os-probe/2026-11-06-run-42272240639/os-probe-macos-26/increase-contrast-on-accent-red/renders/selection/darkAqua-emphasized.png"]
+
+[selection_contrast.aqua]
+samples_match = true
+background_first = "#0040ddff"
+background_second = "#c4262bff"
+foreground_inactive = "#feffffcd"
+disabled_foreground = "#ffffff80"
+link = "#0068daff"
+
+[selection_contrast.aqua.solve.secondaryLabelColor]
+channel_alphas = [0.801, 0.8034]
+
+[selection_contrast.aqua.solve.tertiaryLabelColor]
+channel_alphas = [0.5, 0.5]
+
+[selection_contrast.aqua.solve.linkColor]
+channel_alphas = [1.0, 1.0]
+
+[selection_contrast.darkAqua]
+samples_match = true
+background_first = "#1774daff"
+background_second = "#dd363cff"
+foreground_inactive = "#ffffffb3"
+disabled_foreground = "#ffffff80"
+link = "#419cffff"
+
+[selection_contrast.darkAqua.solve.secondaryLabelColor]
+channel_alphas = [0.702, 0.7025]
+
+[selection_contrast.darkAqua.solve.tertiaryLabelColor]
+channel_alphas = [0.5, 0.5]
+
+[selection_contrast.darkAqua.solve.linkColor]
+channel_alphas = [1.0, 1.0]

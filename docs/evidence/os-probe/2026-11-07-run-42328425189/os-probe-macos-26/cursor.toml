@@ -1,0 +1,27 @@
+# Output of scripts/analysis_macos_cursor.py (its docstring is the method), file cursor.toml.
+# input_image: every file it reads, as a repository path (spec S17 *`evidence`*).
+input_image = ["docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/probe.toml", "docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/aqua/typing-pointer.mov", "docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/aqua/typing-pointer.crop", "docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/aqua/typing-pointer-frames.csv", "docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/darkAqua/typing-pointer.mov", "docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/darkAqua/typing-pointer.crop", "docs/evidence/os-probe/2026-11-07-run-42328425189/os-probe-macos-26/button-pass-events/darkAqua/typing-pointer-frames.csv"]
+
+[typing.aqua]
+frames = 546
+first_key_frame = 111
+drawn_before_key = true
+hidden_from_frame = 110
+hides_on_key = true
+shown_again_frame = 266
+hidden_again_frame = 322
+fade_frames = 0
+hide_interval_ms = 16.7
+hide_pointer_while_typing = true
+
+[typing.darkAqua]
+frames = 542
+first_key_frame = 162
+drawn_before_key = false
+hidden_from_frame = 159
+hides_on_key = false
+shown_again_frame = 320
+hidden_again_frame = 377
+fade_frames = 3
+hide_interval_ms = 16.7
+hide_pointer_while_typing = false
