@@ -1,0 +1,665 @@
+# Output of analysis/render_pop_up.py (its docstring is the method) over docs/evidence/ios-host/2026-11-06-run-42305286429/ios-host-macos-26.
+input_image = [
+    "docs/evidence/ios-host/2026-11-06-run-42305286429/ios-host-macos-26/run1/index.toml",
+    "docs/evidence/ios-host/2026-11-06-run-42305286429/ios-host-macos-26/run1/sync/done",
+]
+
+[pop_up.dark.filled]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.dark.filled.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.filled.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.filled.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.filled.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.filled.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.dark.filled.narrow.selected_second]
+unread = "its page failed the margin check (run1/sync/done)"
+
+[pop_up.dark.glass]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.dark.glass.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.glass.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.glass.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.glass.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.glass.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.dark.glass.narrow.selected_second]
+unread = "its page failed the margin check (run1/sync/done)"
+
+[pop_up.dark.gray]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.dark.gray.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.gray.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.gray.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.gray.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.gray.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.dark.gray.narrow.selected_second]
+unread = "its page failed the margin check (run1/sync/done)"
+
+[pop_up.dark.plain]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.dark.plain.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.plain.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.dark.plain.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.plain.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.dark.plain.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.dark.plain.narrow.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 19.667
+label_height = 120.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 134.333
+one_line_height = 20.333
+lines = 6
+
+[pop_up.light.filled]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.light.filled.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.filled.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.filled.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.filled.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.filled.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.light.filled.narrow.selected_second]
+unread = "its page failed the margin check (run1/sync/done)"
+
+[pop_up.light.glass]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.light.glass.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.glass.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.glass.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.glass.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.glass.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.light.glass.narrow.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 19.667
+label_height = 120.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 134.333
+one_line_height = 20.333
+lines = 6
+
+[pop_up.light.gray]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.light.gray.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.gray.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.gray.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.gray.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.gray.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.light.gray.narrow.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 19.667
+label_height = 120.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 134.333
+one_line_height = 20.333
+lines = 6
+
+[pop_up.light.plain]
+content_width = "shown"
+content_slack = 0.0
+label_padding_top = 0.0
+label_padding_right = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+elision = "none"
+
+[pop_up.light.plain.own.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 47.667
+indicator_width = 12.333
+frame_width = 72.0
+frame_height = 34.333
+width = 72.0
+row = 72.0
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.plain.own.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 84.0
+label_height = 20.333
+indicator_left = 100.0
+indicator_width = 12.333
+frame_width = 124.333
+frame_height = 34.333
+width = 124.333
+row = 124.333
+slack = 0.0
+label_padding_top = 0.0
+label_padding_bottom = 0.0
+label_padding_left = 0.0
+label_padding_right = 0.0
+
+[pop_up.light.plain.wide.selected_first]
+label_text = "One"
+label_left = 76.0
+label_width = 31.667
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.plain.wide.selected_second]
+label_text = "Two longer"
+label_left = 49.667
+label_width = 84.0
+label_height = 20.333
+indicator_left = 175.667
+indicator_width = 12.333
+frame_width = 200.0
+frame_height = 34.333
+
+[pop_up.light.plain.narrow.selected_first]
+label_text = "One"
+label_left = 12.0
+label_width = 19.0
+label_height = 40.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 54.333
+one_line_height = 20.333
+lines = 2
+
+[pop_up.light.plain.narrow.selected_second]
+label_text = "Two longer"
+label_left = 12.0
+label_width = 19.667
+label_height = 120.333
+indicator_left = 35.667
+indicator_width = 12.333
+frame_width = 60.0
+frame_height = 134.333
+one_line_height = 20.333
+lines = 6
