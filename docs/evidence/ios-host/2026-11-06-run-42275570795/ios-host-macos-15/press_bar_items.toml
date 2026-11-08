@@ -1,0 +1,130 @@
+# Output of analysis/press_bar_items.py (its docstring is the method) over docs/evidence/ios-host/2026-11-06-run-42275570795/ios-host-macos-15.
+input_image = "docs/evidence/ios-host/2026-11-06-run-42275570795/ios-host-macos-15/press1/index.toml"
+
+[items.dark.bar_done]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.dark.bar_image]
+held = true
+content_class = "UIImageView"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+steady = true
+
+[items.dark.bar_plain]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.dark.bar_system_action]
+held = true
+content_class = "UIImageView"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+steady = true
+
+[items.dark.bar_system_add]
+held = true
+content_class = "UIImageView"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+steady = true
+
+[items.dark.bar_system_cancel]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.dark.bar_system_done]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.4
+fill = "#0a84ff66"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.light.bar_done]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.light.bar_image]
+held = true
+content_class = "UIImageView"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+steady = true
+
+[items.light.bar_plain]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.light.bar_system_action]
+held = true
+content_class = "UIImageView"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+steady = true
+
+[items.light.bar_system_add]
+held = true
+content_class = "UIImageView"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+steady = true
+
+[items.light.bar_system_cancel]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
+
+[items.light.bar_system_done]
+held = true
+content_class = "UIButtonLabel"
+content_opacity = 0.2
+fill = "#007aff33"
+opacity = 1.0
+font_family = ".AppleSystemUIFont"
+font_size = 17.0
+steady = true
