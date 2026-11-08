@@ -1,18 +1,20 @@
 # Evidence
 
-Recorded outputs that `docs/platform-facts.md` and the presets cite, kept in
-the repository because GitHub deletes a workflow run's artifacts after 90
-days. Each run directory holds that run's artifacts and a `README.md` of
-its own that states the runner images and what the run reported. A recorded
-file is not edited after it is added: a later reading is a new run directory.
-A recorded file's own `docs/platform-facts.md:N` citations (the Windows
-`probe.toml`s' notes, for one) refer to the facts file at that run's commit.
+Recorded outputs that native-theme's facts, `docs/platform-facts.md` and
+presets cite, kept in this evidence repository, which native-theme pins by
+commit (its `docs/facts/sources.toml`), because GitHub deletes a workflow
+run's artifacts after 90 days. Each run directory holds that run's artifacts
+and a `README.md` of its own that states the runner images and what the run
+reported. A recorded file is not edited after it is added: a later reading is
+a new run directory. A recorded file's own `docs/platform-facts.md:N`
+citations (the Windows `probe.toml`s' notes, for one) refer to native-theme's
+facts file at that run's commit.
 
 ## `os-probe/`
 
-What each GitHub runner image's OS reported to `tools/os-probe`
-(`native-theme-os-probe`, never published), dispatched by hand through
-`.github/workflows/os-probe.yml`: one directory per image, holding
+What each GitHub runner image's OS reported to native-theme's
+`tools/os-probe` (`native-theme-os-probe`, never published), dispatched by hand
+through its `.github/workflows/os-probe.yml`: one directory per image, holding
 `probe.toml` and, on macOS, the control renders under `renders/aqua/` and
 `renders/darkAqua/` (and, from run 40320895749, the key window's captures under
 `renders/key_window/` and one directory per extra pass).
