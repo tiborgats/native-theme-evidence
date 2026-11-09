@@ -2,8 +2,9 @@
 """Reads the WinUI host's run 1 (`frames.toml` and the recordings it names) as the windows-11 facts' values: the
 accent button's and the dialog's default button's box, stroke, focus offset and label font, the caret's width and
 secondary caret, the text-rendering settings, the per-language font fallbacks, the colour space of a brush
-transition and the scroll into view's duration. The Windows facts lane wrote it (2026-11-07, spec S17 *`evidence`*:
-an analysis output for values computed from values a harness read, and for values read from images).
+transition, the scroll into view's duration, and (with the text-scale run) the curve WinUI scales a font size by. The
+Windows facts lane wrote it (2026-11-07, spec S17 *`evidence`*: an analysis output for values computed from values a
+harness read, and for values read from images); `[text_scale]` added 2026-11-09 (the ledger's U701, ADD-A145).
 
 Run from the repository root (Python 3.11+, the standard library only):
 
@@ -13,8 +14,9 @@ It reads, under that image folder, `frames.toml` (its tables named below), `text
 `motion-caret_ltr.png`, `motion-caret_mixed.png`, `motion-caret_mixed_end.png` (each the recording's distinct
 frames side by side, 160 px wide each, as the `[[motion]]` table's `screen_rect` gives), and
 `motion-color_space_red_to_translucent_blue.csv`, `motion-color_space_translucent_green_to_red.csv`,
-`motion-color_space_black_to_white.csv` (every recorded frame's `distinct_index` and its `centre` pixel). It writes
-`analysis.toml` into the image folder:
+`motion-color_space_black_to_white.csv` (every recorded frame's `distinct_index` and its `centre` pixel), and the
+text-scale run's `text-scale/frames.toml` and `text-scale/text-text_scale.png`. It writes `analysis.toml` into the
+image folder:
 
 - `[button.primary]` from `[defaults]`' `accent_button_*` (a Button whose Style is AccentButtonStyle) and
   `[button.dialog_default]` from the `[[dialog.button]]` that is the dialog's `default_button` (`PrimaryButton`, its
@@ -55,6 +57,35 @@ frames side by side, 160 px wide each, as the `[[motion]]` table's `screen_rect`
   ScrollViewer's view focused by keyboard); `duration_ms` is 0 where each pass's `view_events` hold no inertial view
   change (`inertial True`) and one `changed` event, not intermediate: the view moves to its final offset in one
   step.
+- `[text_scale]`: the `[[text]]` TextBlocks of run 1's pass `default` (`[system]` `ui_settings_text_scale_factor`
+  1, `base_factor`) and of the text-scale run's pass `text_scale` (`factor`, the same key, 1.5), paired by
+  `font_size` (`sizes_px`; each pair the same family and weight, `is_text_scale_factor_enabled` true and
+  `line_height` 0, WinUI's auto line height). A TextBlock's auto height is the font's line spacing times the size it
+  is drawn at, so the size the text-scale run drew is `implied_px = size * height(factor) / height(base_factor)`
+  (`actual_size.height`). That rests on run 1's heights being one multiple of their sizes: `base_height_per_px_spread`
+  is the largest less the smallest of `height / size`, and is required to put the largest implied size off by no
+  more than the tolerance (`spread * max(implied_px) <= tolerance_px`). The widths are not used: each TextBlock holds
+  its own text, so run 1 cannot show a width to be proportional to the size. Each candidate is a member of the
+  model's `TextScaling` (spec S9.4) and gives the size at the factor: `linear`, the size times the factor (S9.4: "a
+  product"); `dynamic_type`, the size unchanged (S9.4: under `DynamicType` the factor is not read, the content-size
+  category alone scales, and a Windows text-scale factor names none); `android_non_linear` and `win_ui`, the rows of
+  native-theme's vector tables at factor 1.5 (VECTOR_ROWS: `android_non_linear.tsv`, generated from Android's
+  `FontScaleConverter` through its public API, which has no row at 68 px, listed in
+  `android_non_linear_unevaluated_px`; `win_ui.tsv`, generated from WinUI's `TextFormatting::GetScaledFontSize`
+  compiled unchanged). `<candidate>_worst_px` is the largest `|implied_px - candidate|` over the sizes it has a value
+  for. `tolerance_px` is 0.001: the heights are single-precision values (2^-24 relative each) and a table's rows are
+  printed to a float's shortest form, so an implied size near 71 px carries an error of the order of 1e-5 px; 0.001
+  is a hundred times that. `least_separation_px` is how far the candidates lie apart at these sizes: for each two,
+  the largest difference at a size both have a value for, and of those the smallest; it must exceed twice the
+  tolerance, so no two candidates can both fit. `fitting` lists the candidates within the tolerance. The captures: run 1's
+  `text-default.png` and the text-scale run's `text-text_scale.png` are each their pass's panel (`[[text_capture]]`'s
+  `panel_bounds` at 0,0, the PNG's size), so a TextBlock's `bounds` are pixel coordinates in it;
+  `<base_|>capture_ink_outside_bounds` counts the non-white pixels overlapping no TextBlock's bounds (each pixel
+  the unit square at its coordinates), and `capture_grey_pixels`, `capture_coloured_pixels` and
+  `capture_matches_host_counts` are the text-scale capture's, as `[text_rendering]`'s are run 1's. `curve` names the
+  member where exactly one candidate fits, every other misses by more than the tolerance, the spread and the
+  separation hold, and no drawn pixel of either capture lies outside the bounds (the drawn text is the frames'
+  layout); otherwise it is not written and `fitting` states what fits.
 
 `input_image` names every file read, as repository paths.
 """
@@ -72,6 +103,19 @@ SPACES = ("color_space_red_to_translucent_blue", "color_space_translucent_green_
           "color_space_black_to_white")
 SIDES = ("left", "top", "right", "bottom")   # a XAML Thickness string's order
 PIXEL_GEOMETRY = {"RGB": "rgb", "BGR": "bgr", "FLAT": "none"}
+
+# [text_scale]'s candidates from native-theme's vector tables, the rows at factor 1.5 (native-theme at 73b5fc33,
+# v0.8.0-rc1): size px -> result px. android_non_linear.tsv:242-246, :265, :267, :272 (`size font_scale result`,
+# `FontScaleConverter.forScale(1.5).convertSpToDp`; no row at 68 px); win_ui.tsv:538-561 (`size factor result`,
+# `TextFormatting::GetScaledFontSize`), the rows at 10, 12, 14, 16, 18, 20, 28, 40 and 68 px.
+VECTOR_FACTOR = 1.5
+VECTOR_ROWS = {
+    "android_non_linear": {10.0: 15.0, 12.0: 18.0, 14.0: 22.0, 16.0: 23.0, 18.0: 24.0, 20.0: 26.0,
+                           28.0: 29.333334, 40.0: 40.0},
+    "win_ui": {10.0: 15.870462, 12.0: 17.622662, 14.0: 19.413149, 16.0: 21.23166, 18.0: 23.071577,
+               20.0: 24.928377, 28.0: 32.471066, 40.0: 43.986294, 68.0: 71.26509},
+}
+TEXT_SCALE_TOLERANCE_PX = 0.001
 
 
 def read_png(path):
@@ -201,6 +245,96 @@ def argb(s):
     return (r, g, b, a)
 
 
+def capture_ink(png, texts, panel):
+    """(non-white pixels overlapping no TextBlock's bounds, grey pixels, coloured pixels) of a capture of the panel,
+    or None where the PNG is not the panel's size at 0,0."""
+    w, h, rows = read_png(png)
+    if (panel["x"], panel["y"], panel["width"], panel["height"]) != (0, 0, w, h):
+        return None
+    boxes = [(t["bounds"]["x"], t["bounds"]["y"], t["bounds"]["x"] + t["bounds"]["width"],
+              t["bounds"]["y"] + t["bounds"]["height"]) for t in texts]
+    outside = grey = coloured = 0
+    for y in range(h):
+        for x in range(w):
+            r, g, b = rows[y][x][:3]
+            if (r, g, b) == (255, 255, 255):
+                continue
+            if r == g == b:
+                grey += 1
+            else:
+                coloured += 1
+            if not any(x0 < x + 1 and x < x1 and y0 < y + 1 and y < y1 for x0, y0, x1, y1 in boxes):
+                outside += 1
+    return outside, grey, coloured
+
+
+def text_scale_lines(image, frames):
+    """`[text_scale]` (the docstring's method)."""
+    scaled = tomllib.loads((image / "text-scale" / "frames.toml").read_text())
+    base_factor = frames["system"]["ui_settings_text_scale_factor"]
+    factor = scaled["system"]["ui_settings_text_scale_factor"]
+    base = [t for t in frames["text"] if t["pass"] == "default"]
+    drawn_scaled = [t for t in scaled["text"] if t["pass"] == "text_scale"]
+    out = ["\n[text_scale]", f"base_factor = {float(base_factor)!r}", f"factor = {float(factor)!r}"]
+    keys = ("font_family", "font_weight", "is_text_scale_factor_enabled", "line_height")
+    paired = (base_factor == 1 and factor == VECTOR_FACTOR and len(base) == len(drawn_scaled) > 0 and
+              all(a["font_size"] == b["font_size"] and all(a[k] == b[k] for k in keys) and
+                  a["is_text_scale_factor_enabled"] is True and a["line_height"] == 0
+                  for a, b in zip(base, drawn_scaled)))
+    out.append(f"paired = {str(paired).lower()}")
+    if not paired:
+        return out
+    sizes = [a["font_size"] for a in base]
+    implied = [s * b["actual_size"]["height"] / a["actual_size"]["height"]
+               for s, a, b in zip(sizes, base, drawn_scaled)]
+    per_px = [a["actual_size"]["height"] / s for s, a in zip(sizes, base)]
+    spread = max(per_px) - min(per_px)
+    out.append("sizes_px = [" + ", ".join(repr(num(s)) for s in sizes) + "]")
+    out.append("implied_px = [" + ", ".join(repr(round(v, 6)) for v in implied) + "]")
+    out.append(f"base_height_per_px_spread = {float(f'{spread:.3g}')!r}")
+    out.append(f"tolerance_px = {TEXT_SCALE_TOLERANCE_PX!r}")
+    candidates = {
+        "linear": {s: s * factor for s in sizes},
+        "dynamic_type": {s: s for s in sizes},
+        "android_non_linear": {s: VECTOR_ROWS["android_non_linear"][s] for s in sizes
+                               if s in VECTOR_ROWS["android_non_linear"]},
+        "win_ui": {s: VECTOR_ROWS["win_ui"][s] for s in sizes if s in VECTOR_ROWS["win_ui"]},
+    }
+    fitting = []
+    for name, values in candidates.items():
+        worst = max(abs(v - values[s]) for s, v in zip(sizes, implied) if s in values)
+        out.append(f"{name}_worst_px = {float(f'{worst:.3g}')!r}")
+        missing = [s for s in sizes if s not in values]
+        if missing:
+            out.append(f"{name}_unevaluated_px = [" + ", ".join(repr(num(s)) for s in missing) + "]")
+        if worst <= TEXT_SCALE_TOLERANCE_PX:
+            fitting.append(name)
+    names = list(candidates)
+    separation = min(max(abs(candidates[p][s] - candidates[q][s]) for s in sizes
+                         if s in candidates[p] and s in candidates[q])
+                     for i, p in enumerate(names) for q in names[i + 1:])
+    out.append(f"least_separation_px = {round(separation, 6)!r}")
+    out.append("fitting = [" + ", ".join(f'"{n}"' for n in fitting) + "]")
+
+    base_capture = frames["text_capture"][0]
+    capture = scaled["text_capture"][0]
+    base_ink = capture_ink(image / base_capture["png"], base, base_capture["panel_bounds"])
+    ink = capture_ink(image / "text-scale" / capture["png"], drawn_scaled, capture["panel_bounds"])
+    if base_ink is None or ink is None:
+        out.append("captures_are_panels = false")
+        return out
+    out.append(f"base_capture_ink_outside_bounds = {base_ink[0]}")
+    out.append(f"capture_ink_outside_bounds = {ink[0]}")
+    out.append(f"capture_grey_pixels = {ink[1]}")
+    out.append(f"capture_coloured_pixels = {ink[2]}")
+    out.append(f"capture_matches_host_counts = "
+               f"{str(ink[1] == capture['grey_pixels'] and ink[2] == capture['coloured_pixels']).lower()}")
+    if (len(fitting) == 1 and spread * max(implied) <= TEXT_SCALE_TOLERANCE_PX and
+            separation > 2 * TEXT_SCALE_TOLERANCE_PX and base_ink[0] == 0 and ink[0] == 0):
+        out.append(f'curve = "{fitting[0]}"')
+    return out
+
+
 def main():
     if len(sys.argv) != 2:
         print(__doc__.split("\n\n")[1], file=sys.stderr)
@@ -209,7 +343,7 @@ def main():
     frames = tomllib.loads((image / "frames.toml").read_text())
     motion = {m["name"]: m for m in frames["motion"]}
     read = ["frames.toml", "text-default.png"] + [f"motion-{n}.png" for n in CARETS] + \
-        [f"motion-{n}.csv" for n in SPACES]
+        [f"motion-{n}.csv" for n in SPACES] + ["text-scale/frames.toml", "text-scale/text-text_scale.png"]
     lines = ["# Output of analysis/read_host.py (its docstring is the method), file analysis.toml.",
              "# input_image: every file it reads, as a repository path (spec S17 *`evidence`*).",
              "input_image = [" + ", ".join(f'"{image.as_posix()}/{rel}"' for rel in read) + "]"]
@@ -341,6 +475,8 @@ def main():
         one_step = one_step and ok
     if one_step:
         lines.append("duration_ms = 0")
+
+    lines += text_scale_lines(image, frames)
 
     (image / "analysis.toml").write_text("\n".join(lines) + "\n")
     return 0

@@ -1,6 +1,6 @@
 # Output of analysis/read_host.py (its docstring is the method), file analysis.toml.
 # input_image: every file it reads, as a repository path (spec S17 *`evidence`*).
-input_image = ["docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/frames.toml", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/text-default.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_ltr.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_mixed.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_mixed_end.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_red_to_translucent_blue.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_translucent_green_to_red.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_black_to_white.csv"]
+input_image = ["docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/frames.toml", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/text-default.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_ltr.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_mixed.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-caret_mixed_end.png", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_red_to_translucent_blue.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_translucent_green_to_red.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/motion-color_space_black_to_white.csv", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/text-scale/frames.toml", "docs/evidence/winui-host/2026-11-06-run-42308526155/winui-host-windows-11-arm/text-scale/text-text_scale.png"]
 
 [button.primary]
 padding_top_px = 6
@@ -77,3 +77,25 @@ space = "straight_srgb8"
 scroll_into_view_focus_one_step = true
 scroll_into_view_focus_next_one_step = true
 duration_ms = 0
+
+[text_scale]
+base_factor = 1.0
+factor = 1.5
+paired = true
+sizes_px = [10, 12, 14, 16, 18, 20, 28, 40, 68]
+implied_px = [15.870463, 17.622661, 19.413149, 21.23166, 23.071577, 24.928377, 32.471064, 43.986294, 71.265092]
+base_height_per_px_spread = 0.0
+tolerance_px = 0.001
+linear_worst_px = 30.7
+dynamic_type_worst_px = 5.87
+android_non_linear_worst_px = 3.99
+android_non_linear_unevaluated_px = [68]
+win_ui_worst_px = 1.55e-06
+least_separation_px = 3.986294
+fitting = ["win_ui"]
+base_capture_ink_outside_bounds = 0
+capture_ink_outside_bounds = 0
+capture_grey_pixels = 24454
+capture_coloured_pixels = 0
+capture_matches_host_counts = true
+curve = "win_ui"
