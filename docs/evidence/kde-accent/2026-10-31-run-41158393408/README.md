@@ -35,7 +35,7 @@ checked by SHA-256 (`tools/kde-host/accent-schemes.tsv`). The installed Breeze f
 | `dark-none` | `BreezeDark` (SHA-256 `11fce1d8ab97b529…`) | `-` | `BreezeClassic` | `-` | `c9df398081add7ddee7e0166970649c3e87df4caffc5ebc9018d889532aafb1a` | no (no accent) |
 | `dark-e5a50a` | `BreezeDark` (SHA-256 `11fce1d8ab97b529…`) | `#e5a50a` | `BreezeClassic` | `-` | `11b5c55b5b8b924ad432f044549b82c89873c066fe13e2ef98900a0f9357be4c` | yes |
 | `dark-5e2ca5` | `BreezeDark` (SHA-256 `11fce1d8ab97b529…`) | `#5e2ca5` | `BreezeClassic` | `-` | `5d9a0c0570b6f998e0d9687fce0eb41b07ced90f49a8ca3f85b9817e8bfc8f82` | yes |
-| `classic-none` | `BreezeClassic` (SHA-256 `19dcbd1883c03d2d…`) | `-` | `BreezeDark` | `-` | `a6dc1499e63e73889e56734fbb02c2ccd40b874e137bc6cd9e14d73630ed5062` | no (no accent) |
+| `classic-none` | `BreezeClassic` (SHA-256 `19dcbd1883c03d2d…`) | `-` | `BreezeDark` | `-` | `a6dc1499e63e73889e56734fbb02c2ccd40b874e137bc6cd9e14d73630ed5062` | yes (no accent, a non-preset file's) |
 | `classic-e5a50a` | `BreezeClassic` (SHA-256 `19dcbd1883c03d2d…`) | `#e5a50a` | `BreezeDark` | `-` | `cf88bd93a06a6403c047d88b9eb94530543853fea8da243488f8023ce960d3e1` | yes |
 | `classic-5e2ca5` | `BreezeClassic` (SHA-256 `19dcbd1883c03d2d…`) | `#5e2ca5` | `BreezeDark` | `-` | `b7a9177abcaf34474bb2ed9ccc9a4b4d0202f63cc1307cf60849f29651f0b1f7` | yes |
 | `susecafe-none` | `SUSECafe` (SHA-256 `5225742f994f5689…`) | `-` | `BreezeDark` | `-` | `f523fee7d5b0dfacb229fd666ef958933b96abd1fc22d3eeaf00cfbeaa3b4a4e` | yes (no accent, the tinting file's) |
@@ -46,9 +46,12 @@ checked by SHA-256 (`tools/kde-host/accent-schemes.tsv`). The installed Breeze f
 | `susecafe-none-after-classic` | `SUSECafe` (SHA-256 `5225742f994f5689…`) | `-` | `BreezeClassic` | `susecafe-none` | `f523fee7d5b0dfacb229fd666ef958933b96abd1fc22d3eeaf00cfbeaa3b4a4e` | no (no accent) |
 
 Kept here: one folder per accent pair, holding its resulting `kdeglobals`, which `docs/facts/kde/accent.toml` cites
-(`run.toml` maps each folder to `kde-breeze`), and the folder of `susecafe-none`, the tinting file with no
-`AccentColor`, whose `kdeglobals` the facts with `accent = "#00000000"` cite (the specification's S17 *The accent
-run*: the no-accent branch on the tinting file, ADD-A132). It was added later, from the run's artifact `kde-accent`
-(downloaded 2026-11-08, before its expiry on 2027-01-29), its SHA-256 the manifest's above. Not kept (only on the
-run's page): the other no-accent and the check pairs' kdeglobals, each step's kdeglobals and output,
-`manifest.toml`, `run.txt`, `pull.txt` and `schemes.txt`; the SHA-256s above are the manifest's.
+(`run.toml` maps each folder to `kde-breeze`), and the folders of the two files that are not the preset's own with
+no `AccentColor`, whose `kdeglobals` the facts with `accent = "#00000000"` cite: `susecafe-none`, the tinting file's
+(the specification's S17 *The accent run*: the no-accent branch on the tinting file, ADD-A132), and `classic-none`,
+BreezeClassic's (S17 *A port's own roles*, ADD-A142: each non-preset file's port compared with no accent set). Both
+were added later, from the run's artifact `kde-accent` (SHA-256 `84dd4c9e21f38b49…`, the upload step's log), before
+its expiry on 2027-01-29: `susecafe-none` downloaded 2026-11-08, `classic-none` 2026-11-09, each kdeglobals' SHA-256
+the manifest's above. Not kept (only on the run's page): the preset's own no-accent and the check pairs' kdeglobals,
+each step's kdeglobals and output, `manifest.toml`, `run.txt`, `pull.txt` and `schemes.txt`; the SHA-256s above are
+the manifest's.
