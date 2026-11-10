@@ -306,7 +306,7 @@ corner_top_left = { insets_px = [5.122, 3.091, 2.0, 1.0, 0.273, 0.0, 0.448, 0.0,
 corner_top_right = { insets_px = [5.088, 3.081, 2.0, 1.0, 0.25, 0.0, 0.922, 0.0, 0.0], radius_px = 7.5, rms_px = 0.333, radius = "7.5px" }
 corner_bottom_right = { insets_px = [5.081, 3.073, 2.0, 1.282, 0.604, 0.0, 0.0], radius_px = 7.5, rms_px = 0.13, radius = "7.5px" }
 corner_bottom_left = { insets_px = [5.115, 3.062, 1.991, 1.274, 0.615, 0.0, 0.0], radius_px = 7.5, rms_px = 0.132, radius = "7.5px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -331,7 +331,7 @@ corner_top_left = { insets_px = [6.879, 4.367, 3.0, 2.0, 1.0, 1.0, 0.0, 0.0], ra
 corner_top_right = { insets_px = [6.866, 4.344, 3.0, 2.0, 1.0, 0.977, 0.0, 0.0], radius_px = 9.25, rms_px = 0.263, radius = "9.25px" }
 corner_bottom_right = { insets_px = [6.86, 4.36, 3.0, 2.0, 1.034, 1.0, 0.232, 0.0, 0.0], radius_px = 9.5, rms_px = 0.202, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.873, 4.371, 3.0, 2.0, 1.0, 1.0, 0.244, 0.0, 0.0], radius_px = 9.5, rms_px = 0.209, radius = "9.5px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -356,7 +356,7 @@ corner_top_left = { insets_px = [9.986, 7.375, 5.318, 4.0, 3.0, 2.318, 2.0, 1.0,
 corner_top_right = { insets_px = [10.0, 7.394, 5.364, 4.0, 3.0, 2.273, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.273, radius = "13px" }
 corner_bottom_right = { insets_px = [10.0, 7.394, 5.341, 4.0, 3.0, 2.341, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.271, radius = "13px" }
 corner_bottom_left = { insets_px = [9.978, 7.375, 5.273, 4.0, 3.0, 2.364, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.267, radius = "13px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -601,7 +601,7 @@ corner_top_left = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_
 corner_top_right = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_px = 0.455, radius = "3.75px" }
 corner_bottom_right = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_px = 0.455, radius = "3.75px" }
 corner_bottom_left = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, rms_px = 0.455, radius = "3.75px" }
-icon = "#000000cf"
+icon_peak = "#000000cf"
 icon_pixels = 1
 icon_grey_delta = 0.408
 shadow = "absent"
@@ -626,7 +626,7 @@ corner_top_left = { insets_px = [3.529, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px
 corner_top_right = { insets_px = [3.486, 0.977, 0.0, 0.0], radius_px = 4.75, rms_px = 0.501, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.486, 0.977, 0.0, 0.0], radius_px = 4.75, rms_px = 0.501, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.529, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
-icon = "#000000e0"
+icon_peak = "#000000e0"
 icon_pixels = 1
 icon_grey_delta = 0.58
 shadow = "absent"
@@ -651,7 +651,7 @@ corner_top_left = { insets_px = [4.419, 1.295, 0.909, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.424, 1.386, 0.886, 0.0, 0.0], radius_px = 5.75, rms_px = 0.508, radius = "5.75px" }
 corner_bottom_right = { insets_px = [4.424, 1.386, 0.886, 0.0, 0.0], radius_px = 5.75, rms_px = 0.508, radius = "5.75px" }
 corner_bottom_left = { insets_px = [4.419, 1.295, 0.909, 0.0, 0.0], radius_px = 5.75, rms_px = 0.526, radius = "5.75px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -676,7 +676,7 @@ corner_top_left = { insets_px = [11.137, 6.812, 5.0, 4.0, 3.0, 2.0, 1.636, 1.0, 
 corner_top_right = { insets_px = [11.153, 6.734, 5.0, 4.0, 3.0, 2.0, 1.682, 1.0, 0.773, 0.0, 0.0], radius_px = 13.0, rms_px = 0.525, radius = "13px" }
 corner_bottom_right = { insets_px = [11.153, 6.734, 5.0, 4.0, 3.0, 2.0, 1.682, 1.0, 0.773, 0.0, 0.0], radius_px = 13.0, rms_px = 0.525, radius = "13px" }
 corner_bottom_left = { insets_px = [11.137, 6.812, 5.0, 4.0, 3.0, 2.0, 1.636, 1.0, 0.795, 0.0, 0.0], radius_px = 13.0, rms_px = 0.518, radius = "13px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -701,7 +701,7 @@ corner_top_left = { insets_px = [14.869, 9.847, 8.0, 6.341, 5.0, 4.0, 3.341, 3.0
 corner_top_right = { insets_px = [14.852, 9.903, 8.0, 6.318, 5.0, 4.0, 3.364, 3.0, 2.0, 1.568, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.558, radius = "17px" }
 corner_bottom_right = { insets_px = [14.852, 9.903, 8.0, 6.318, 5.0, 4.0, 3.364, 3.0, 2.0, 1.568, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.558, radius = "17px" }
 corner_bottom_left = { insets_px = [14.869, 9.847, 8.0, 6.341, 5.0, 4.0, 3.341, 3.0, 2.0, 1.568, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.563, radius = "17px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -729,7 +729,7 @@ corner_bottom_left = { insets_px = [2.629, 0.159, 0.0, 0.0], radius_px = 3.75, r
 label = "#000000ff"
 label_pixels = 3
 label_grey_delta = 0.043
-icon = "#000000cf"
+icon_peak = "#000000cf"
 icon_pixels = 1
 icon_grey_delta = 0.408
 shadow = "absent"
@@ -757,7 +757,7 @@ corner_bottom_left = { insets_px = [3.529, 1.0, 0.0, 0.0], radius_px = 4.75, rms
 label = "#000000ff"
 label_pixels = 25
 label_grey_delta = 0.541
-icon = "#000000e0"
+icon_peak = "#000000e0"
 icon_pixels = 1
 icon_grey_delta = 0.58
 shadow = "absent"
@@ -785,7 +785,7 @@ corner_bottom_left = { insets_px = [4.419, 1.295, 0.909, 0.0, 0.0], radius_px = 
 label = "#000000ff"
 label_pixels = 29
 label_grey_delta = 0.549
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -813,7 +813,7 @@ corner_bottom_left = { insets_px = [12.029, 6.727, 5.0, 4.0, 3.0, 2.0, 1.636, 1.
 label = "#000000ff"
 label_pixels = 29
 label_grey_delta = 0.549
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -841,7 +841,7 @@ corner_bottom_left = { insets_px = [16.41, 9.773, 8.0, 6.341, 5.0, 4.0, 3.341, 3
 label = "#000000ff"
 label_pixels = 29
 label_grey_delta = 0.549
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.549
 shadow = "absent"
@@ -1157,7 +1157,7 @@ corner_top_left = { insets_px = [6.865, 4.512, 3.0, 2.0, 1.322, 1.0, 0.288, 0.0,
 corner_top_right = { insets_px = [6.851, 4.5, 3.0, 2.0, 1.339, 0.983, 0.288, 0.0, 1.222, 0.0, 0.0], radius_px = 9.5, rms_px = 0.375, radius = "9.5px" }
 corner_bottom_right = { insets_px = [6.847, 4.509, 3.0, 2.0, 1.365, 1.0, 0.385, 0.0, 0.0], radius_px = 9.5, rms_px = 0.134, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.856, 4.521, 3.0, 2.0, 1.349, 1.0, 0.392, 0.0, 0.0], radius_px = 9.5, rms_px = 0.137, radius = "9.5px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 15.561
 shadow = "absent"
@@ -1182,7 +1182,7 @@ corner_top_left = { insets_px = [9.974, 7.489, 5.636, 4.39, 3.39, 2.636, 2.0, 1.
 corner_top_right = { insets_px = [9.984, 7.506, 5.661, 4.381, 3.407, 2.619, 2.0, 1.229, 1.0, 0.441, 0.0, 0.0], radius_px = 13.5, rms_px = 0.142, radius = "13.5px" }
 corner_bottom_right = { insets_px = [9.984, 7.506, 5.653, 4.39, 3.39, 2.653, 2.0, 1.254, 1.0, 0.475, 0.0, 0.0], radius_px = 13.5, rms_px = 0.137, radius = "13.5px" }
 corner_bottom_left = { insets_px = [9.963, 7.489, 5.619, 4.407, 3.381, 2.661, 2.0, 1.254, 1.0, 0.475, 0.0, 0.0], radius_px = 13.5, rms_px = 0.138, radius = "13.5px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1427,7 +1427,7 @@ corner_top_left = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_
 corner_top_right = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_px = 0.218, radius = "3.75px" }
 corner_bottom_right = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_px = 0.218, radius = "3.75px" }
 corner_bottom_left = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, rms_px = 0.218, radius = "3.75px" }
-icon = "#000000cf"
+icon_peak = "#000000cf"
 icon_pixels = 1
 icon_grey_delta = 0.588
 shadow = "absent"
@@ -1452,7 +1452,7 @@ corner_top_left = { insets_px = [3.063, 1.0, 0.271, 0.0, 0.0], radius_px = 4.75,
 corner_top_right = { insets_px = [3.059, 0.966, 0.254, 0.0, 0.0], radius_px = 4.75, rms_px = 0.263, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.059, 0.966, 0.254, 0.0, 0.0], radius_px = 4.75, rms_px = 0.263, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.063, 1.0, 0.271, 0.0, 0.0], radius_px = 4.75, rms_px = 0.251, radius = "4.75px" }
-icon = "#000000df"
+icon_peak = "#000000df"
 icon_pixels = 1
 icon_grey_delta = 0.576
 shadow = "absent"
@@ -1477,7 +1477,7 @@ corner_top_left = { insets_px = [3.91, 1.551, 0.898, 0.051, 0.0, 0.0], radius_px
 corner_top_right = { insets_px = [3.886, 1.593, 0.881, 0.042, 0.0, 0.0], radius_px = 5.75, rms_px = 0.268, radius = "5.75px" }
 corner_bottom_right = { insets_px = [3.886, 1.593, 0.881, 0.042, 0.0, 0.0], radius_px = 5.75, rms_px = 0.268, radius = "5.75px" }
 corner_bottom_left = { insets_px = [3.91, 1.551, 0.898, 0.051, 0.0, 0.0], radius_px = 5.75, rms_px = 0.278, radius = "5.75px" }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1502,7 +1502,7 @@ corner_top_left = { insets_px = [11.081, 6.977, 5.288, 4.034, 3.034, 2.28, 1.814
 corner_top_right = { insets_px = [11.101, 6.932, 5.314, 4.025, 3.034, 2.28, 1.831, 1.0, 0.881, 0.195, 0.0, 0.0], radius_px = 13.25, rms_px = 0.425, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_right = { insets_px = [11.101, 6.932, 5.314, 4.025, 3.034, 2.28, 1.831, 1.0, 0.881, 0.195, 0.0, 0.0], radius_px = 13.25, rms_px = 0.425, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_left = { insets_px = [11.081, 6.977, 5.288, 4.034, 3.034, 2.28, 1.814, 1.0, 0.89, 0.203, 0.0, 0.0], radius_px = 13.25, rms_px = 0.419, radius = { full = { maximum_px = "absent" } } }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1527,7 +1527,7 @@ corner_top_left = { insets_px = [14.812, 10.201, 8.127, 6.653, 5.449, 4.449, 3.6
 corner_top_right = { insets_px = [14.799, 10.229, 8.102, 6.636, 5.466, 4.441, 3.669, 3.0, 2.076, 1.771, 1.0, 1.0, 0.441, 0.0, 0.0], radius_px = 17.25, rms_px = 0.428, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_right = { insets_px = [14.799, 10.229, 8.102, 6.636, 5.466, 4.441, 3.669, 3.0, 2.076, 1.771, 1.0, 1.0, 0.441, 0.0, 0.0], radius_px = 17.25, rms_px = 0.428, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_left = { insets_px = [14.812, 10.201, 8.127, 6.653, 5.449, 4.449, 3.653, 3.0, 2.085, 1.771, 1.0, 1.0, 0.449, 0.0, 0.0], radius_px = 17.25, rms_px = 0.43, radius = { full = { maximum_px = "absent" } } }
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1555,7 +1555,7 @@ corner_bottom_left = { insets_px = [2.231, 0.483, 0.0, 0.0], radius_px = 3.75, r
 label = "#000000ff"
 label_pixels = 3
 label_grey_delta = 0.545
-icon = "#000000cf"
+icon_peak = "#000000cf"
 icon_pixels = 1
 icon_grey_delta = 0.588
 shadow = "absent"
@@ -1583,7 +1583,7 @@ corner_bottom_left = { insets_px = [3.063, 1.0, 0.271, 0.0, 0.0], radius_px = 4.
 label = "#000000ff"
 label_pixels = 25
 label_grey_delta = 0.537
-icon = "#000000df"
+icon_peak = "#000000df"
 icon_pixels = 1
 icon_grey_delta = 0.576
 shadow = "absent"
@@ -1611,7 +1611,7 @@ corner_bottom_left = { insets_px = [3.91, 1.551, 0.898, 0.051, 0.0, 0.0], radius
 label = "#000000ff"
 label_pixels = 31
 label_grey_delta = 0.533
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1639,7 +1639,7 @@ corner_bottom_left = { insets_px = [11.22, 6.856, 5.288, 4.034, 3.034, 2.28, 1.8
 label = "#000000ff"
 label_pixels = 31
 label_grey_delta = 0.533
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1667,7 +1667,7 @@ corner_bottom_left = { insets_px = [15.4, 10.051, 8.127, 6.653, 5.449, 4.449, 3.
 label = "#000000ff"
 label_pixels = 31
 label_grey_delta = 0.533
-icon = "#000000f2"
+icon_peak = "#000000f2"
 icon_pixels = 1
 icon_grey_delta = 0.533
 shadow = "absent"
@@ -1958,7 +1958,7 @@ corner_top_left = { insets_px = [5.095, 3.179, 2.0, 1.0, 0.261, 0.0, 0.507, 0.0,
 corner_top_right = { insets_px = [5.068, 3.196, 2.0, 1.0, 0.261, 0.0, 1.065, 0.0, 0.0], radius_px = 7.5, rms_px = 0.376, radius = "7.5px" }
 corner_bottom_right = { insets_px = [5.068, 3.082, 2.0, 1.366, 0.655, 0.0, 0.0], radius_px = 7.5, rms_px = 0.143, radius = "7.5px" }
 corner_bottom_left = { insets_px = [5.095, 3.061, 2.0, 1.366, 0.655, 0.0, 0.0], radius_px = 7.5, rms_px = 0.145, radius = "7.5px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 7.737
 shadow = "absent"
@@ -1983,7 +1983,7 @@ corner_top_left = { insets_px = [6.899, 4.391, 3.0, 2.0, 1.0, 1.0, 0.0, 0.0], ra
 corner_top_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.0, 0.957, 0.0, 0.0], radius_px = 9.25, rms_px = 0.262, radius = "9.25px" }
 corner_bottom_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.033, 1.0, 0.304, 0.0, 0.0], radius_px = 9.5, rms_px = 0.193, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.886, 4.391, 3.0, 2.0, 1.033, 1.0, 0.304, 0.0, 0.0], radius_px = 9.5, rms_px = 0.196, radius = "9.5px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2008,7 +2008,7 @@ corner_top_left = { insets_px = [10.014, 7.377, 5.348, 4.0, 3.0, 2.348, 2.0, 1.0
 corner_top_right = { insets_px = [9.986, 7.396, 5.435, 4.0, 3.0, 2.304, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.272, radius = "13px" }
 corner_bottom_right = { insets_px = [9.986, 7.396, 5.348, 4.0, 3.0, 2.348, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.253, radius = "13px" }
 corner_bottom_left = { insets_px = [10.014, 7.396, 5.304, 4.0, 3.0, 2.435, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.257, radius = "13px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2253,7 +2253,7 @@ corner_top_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px
 corner_top_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
-icon = "#00000073"
+icon_peak = "#00000073"
 icon_pixels = 1
 icon_grey_delta = 0.773
 shadow = "absent"
@@ -2278,7 +2278,7 @@ corner_top_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px
 corner_top_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.507, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.507, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
-icon = "#0000007d"
+icon_peak = "#0000007d"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -2303,7 +2303,7 @@ corner_top_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2328,7 +2328,7 @@ corner_top_left = { insets_px = [11.141, 6.833, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 
 corner_top_right = { insets_px = [11.141, 6.806, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_right = { insets_px = [11.141, 6.806, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_left = { insets_px = [11.141, 6.833, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.518, radius = "13px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2353,7 +2353,7 @@ corner_top_left = { insets_px = [14.899, 9.919, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0
 corner_top_right = { insets_px = [14.888, 9.892, 8.0, 6.348, 5.0, 4.0, 3.435, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.562, radius = "17px" }
 corner_bottom_right = { insets_px = [14.888, 9.892, 8.0, 6.348, 5.0, 4.0, 3.435, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.562, radius = "17px" }
 corner_bottom_left = { insets_px = [14.899, 9.919, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.564, radius = "17px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2381,7 +2381,7 @@ corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms
 label = "#0000008e"
 label_pixels = 3
 label_grey_delta = 0.725
-icon = "#00000073"
+icon_peak = "#00000073"
 icon_pixels = 1
 icon_grey_delta = 0.773
 shadow = "absent"
@@ -2409,7 +2409,7 @@ corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms
 label = "#0000008e"
 label_pixels = 27
 label_grey_delta = 0.725
-icon = "#0000007d"
+icon_peak = "#0000007d"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -2437,7 +2437,7 @@ corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 
 label = "#0000008e"
 label_pixels = 31
 label_grey_delta = 0.722
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2465,7 +2465,7 @@ corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.
 label = "#0000008e"
 label_pixels = 31
 label_grey_delta = 0.722
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2493,7 +2493,7 @@ corner_bottom_left = { insets_px = [16.443, 9.783, 8.0, 6.391, 5.0, 4.0, 3.391, 
 label = "#0000008e"
 label_pixels = 31
 label_grey_delta = 0.722
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2784,7 +2784,7 @@ corner_top_left = { insets_px = [5.095, 3.179, 2.0, 1.0, 0.261, 0.0, 0.507, 0.0,
 corner_top_right = { insets_px = [5.068, 3.196, 2.0, 1.0, 0.261, 0.0, 1.065, 0.0, 0.0], radius_px = 7.5, rms_px = 0.376, radius = "7.5px" }
 corner_bottom_right = { insets_px = [5.068, 3.082, 2.0, 1.366, 0.655, 0.0, 0.0], radius_px = 7.5, rms_px = 0.143, radius = "7.5px" }
 corner_bottom_left = { insets_px = [5.095, 3.061, 2.0, 1.366, 0.655, 0.0, 0.0], radius_px = 7.5, rms_px = 0.145, radius = "7.5px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 7.737
 shadow = "absent"
@@ -2809,7 +2809,7 @@ corner_top_left = { insets_px = [6.899, 4.391, 3.0, 2.0, 1.0, 1.0, 0.0, 0.0], ra
 corner_top_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.0, 0.957, 0.0, 0.0], radius_px = 9.25, rms_px = 0.262, radius = "9.25px" }
 corner_bottom_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.033, 1.0, 0.304, 0.0, 0.0], radius_px = 9.5, rms_px = 0.193, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.886, 4.391, 3.0, 2.0, 1.033, 1.0, 0.304, 0.0, 0.0], radius_px = 9.5, rms_px = 0.196, radius = "9.5px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -2834,7 +2834,7 @@ corner_top_left = { insets_px = [10.014, 7.377, 5.348, 4.0, 3.0, 2.348, 2.0, 1.0
 corner_top_right = { insets_px = [9.986, 7.396, 5.435, 4.0, 3.0, 2.304, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.272, radius = "13px" }
 corner_bottom_right = { insets_px = [9.986, 7.396, 5.348, 4.0, 3.0, 2.348, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.253, radius = "13px" }
 corner_bottom_left = { insets_px = [10.014, 7.396, 5.304, 4.0, 3.0, 2.435, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.257, radius = "13px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3079,7 +3079,7 @@ corner_top_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px
 corner_top_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 corner_bottom_right = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
 corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.444, radius = "4px" }
-icon = "#00000073"
+icon_peak = "#00000073"
 icon_pixels = 1
 icon_grey_delta = 0.773
 shadow = "absent"
@@ -3104,7 +3104,7 @@ corner_top_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px
 corner_top_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.507, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.509, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.507, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.51, radius = "4.75px" }
-icon = "#0000007d"
+icon_peak = "#0000007d"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -3129,7 +3129,7 @@ corner_top_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 corner_bottom_right = { insets_px = [4.453, 1.391, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
 corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.512, radius = "5.75px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3154,7 +3154,7 @@ corner_top_left = { insets_px = [11.141, 6.833, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 
 corner_top_right = { insets_px = [11.141, 6.806, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_right = { insets_px = [11.141, 6.806, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_left = { insets_px = [11.141, 6.833, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.518, radius = "13px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3179,7 +3179,7 @@ corner_top_left = { insets_px = [14.899, 9.919, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0
 corner_top_right = { insets_px = [14.888, 9.892, 8.0, 6.348, 5.0, 4.0, 3.435, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.562, radius = "17px" }
 corner_bottom_right = { insets_px = [14.888, 9.892, 8.0, 6.348, 5.0, 4.0, 3.435, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.562, radius = "17px" }
 corner_bottom_left = { insets_px = [14.899, 9.919, 8.0, 6.391, 5.0, 4.0, 3.391, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.564, radius = "17px" }
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3207,7 +3207,7 @@ corner_bottom_left = { insets_px = [2.66, 0.217, 0.0, 0.0], radius_px = 4.0, rms
 label = "#0000008e"
 label_pixels = 3
 label_grey_delta = 0.725
-icon = "#00000073"
+icon_peak = "#00000073"
 icon_pixels = 1
 icon_grey_delta = 0.773
 shadow = "absent"
@@ -3235,7 +3235,7 @@ corner_bottom_left = { insets_px = [3.519, 1.0, 0.0, 0.0], radius_px = 4.75, rms
 label = "#0000008e"
 label_pixels = 27
 label_grey_delta = 0.725
-icon = "#0000007d"
+icon_peak = "#0000007d"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -3263,7 +3263,7 @@ corner_bottom_left = { insets_px = [4.415, 1.348, 0.913, 0.0, 0.0], radius_px = 
 label = "#0000008e"
 label_pixels = 31
 label_grey_delta = 0.722
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3291,7 +3291,7 @@ corner_bottom_left = { insets_px = [12.066, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.
 label = "#0000008e"
 label_pixels = 31
 label_grey_delta = 0.722
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3319,7 +3319,7 @@ corner_bottom_left = { insets_px = [16.443, 9.783, 8.0, 6.391, 5.0, 4.0, 3.391, 
 label = "#0000008e"
 label_pixels = 31
 label_grey_delta = 0.722
-icon = "#00000087"
+icon_peak = "#00000087"
 icon_pixels = 1
 icon_grey_delta = 0.729
 shadow = "absent"
@@ -3610,7 +3610,7 @@ corner_top_left = { insets_px = [5.122, 3.1, 2.0, 1.0, 0.289, 0.0, 0.453, 0.0, 0
 corner_top_right = { insets_px = [5.088, 3.1, 2.0, 1.0, 0.267, 0.0, 0.918, 0.0, 0.0], radius_px = 7.5, rms_px = 0.33, radius = "7.5px" }
 corner_bottom_right = { insets_px = [5.081, 3.082, 2.0, 1.288, 0.608, 0.0, 0.0], radius_px = 7.5, rms_px = 0.131, radius = "7.5px" }
 corner_bottom_left = { insets_px = [5.115, 3.072, 1.991, 1.288, 0.619, 0.0, 0.0], radius_px = 7.5, rms_px = 0.134, radius = "7.5px" }
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -3635,7 +3635,7 @@ corner_top_left = { insets_px = [6.879, 4.385, 3.0, 2.0, 1.0, 1.0, 0.0, 0.0], ra
 corner_top_right = { insets_px = [6.866, 4.352, 3.0, 2.0, 1.0, 0.978, 0.0, 0.0], radius_px = 9.25, rms_px = 0.264, radius = "9.25px" }
 corner_bottom_right = { insets_px = [6.86, 4.367, 3.0, 2.0, 1.034, 1.0, 0.241, 0.0, 0.0], radius_px = 9.5, rms_px = 0.201, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.873, 4.378, 3.0, 2.0, 1.0, 1.0, 0.253, 0.0, 0.0], radius_px = 9.5, rms_px = 0.208, radius = "9.5px" }
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -3660,7 +3660,7 @@ corner_top_left = { insets_px = [9.986, 7.381, 5.311, 4.0, 3.0, 2.311, 2.0, 1.0,
 corner_top_right = { insets_px = [10.0, 7.4, 5.378, 4.0, 3.0, 2.289, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.273, radius = "13px" }
 corner_bottom_right = { insets_px = [10.0, 7.4, 5.356, 4.0, 3.0, 2.356, 2.0, 1.0, 1.0, 0.022, 0.0, 0.0], radius_px = 13.0, rms_px = 0.258, radius = "13px" }
 corner_bottom_left = { insets_px = [10.0, 7.381, 5.289, 4.0, 3.0, 2.378, 2.0, 1.0, 1.0, 0.022, 0.0, 0.0], radius_px = 13.0, rms_px = 0.256, radius = "13px" }
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -3905,7 +3905,7 @@ corner_top_left = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_p
 corner_top_right = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_px = 0.457, radius = "4px" }
 corner_bottom_right = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_px = 0.457, radius = "4px" }
 corner_bottom_left = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rms_px = 0.457, radius = "4px" }
-icon = "#ffffffce"
+icon_peak = "#ffffffce"
 icon_pixels = 1
 icon_grey_delta = 0.596
 shadow = "absent"
@@ -3930,7 +3930,7 @@ corner_top_left = { insets_px = [3.55, 1.0, 0.0, 0.0], radius_px = 5.0, rms_px =
 corner_top_right = { insets_px = [3.502, 0.978, 0.0, 0.0], radius_px = 4.75, rms_px = 0.507, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.502, 0.978, 0.0, 0.0], radius_px = 4.75, rms_px = 0.507, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.55, 1.0, 0.0, 0.0], radius_px = 5.0, rms_px = 0.521, radius = "5px" }
-icon = "#ffffffdf"
+icon_peak = "#ffffffdf"
 icon_pixels = 1
 icon_grey_delta = 0.592
 shadow = "absent"
@@ -3955,7 +3955,7 @@ corner_top_left = { insets_px = [4.445, 1.311, 0.911, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.445, 1.4, 0.889, 0.0, 0.0], radius_px = 5.75, rms_px = 0.513, radius = "5.75px" }
 corner_bottom_right = { insets_px = [4.445, 1.4, 0.889, 0.0, 0.0], radius_px = 5.75, rms_px = 0.513, radius = "5.75px" }
 corner_bottom_left = { insets_px = [4.445, 1.311, 0.911, 0.0, 0.0], radius_px = 5.75, rms_px = 0.531, radius = "5.75px" }
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -3980,7 +3980,7 @@ corner_top_left = { insets_px = [11.131, 6.815, 5.0, 4.0, 3.0, 2.0, 1.644, 1.0, 
 corner_top_right = { insets_px = [11.148, 6.738, 5.0, 4.0, 3.0, 2.0, 1.667, 1.0, 0.778, 0.0, 0.0], radius_px = 13.0, rms_px = 0.523, radius = "13px" }
 corner_bottom_right = { insets_px = [11.148, 6.738, 5.0, 4.0, 3.0, 2.0, 1.667, 1.0, 0.778, 0.0, 0.0], radius_px = 13.0, rms_px = 0.523, radius = "13px" }
 corner_bottom_left = { insets_px = [11.131, 6.815, 5.0, 4.0, 3.0, 2.0, 1.644, 1.0, 0.8, 0.0, 0.0], radius_px = 13.0, rms_px = 0.517, radius = "13px" }
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4005,7 +4005,7 @@ corner_top_left = { insets_px = [14.881, 9.877, 8.0, 6.356, 5.0, 4.0, 3.356, 3.0
 corner_top_right = { insets_px = [14.858, 9.904, 8.0, 6.311, 5.0, 4.0, 3.378, 3.0, 2.0, 1.578, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.559, radius = "17px" }
 corner_bottom_right = { insets_px = [14.858, 9.904, 8.0, 6.311, 5.0, 4.0, 3.378, 3.0, 2.0, 1.578, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.559, radius = "17px" }
 corner_bottom_left = { insets_px = [14.881, 9.877, 8.0, 6.356, 5.0, 4.0, 3.356, 3.0, 2.0, 1.578, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.564, radius = "17px" }
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4033,7 +4033,7 @@ corner_bottom_left = { insets_px = [2.654, 0.178, 0.0, 0.0], radius_px = 4.0, rm
 label = "#ffffffff"
 label_pixels = 6
 label_grey_delta = 0.545
-icon = "#ffffffce"
+icon_peak = "#ffffffce"
 icon_pixels = 1
 icon_grey_delta = 0.596
 shadow = "absent"
@@ -4061,7 +4061,7 @@ corner_bottom_left = { insets_px = [3.55, 1.0, 0.0, 0.0], radius_px = 5.0, rms_p
 label = "#ffffffff"
 label_pixels = 39
 label_grey_delta = 0.541
-icon = "#ffffffdf"
+icon_peak = "#ffffffdf"
 icon_pixels = 1
 icon_grey_delta = 0.592
 shadow = "absent"
@@ -4089,7 +4089,7 @@ corner_bottom_left = { insets_px = [4.445, 1.311, 0.911, 0.0, 0.0], radius_px = 
 label = "#ffffffff"
 label_pixels = 52
 label_grey_delta = 0.545
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4117,7 +4117,7 @@ corner_bottom_left = { insets_px = [12.062, 6.733, 5.0, 4.0, 3.0, 2.0, 1.644, 1.
 label = "#ffffffff"
 label_pixels = 52
 label_grey_delta = 0.545
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4145,7 +4145,7 @@ corner_bottom_left = { insets_px = [16.455, 9.778, 8.0, 6.356, 5.0, 4.0, 3.356, 
 label = "#ffffffff"
 label_pixels = 52
 label_grey_delta = 0.545
-icon = "#fffffff2"
+icon_peak = "#fffffff2"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4461,7 +4461,7 @@ corner_top_left = { insets_px = [6.869, 4.513, 3.0, 2.0, 1.306, 1.0, 0.259, 0.0,
 corner_top_right = { insets_px = [6.85, 4.487, 3.0, 2.0, 1.306, 0.981, 0.25, 0.0, 1.363, 0.0, 0.0], radius_px = 9.5, rms_px = 0.417, radius = "9.5px" }
 corner_bottom_right = { insets_px = [6.84, 4.497, 3.0, 2.0, 1.336, 1.0, 0.366, 0.0, 0.0], radius_px = 9.5, rms_px = 0.136, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.854, 4.51, 3.0, 2.0, 1.319, 1.0, 0.381, 0.0, 0.0], radius_px = 9.5, rms_px = 0.139, radius = "9.5px" }
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 14.443
 shadow = "absent"
@@ -4486,7 +4486,7 @@ corner_top_left = { insets_px = [9.967, 7.482, 5.611, 4.37, 3.37, 2.611, 2.0, 1.
 corner_top_right = { insets_px = [9.984, 7.494, 5.648, 4.352, 3.38, 2.602, 2.0, 1.194, 1.0, 0.417, 0.0, 0.0], radius_px = 13.5, rms_px = 0.15, radius = "13.5px" }
 corner_bottom_right = { insets_px = [9.984, 7.494, 5.639, 4.361, 3.361, 2.639, 2.0, 1.213, 1.0, 0.454, 0.0, 0.0], radius_px = 13.5, rms_px = 0.144, radius = "13.5px" }
 corner_bottom_left = { insets_px = [9.962, 7.482, 5.602, 4.38, 3.352, 2.648, 2.0, 1.213, 1.0, 0.454, 0.0, 0.0], radius_px = 13.5, rms_px = 0.146, radius = "13.5px" }
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4731,7 +4731,7 @@ corner_top_left = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_p
 corner_top_right = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_px = 0.248, radius = "3.75px" }
 corner_bottom_right = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_px = 0.248, radius = "3.75px" }
 corner_bottom_left = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rms_px = 0.248, radius = "3.75px" }
-icon = "#ffffffce"
+icon_peak = "#ffffffce"
 icon_pixels = 1
 icon_grey_delta = 0.584
 shadow = "absent"
@@ -4756,7 +4756,7 @@ corner_top_left = { insets_px = [3.184, 1.0, 0.25, 0.0, 0.0], radius_px = 4.75, 
 corner_top_right = { insets_px = [3.145, 0.972, 0.222, 0.0, 0.0], radius_px = 4.75, rms_px = 0.291, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.145, 0.972, 0.222, 0.0, 0.0], radius_px = 4.75, rms_px = 0.291, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.184, 1.0, 0.25, 0.0, 0.0], radius_px = 4.75, rms_px = 0.289, radius = "4.75px" }
-icon = "#ffffffe0"
+icon_peak = "#ffffffe0"
 icon_pixels = 1
 icon_grey_delta = 0.58
 shadow = "absent"
@@ -4781,7 +4781,7 @@ corner_top_left = { insets_px = [4.024, 1.546, 0.898, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.031, 1.583, 0.88, 0.0, 0.0], radius_px = 5.75, rms_px = 0.345, radius = "5.75px" }
 corner_bottom_right = { insets_px = [4.031, 1.583, 0.88, 0.0, 0.0], radius_px = 5.75, rms_px = 0.345, radius = "5.75px" }
 corner_bottom_left = { insets_px = [4.024, 1.546, 0.898, 0.0, 0.0], radius_px = 5.75, rms_px = 0.349, radius = "5.75px" }
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4806,7 +4806,7 @@ corner_top_left = { insets_px = [11.096, 6.943, 5.25, 4.0, 3.0, 2.25, 1.796, 1.0
 corner_top_right = { insets_px = [11.109, 6.902, 5.269, 4.0, 3.0, 2.241, 1.815, 1.0, 0.87, 0.157, 0.0, 0.0], radius_px = 13.25, rms_px = 0.439, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_right = { insets_px = [11.109, 6.902, 5.269, 4.0, 3.0, 2.241, 1.815, 1.0, 0.87, 0.157, 0.0, 0.0], radius_px = 13.25, rms_px = 0.439, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_left = { insets_px = [11.096, 6.943, 5.25, 4.0, 3.0, 2.25, 1.796, 1.0, 0.889, 0.167, 0.0, 0.0], radius_px = 13.25, rms_px = 0.434, radius = { full = { maximum_px = "absent" } } }
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4831,7 +4831,7 @@ corner_top_left = { insets_px = [14.83, 10.179, 8.083, 6.639, 5.426, 4.426, 3.63
 corner_top_right = { insets_px = [14.813, 10.194, 8.065, 6.611, 5.444, 4.417, 3.648, 3.0, 2.037, 1.759, 1.0, 1.0, 0.417, 0.0, 0.0], radius_px = 17.25, rms_px = 0.438, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_right = { insets_px = [14.813, 10.194, 8.065, 6.611, 5.444, 4.417, 3.648, 3.0, 2.037, 1.759, 1.0, 1.0, 0.417, 0.0, 0.0], radius_px = 17.25, rms_px = 0.438, radius = { full = { maximum_px = "absent" } } }
 corner_bottom_left = { insets_px = [14.83, 10.179, 8.083, 6.639, 5.426, 4.426, 3.639, 3.0, 2.037, 1.759, 1.0, 1.0, 0.426, 0.0, 0.0], radius_px = 17.25, rms_px = 0.441, radius = { full = { maximum_px = "absent" } } }
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4859,7 +4859,7 @@ corner_bottom_left = { insets_px = [2.31, 0.463, 0.0, 0.0], radius_px = 3.75, rm
 label = "#ffffffff"
 label_pixels = 10
 label_grey_delta = 0.549
-icon = "#ffffffce"
+icon_peak = "#ffffffce"
 icon_pixels = 1
 icon_grey_delta = 0.584
 shadow = "absent"
@@ -4887,7 +4887,7 @@ corner_bottom_left = { insets_px = [3.184, 1.0, 0.25, 0.0, 0.0], radius_px = 4.7
 label = "#ffffffff"
 label_pixels = 40
 label_grey_delta = 0.529
-icon = "#ffffffe0"
+icon_peak = "#ffffffe0"
 icon_pixels = 1
 icon_grey_delta = 0.58
 shadow = "absent"
@@ -4915,7 +4915,7 @@ corner_bottom_left = { insets_px = [4.024, 1.546, 0.898, 0.0, 0.0], radius_px = 
 label = "#ffffffff"
 label_pixels = 55
 label_grey_delta = 0.549
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4943,7 +4943,7 @@ corner_bottom_left = { insets_px = [11.439, 6.852, 5.25, 4.0, 3.0, 2.25, 1.796, 
 label = "#ffffffff"
 label_pixels = 55
 label_grey_delta = 0.549
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -4971,7 +4971,7 @@ corner_bottom_left = { insets_px = [15.698, 10.0, 8.083, 6.639, 5.426, 4.426, 3.
 label = "#ffffffff"
 label_pixels = 55
 label_grey_delta = 0.549
-icon = "#fffffff3"
+icon_peak = "#fffffff3"
 icon_pixels = 1
 icon_grey_delta = 0.561
 shadow = "absent"
@@ -5262,7 +5262,7 @@ corner_top_left = { insets_px = [5.095, 3.132, 2.0, 1.0, 0.261, 0.0, 0.429, 0.0,
 corner_top_right = { insets_px = [5.068, 3.132, 2.0, 1.0, 0.261, 0.0, 0.984, 0.0, 0.0], radius_px = 7.5, rms_px = 0.35, radius = "7.5px" }
 corner_bottom_right = { insets_px = [5.068, 3.082, 2.0, 1.338, 0.635, 0.0, 0.0], radius_px = 7.5, rms_px = 0.137, radius = "7.5px" }
 corner_bottom_left = { insets_px = [5.095, 3.061, 1.981, 1.338, 0.635, 0.0, 0.0], radius_px = 7.5, rms_px = 0.138, radius = "7.5px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 7.737
 shadow = "absent"
@@ -5287,7 +5287,7 @@ corner_top_left = { insets_px = [6.899, 4.391, 3.0, 2.0, 1.0, 1.0, 0.0, 0.0], ra
 corner_top_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.0, 0.957, 0.0, 0.0], radius_px = 9.25, rms_px = 0.262, radius = "9.25px" }
 corner_bottom_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.0, 1.0, 0.273, 0.0, 0.0], radius_px = 9.5, rms_px = 0.204, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.886, 4.391, 3.0, 2.0, 1.0, 1.0, 0.273, 0.0, 0.0], radius_px = 9.5, rms_px = 0.207, radius = "9.5px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5312,7 +5312,7 @@ corner_top_left = { insets_px = [10.014, 7.377, 5.304, 4.0, 3.0, 2.304, 2.0, 1.0
 corner_top_right = { insets_px = [9.986, 7.396, 5.348, 4.0, 3.0, 2.261, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.272, radius = "13px" }
 corner_bottom_right = { insets_px = [9.986, 7.396, 5.304, 4.0, 3.0, 2.304, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.254, radius = "13px" }
 corner_bottom_left = { insets_px = [10.014, 7.377, 5.261, 4.0, 3.0, 2.348, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.255, radius = "13px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5557,7 +5557,7 @@ corner_top_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_p
 corner_top_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
-icon = "#ffffff67"
+icon_peak = "#ffffff67"
 icon_pixels = 1
 icon_grey_delta = 0.784
 shadow = "absent"
@@ -5582,7 +5582,7 @@ corner_top_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px
 corner_top_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
-icon = "#ffffff70"
+icon_peak = "#ffffff70"
 icon_pixels = 1
 icon_grey_delta = 0.769
 shadow = "absent"
@@ -5607,7 +5607,7 @@ corner_top_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px = 6.0, rms_px = 0.523, radius = "6px" }
 corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px = 6.0, rms_px = 0.523, radius = "6px" }
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5632,7 +5632,7 @@ corner_top_left = { insets_px = [11.141, 6.838, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 
 corner_top_right = { insets_px = [11.141, 6.811, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_right = { insets_px = [11.141, 6.811, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_left = { insets_px = [11.141, 6.838, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.518, radius = "13px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5657,7 +5657,7 @@ corner_top_left = { insets_px = [14.91, 9.919, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0,
 corner_top_right = { insets_px = [14.888, 9.892, 8.0, 6.304, 5.0, 4.0, 3.391, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.565, radius = "17px" }
 corner_bottom_right = { insets_px = [14.888, 9.892, 8.0, 6.304, 5.0, 4.0, 3.391, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.565, radius = "17px" }
 corner_bottom_left = { insets_px = [14.91, 9.919, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.57, radius = "17px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5685,7 +5685,7 @@ corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 label = "#ffffff7f"
 label_pixels = 11
 label_grey_delta = 0.753
-icon = "#ffffff67"
+icon_peak = "#ffffff67"
 icon_pixels = 1
 icon_grey_delta = 0.784
 shadow = "absent"
@@ -5713,7 +5713,7 @@ corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms
 label = "#ffffff7f"
 label_pixels = 44
 label_grey_delta = 0.749
-icon = "#ffffff70"
+icon_peak = "#ffffff70"
 icon_pixels = 1
 icon_grey_delta = 0.769
 shadow = "absent"
@@ -5741,7 +5741,7 @@ corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 
 label = "#ffffff7f"
 label_pixels = 59
 label_grey_delta = 0.737
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5769,7 +5769,7 @@ corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.
 label = "#ffffff7f"
 label_pixels = 59
 label_grey_delta = 0.737
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -5797,7 +5797,7 @@ corner_bottom_left = { insets_px = [16.443, 9.783, 8.0, 6.348, 5.0, 4.0, 3.348, 
 label = "#ffffff7f"
 label_pixels = 59
 label_grey_delta = 0.737
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6088,7 +6088,7 @@ corner_top_left = { insets_px = [5.095, 3.132, 2.0, 1.0, 0.261, 0.0, 0.429, 0.0,
 corner_top_right = { insets_px = [5.068, 3.132, 2.0, 1.0, 0.261, 0.0, 0.984, 0.0, 0.0], radius_px = 7.5, rms_px = 0.35, radius = "7.5px" }
 corner_bottom_right = { insets_px = [5.068, 3.082, 2.0, 1.338, 0.635, 0.0, 0.0], radius_px = 7.5, rms_px = 0.137, radius = "7.5px" }
 corner_bottom_left = { insets_px = [5.095, 3.061, 1.981, 1.338, 0.635, 0.0, 0.0], radius_px = 7.5, rms_px = 0.138, radius = "7.5px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 7.737
 shadow = "absent"
@@ -6113,7 +6113,7 @@ corner_top_left = { insets_px = [6.899, 4.391, 3.0, 2.0, 1.0, 1.0, 0.0, 0.0], ra
 corner_top_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.0, 0.957, 0.0, 0.0], radius_px = 9.25, rms_px = 0.262, radius = "9.25px" }
 corner_bottom_right = { insets_px = [6.861, 4.37, 3.0, 2.0, 1.0, 1.0, 0.273, 0.0, 0.0], radius_px = 9.5, rms_px = 0.204, radius = "9.5px" }
 corner_bottom_left = { insets_px = [6.886, 4.391, 3.0, 2.0, 1.0, 1.0, 0.273, 0.0, 0.0], radius_px = 9.5, rms_px = 0.207, radius = "9.5px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6138,7 +6138,7 @@ corner_top_left = { insets_px = [10.014, 7.377, 5.304, 4.0, 3.0, 2.304, 2.0, 1.0
 corner_top_right = { insets_px = [9.986, 7.396, 5.348, 4.0, 3.0, 2.261, 2.0, 1.0, 1.0, 0.0, 0.0], radius_px = 13.0, rms_px = 0.272, radius = "13px" }
 corner_bottom_right = { insets_px = [9.986, 7.396, 5.304, 4.0, 3.0, 2.304, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.254, radius = "13px" }
 corner_bottom_left = { insets_px = [10.014, 7.377, 5.261, 4.0, 3.0, 2.348, 2.0, 1.0, 1.0, 0.043, 0.0, 0.0], radius_px = 13.0, rms_px = 0.255, radius = "13px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6383,7 +6383,7 @@ corner_top_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_p
 corner_top_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 corner_bottom_right = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
 corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rms_px = 0.441, radius = "4px" }
-icon = "#ffffff67"
+icon_peak = "#ffffff67"
 icon_pixels = 1
 icon_grey_delta = 0.784
 shadow = "absent"
@@ -6408,7 +6408,7 @@ corner_top_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px
 corner_top_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 corner_bottom_right = { insets_px = [3.509, 0.957, 0.0, 0.0], radius_px = 4.75, rms_px = 0.514, radius = "4.75px" }
 corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms_px = 0.517, radius = "4.75px" }
-icon = "#ffffff70"
+icon_peak = "#ffffff70"
 icon_pixels = 1
 icon_grey_delta = 0.769
 shadow = "absent"
@@ -6433,7 +6433,7 @@ corner_top_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.7
 corner_top_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px = 6.0, rms_px = 0.523, radius = "6px" }
 corner_bottom_right = { insets_px = [4.472, 1.391, 0.913, 0.0, 0.0], radius_px = 6.0, rms_px = 0.523, radius = "6px" }
 corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 5.75, rms_px = 0.516, radius = "5.75px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6458,7 +6458,7 @@ corner_top_left = { insets_px = [11.141, 6.838, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 
 corner_top_right = { insets_px = [11.141, 6.811, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_right = { insets_px = [11.141, 6.811, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.519, radius = "13px" }
 corner_bottom_left = { insets_px = [11.141, 6.838, 5.0, 4.0, 3.0, 2.0, 1.696, 1.0, 0.783, 0.0, 0.0], radius_px = 13.0, rms_px = 0.518, radius = "13px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6483,7 +6483,7 @@ corner_top_left = { insets_px = [14.91, 9.919, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0,
 corner_top_right = { insets_px = [14.888, 9.892, 8.0, 6.304, 5.0, 4.0, 3.391, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.565, radius = "17px" }
 corner_bottom_right = { insets_px = [14.888, 9.892, 8.0, 6.304, 5.0, 4.0, 3.391, 3.0, 2.0, 1.609, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.565, radius = "17px" }
 corner_bottom_left = { insets_px = [14.91, 9.919, 8.0, 6.348, 5.0, 4.0, 3.348, 3.0, 2.0, 1.565, 1.0, 1.0, 0.0, 0.0], radius_px = 17.0, rms_px = 0.57, radius = "17px" }
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6511,7 +6511,7 @@ corner_bottom_left = { insets_px = [2.651, 0.217, 0.0, 0.0], radius_px = 4.0, rm
 label = "#ffffff7f"
 label_pixels = 11
 label_grey_delta = 0.753
-icon = "#ffffff67"
+icon_peak = "#ffffff67"
 icon_pixels = 1
 icon_grey_delta = 0.784
 shadow = "absent"
@@ -6539,7 +6539,7 @@ corner_bottom_left = { insets_px = [3.538, 1.0, 0.0, 0.0], radius_px = 4.75, rms
 label = "#ffffff7f"
 label_pixels = 44
 label_grey_delta = 0.749
-icon = "#ffffff70"
+icon_peak = "#ffffff70"
 icon_pixels = 1
 icon_grey_delta = 0.769
 shadow = "absent"
@@ -6567,7 +6567,7 @@ corner_bottom_left = { insets_px = [4.396, 1.304, 0.913, 0.0, 0.0], radius_px = 
 label = "#ffffff7f"
 label_pixels = 59
 label_grey_delta = 0.737
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6595,7 +6595,7 @@ corner_bottom_left = { insets_px = [12.075, 6.739, 5.0, 4.0, 3.0, 2.0, 1.696, 1.
 label = "#ffffff7f"
 label_pixels = 59
 label_grey_delta = 0.737
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"
@@ -6623,7 +6623,7 @@ corner_bottom_left = { insets_px = [16.443, 9.783, 8.0, 6.348, 5.0, 4.0, 3.348, 
 label = "#ffffff7f"
 label_pixels = 59
 label_grey_delta = 0.737
-icon = "#ffffff79"
+icon_peak = "#ffffff79"
 icon_pixels = 1
 icon_grey_delta = 0.753
 shadow = "absent"

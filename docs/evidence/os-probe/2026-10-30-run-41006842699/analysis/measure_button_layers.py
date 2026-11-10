@@ -61,7 +61,18 @@ contrast; sheet: push, styles_a, styles_b, styles_c; state: normal, pressed, dis
   is translucent, solved from the pixels of the largest alpha (within 2/255 of it) as the colour that, drawn over the
   fill, gives them (alpha (a - f) / (1 - f), colour (P - F (1 - alpha)) / alpha, P and F premultiplied); where the
   fill is opaque, the pixel farthest from the fill, opaque; where the fill is absent, the straight colour of the
-  pixels of the largest alpha; `label_pixels`, how many pixels it is read from;
+  pixels of the largest alpha; `label_pixels`, how many pixels it is read from. The macOS tie-break round 8
+  (2026-11-10; the register's U751): `icon` as written here is the largest alpha in the image rect of a thin symbol
+  ("star", 9 to 13 pt) that covers no whole pixel, the paint's alpha times the glyph's coverage and no measurement
+  of the paint (over an opaque fill, the fill mixed with the paint); no fact cites this script's `icon` any more, and
+  run 42272240639's script, which holds the corrected rule, writes such a reading as `icon_peak`. This script's rule
+  is left as it ran: the macos-15 focus pass's layers are not in the evidence repository
+  (`os-probe-macos-15/button-pass-focus/aqua/unfocused-layer.png`), so it cannot be re-run there for that image. The
+  error bound of a colour read here, which a fact's tolerance may not exceed (S17 *Fields*, ADD-A141): the layer's
+  straight colour is the probe's solve from the captures over black and over white, each read to one 8-bit level, so
+  `fill`, and `label` over no fill or picked over an opaque one, hold to floor(1/alpha) levels a channel, alpha the
+  value's own; a `label` solved a second time over a translucent fill has a bound no smaller, for which S17 states
+  none, and the facts carry at most floor(1/alpha) there too;
 - `drawn_only_content`: true where the fill is absent and every drawn pixel lies in the title or image rect grown by
   1 px: nothing but the label or the image is drawn, so `stroke` is "absent" too;
 - `shadow`: "absent" where no pixel of the frame grown by 6 px, outside the frame, has an alpha >= 3/255, else

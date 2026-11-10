@@ -2,6 +2,7 @@
 """Measures the buttons' layers of the os-probe button passes of run 42272240639 (macOS 26.7.2 in its macos-26 job,
 macOS 15.8.2 in its macos-15 job) and writes the values the macOS facts cite (docs/facts/macos/button.toml), as S17's
 analysis output. It is run 41006842699's analysis/measure_button_layers.py with its per-button measurement unchanged
+but for the image's colour (`icon`, below)
 (the functions from `read_png` to `emit`, copied as they are; that script's docstring states each value's rule:
 `drawn_box`, `fill`, `fill_share`, `stroke`, `stroke_<side>`, `edge_<side>`, `corner_<corner>`, `label`, `icon`,
 `drawn_only_content`, `shadow`, `shadow_pixels`), applied to this run's passes and sheets; it writes no focus, caret,
@@ -43,6 +44,29 @@ What it reads, under the image folder (the probe's method texts are in each prob
   grown by 6 px, outside the frame). The grey captures were brought from the run's artifact (byte for byte; each
   layer they belong to is the committed one byte for byte) by the tie-break, which re-ran this script and
   tiebreak_corners.py: every other key of the output is unchanged.
+
+The image's colour (the macOS tie-break round 8, 2026-11-10; the register's U751). The earlier script's rule reads
+`icon` as it reads `label`: the pixels of the largest alpha in the rect, or the pixel farthest from an opaque fill. The
+image is the symbol "star" at 9 pt (mini), 11 pt (small) and 13 pt (regular and up), whose strokes cover no whole
+pixel: this run's symbols pass reads the glyph's largest coverage as 0.63 to 0.74 at 1 pixel a point and otherwise at 2
+(`symbols/probe.toml`, `size_symbol_renders.<scale>.glyph.max_coverage`). So that reading is the paint's alpha times
+the glyph's coverage, from one to four pixels, and it follows the symbol's point size: over no fill and over a
+translucent fill its straight RGB is the paint's and its alpha a lower bound of the paint's; over an opaque fill the
+picked pixel is the fill mixed with the paint, so neither. This script therefore writes `icon` only where the layer
+itself shows a fully covered pixel of opaque paint (`covered`): an alpha of 255 where the fill is absent or
+translucent, or, over an opaque fill, a picked pixel of #000000 or #ffffff where the fill is not that colour (a mix
+of the fill and a paint reaches a channel's end only at full coverage of an opaque paint). Every other reading is
+written as `icon_peak`, with `icon_pixels` and `icon_grey_delta` as before, and no fact cites it. `label` is
+unchanged: the title's reading does not follow the control size.
+
+The colours' error bound (S17 *Fields*, ADD-A141), which a fact's tolerance may not exceed. A layer pixel's straight
+colour and alpha are the probe's solve from the captures over black and over white, each read to one 8-bit level, and
+one level of a composite is 1/alpha levels of the straight channel beneath it: `fill`, and `label` and `icon` where the
+fill is absent or opaque (the layer's own pixel), hold to floor(1/alpha) levels a channel, alpha the value's own (1
+level from an alpha of 128/255 up). Where the fill is translucent, `label` and `icon` are solved a second time from
+the layer's pixel and the fill (colour (P - F (1 - alpha)) / alpha, the earlier script's rule): one level of P alone
+is 1/alpha levels of the result and the fill's level adds to it, so that solve's bound is no smaller than
+floor(1/alpha); S17 states none for it, and the facts carry at most floor(1/alpha) there too.
 
 It writes `layers-<pass>-<sheet>.toml` into the image folder (pass: key, key_not_main, main_not_key,
 inactive_contrast), per `<pass>.<sheet>.<appearance>.<state>.<button>` the earlier script's values, and
@@ -308,6 +332,13 @@ def colour_of(layer, rect, fill):
     return hexa(col + [255 * amax]), len(top)
 
 
+def covered(col, fill):
+    """Whether a colour `colour_of` read is a fully covered pixel of opaque paint (the docstring's rule for `icon`)."""
+    if fill is not None and fill[3] >= 250:
+        return col[:7] in ("#000000", "#ffffff") and hexa(fill)[:7] != col[:7]
+    return col[7:9] == "ff"
+
+
 def shadow(layer, fr):
     x0, y0, w, h = fr
     n = 0
@@ -403,7 +434,8 @@ def measure_button(layer, fr, cell, grey):
         col, n = colour_of(layer, r, fill if out["fill"] not in ("absent", "non_uniform") else None)
         if out["fill"] == "non_uniform" or col is None:
             continue
-        out[name] = col
+        peak = name == "icon" and not covered(col, fill if out["fill"] not in ("absent", "non_uniform") else None)
+        out[f"{name}_peak" if peak else name] = col
         out[f"{name}_pixels"] = n
         if grey is not None:
             pts = [(x, y) for y in range(r[1], r[1] + r[3]) for x in range(r[0], r[0] + r[2])
